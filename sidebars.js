@@ -21,13 +21,13 @@ module.exports = {
       type: 'category',
       label: 'Guides',
       items: [
-        {
-          type: 'category',
-          label: 'Layout',
-          items: [
-            'guides/layout/flex-layout',
-          ],
-        }
+        // {
+        //   type: 'category',
+        //   label: 'Layout',
+        //   items: [
+        //     'guides/layout/flex-layout',
+        //   ],
+        // }
       ],
     },
     {
@@ -40,13 +40,13 @@ module.exports = {
         'components/text',
         'components/pressable',
         'components/image',
-        {
-          type: 'category',
-          label: 'Templates',
-          items: [
-            'components/templates/profile',
-          ],
-        }
+        // {
+        //   type: 'category',
+        //   label: 'Templates',
+        //   items: [
+        //     'components/templates/profile',
+        //   ],
+        // }
       ],
     },
     {
