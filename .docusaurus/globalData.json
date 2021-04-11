@@ -1,0 +1,117 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "examples/getting-started",
+          "docs": [
+            {
+              "id": "advanced-guides/plugins",
+              "path": "/docs/advanced-guides/plugins",
+              "sidebar": "docs"
+            },
+            {
+              "id": "advanced-guides/themes",
+              "path": "/docs/advanced-guides/themes",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/graph",
+              "path": "/docs/components/graph",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/graph-editor",
+              "path": "/docs/components/graph-editor",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/image",
+              "path": "/docs/components/image",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/pressable",
+              "path": "/docs/components/pressable",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/templates/profile",
+              "path": "/docs/components/templates/profile",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/text",
+              "path": "/docs/components/text",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/view",
+              "path": "/docs/components/view",
+              "sidebar": "docs"
+            },
+            {
+              "id": "examples/create-a-blog-post",
+              "path": "/docs/examples/create-a-blog-post"
+            },
+            {
+              "id": "examples/create-a-document",
+              "path": "/docs/examples/create-a-document"
+            },
+            {
+              "id": "examples/create-a-page",
+              "path": "/docs/examples/create-a-page"
+            },
+            {
+              "id": "examples/getting-started",
+              "path": "/docs/"
+            },
+            {
+              "id": "examples/markdown-features",
+              "path": "/docs/examples/markdown-features"
+            },
+            {
+              "id": "examples/thank-you",
+              "path": "/docs/examples/thank-you"
+            },
+            {
+              "id": "getting-started/configuration",
+              "path": "/docs/getting-started/configuration",
+              "sidebar": "docs"
+            },
+            {
+              "id": "getting-started/installation",
+              "path": "/docs/getting-started/installation",
+              "sidebar": "docs"
+            },
+            {
+              "id": "guides/layout/flex-layout",
+              "path": "/docs/guides/layout/flex-layout",
+              "sidebar": "docs"
+            },
+            {
+              "id": "perfect-graph/contributing",
+              "path": "/docs/perfect-graph/contributing",
+              "sidebar": "docs"
+            },
+            {
+              "id": "perfect-graph/design-principles",
+              "path": "/docs/perfect-graph/design-principles",
+              "sidebar": "docs"
+            },
+            {
+              "id": "perfect-graph/introduction",
+              "path": "/docs/perfect-graph/introduction",
+              "sidebar": "docs"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "unversionedId": "templates/profile",
+  "id": "templates/profile",
+  "isDocsHomePage": false,
+  "title": "Profile",
+  "description": "Usage",
+  "source": "@site/docs/templates/profile.md",
+  "slug": "/templates/profile",
+  "permalink": "/docs/templates/profile",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/templates/profile.md",
+  "version": "current"
+}

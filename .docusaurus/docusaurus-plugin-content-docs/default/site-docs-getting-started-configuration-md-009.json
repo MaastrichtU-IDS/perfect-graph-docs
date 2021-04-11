@@ -1,0 +1,20 @@
+{
+  "unversionedId": "getting-started/configuration",
+  "id": "getting-started/configuration",
+  "isDocsHomePage": false,
+  "title": "Configuration",
+  "source": "@site/docs/getting-started/configuration.md",
+  "slug": "/getting-started/configuration",
+  "permalink": "/docs/getting-started/configuration",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/getting-started/configuration.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Installation",
+    "permalink": "/docs/getting-started/installation"
+  },
+  "next": {
+    "title": "Flex Layout",
+    "permalink": "/docs/guides/layout/flex-layout"
+  }
+}

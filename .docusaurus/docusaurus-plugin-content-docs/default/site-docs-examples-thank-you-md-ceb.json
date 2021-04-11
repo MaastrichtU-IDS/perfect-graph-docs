@@ -1,0 +1,12 @@
+{
+  "unversionedId": "examples/thank-you",
+  "id": "examples/thank-you",
+  "isDocsHomePage": false,
+  "title": "Thank you!",
+  "description": "Congratulations on making it this far!",
+  "source": "@site/docs/examples/thank-you.md",
+  "slug": "/examples/thank-you",
+  "permalink": "/docs/examples/thank-you",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/examples/thank-you.md",
+  "version": "current"
+}

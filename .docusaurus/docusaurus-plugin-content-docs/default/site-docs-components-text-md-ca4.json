@@ -1,0 +1,21 @@
+{
+  "unversionedId": "components/text",
+  "id": "components/text",
+  "isDocsHomePage": false,
+  "title": "Text",
+  "description": "Usage",
+  "source": "@site/docs/components/text.md",
+  "slug": "/components/text",
+  "permalink": "/docs/components/text",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/components/text.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "View",
+    "permalink": "/docs/components/view"
+  },
+  "next": {
+    "title": "Pressable",
+    "permalink": "/docs/components/pressable"
+  }
+}

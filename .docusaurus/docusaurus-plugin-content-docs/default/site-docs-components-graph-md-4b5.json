@@ -1,0 +1,21 @@
+{
+  "unversionedId": "components/graph",
+  "id": "components/graph",
+  "isDocsHomePage": false,
+  "title": "Graph",
+  "description": "Usage",
+  "source": "@site/docs/components/graph.md",
+  "slug": "/components/graph",
+  "permalink": "/docs/components/graph",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/components/graph.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Graph Editor",
+    "permalink": "/docs/components/graph-editor"
+  },
+  "next": {
+    "title": "View",
+    "permalink": "/docs/components/view"
+  }
+}

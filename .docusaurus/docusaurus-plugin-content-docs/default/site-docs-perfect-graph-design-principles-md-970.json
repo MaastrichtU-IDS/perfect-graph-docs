@@ -1,0 +1,21 @@
+{
+  "unversionedId": "perfect-graph/design-principles",
+  "id": "perfect-graph/design-principles",
+  "isDocsHomePage": false,
+  "title": "Design Principles",
+  "description": "Coming Soon!",
+  "source": "@site/docs/perfect-graph/design-principles.md",
+  "slug": "/perfect-graph/design-principles",
+  "permalink": "/docs/perfect-graph/design-principles",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/perfect-graph/design-principles.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/perfect-graph/introduction"
+  },
+  "next": {
+    "title": "Contributing",
+    "permalink": "/docs/perfect-graph/contributing"
+  }
+}

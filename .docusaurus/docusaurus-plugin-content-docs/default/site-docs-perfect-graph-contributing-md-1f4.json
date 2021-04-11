@@ -1,0 +1,21 @@
+{
+  "unversionedId": "perfect-graph/contributing",
+  "id": "perfect-graph/contributing",
+  "isDocsHomePage": false,
+  "title": "Contributing",
+  "description": "Coming Soon!",
+  "source": "@site/docs/perfect-graph/contributing.md",
+  "slug": "/perfect-graph/contributing",
+  "permalink": "/docs/perfect-graph/contributing",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/perfect-graph/contributing.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Design Principles",
+    "permalink": "/docs/perfect-graph/design-principles"
+  },
+  "next": {
+    "title": "Installation",
+    "permalink": "/docs/getting-started/installation"
+  }
+}

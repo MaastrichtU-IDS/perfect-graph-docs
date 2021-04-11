@@ -1,0 +1,17 @@
+{
+  "unversionedId": "perfect-graph/introduction",
+  "id": "perfect-graph/introduction",
+  "isDocsHomePage": false,
+  "title": "Introduction",
+  "description": "Motivation",
+  "source": "@site/docs/perfect-graph/introduction.md",
+  "slug": "/perfect-graph/introduction",
+  "permalink": "/docs/perfect-graph/introduction",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/perfect-graph/introduction.md",
+  "version": "current",
+  "sidebar": "docs",
+  "next": {
+    "title": "Design Principles",
+    "permalink": "/docs/perfect-graph/design-principles"
+  }
+}

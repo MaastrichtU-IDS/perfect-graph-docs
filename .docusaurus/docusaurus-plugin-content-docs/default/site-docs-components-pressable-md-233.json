@@ -1,0 +1,21 @@
+{
+  "unversionedId": "components/pressable",
+  "id": "components/pressable",
+  "isDocsHomePage": false,
+  "title": "Pressable",
+  "description": "Usage",
+  "source": "@site/docs/components/pressable.md",
+  "slug": "/components/pressable",
+  "permalink": "/docs/components/pressable",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/components/pressable.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Text",
+    "permalink": "/docs/components/text"
+  },
+  "next": {
+    "title": "Image",
+    "permalink": "/docs/components/image"
+  }
+}
