@@ -2,13 +2,13 @@
 module.exports = {
   title: 'Perfect Graph',
   tagline: 'Build Perfect Graphs',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://sabaturgay.github.io.',
+  baseUrl: '/perfect-graph-docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'maastrichtu-ids', // Usually your GitHub org/user name.
-  projectName: 'perfect-graph', // Usually your repo name.
+  organizationName: 'sabaturgay', // Usually your GitHub org/user name.
+  projectName: 'perfect-graph-docs', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Perfect Graph',
