@@ -2,10 +2,9 @@
 title: Image
 ---
 
-## Usage
-
 To use Image on Graph
-Check example
+
+## Examples
 
 ```js live=true
 <Graph
@@ -37,3 +36,25 @@ Check example
   )}
 />
 ```
+
+---
+
+# Reference
+
+## Props
+
+### `style`
+
+| Type | Required |
+| ---- | -------- |
+| [PIXIBasicStyle](/docs/type#pixibasicstyle) & [PIXIShapeStyle](/docs/type#pixishapestyle) | No      |
+
+---
+
+### `source`
+
+| Type | Required |
+| ---- | -------- |
+| { uri: string} | Yes      |
+
+---

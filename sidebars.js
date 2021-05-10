@@ -38,7 +38,6 @@ module.exports = {
         'components/graph',
         'components/view',
         'components/text',
-        'components/pressable',
         'components/image',
         // {
         //   type: 'category',

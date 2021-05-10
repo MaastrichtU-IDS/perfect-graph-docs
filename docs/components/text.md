@@ -2,10 +2,9 @@
 title: Text
 ---
 
-## Usage
-
 To use Text on Graph
-Check example
+
+## Examples
 
 ```js live=true
 <Graph
@@ -30,3 +29,33 @@ Check example
   )}
 />
 ```
+
+---
+
+# Reference
+
+## Props
+
+### `children`
+
+| Type | Required |
+| ---- | -------- |
+| string | Yes      |
+
+---
+
+### `style`
+
+| Type | Required |
+| ---- | -------- |
+| any | Yes      |
+
+---
+
+### `isSprite`
+
+| Type | Required |
+| ---- | -------- |
+| boolean | No      |
+
+---

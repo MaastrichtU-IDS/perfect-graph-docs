@@ -2,10 +2,10 @@
 title: Profile
 ---
 
-## Usage
 
 To create a Profile View easily, you can just pass data and Profile Template.
-Check example
+
+## Examples
 
 ```js live=true
 <Graph
@@ -42,3 +42,41 @@ Check example
   )}
 />
 ```
+
+
+
+# Reference
+
+## Props
+
+### `style`
+
+| Type | Required |
+| ---- | -------- |
+| [PIXIBasicStyle](/docs/type#pixibasicstyle) & [PIXIShapeStyle](/docs/type#pixishapestyle) | No      |
+
+---
+
+### `name`
+
+| Type | Required |
+| ---- | -------- |
+| string | Yes      |
+
+---
+
+### `image`
+
+| Type | Required |
+| ---- | -------- |
+| string | No      |
+
+---
+
+### `story`
+
+| Type | Required |
+| ---- | -------- |
+| string | No      |
+
+---

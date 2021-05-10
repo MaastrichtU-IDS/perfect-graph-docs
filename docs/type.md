@@ -673,3 +673,429 @@ Parameters:
 | [CytoscapeEvent](#cytoscapeevent)[] | No     |
 
 ---
+
+
+## BoundingBox
+
+### `x`
+
+| Type | Required |
+| ---- | -------- |
+| number | Yes      |
+
+---
+
+### `y`
+
+| Type | Required |
+| ---- | -------- |
+| number | Yes      |
+
+---
+
+### `width`
+
+| Type | Required |
+| ---- | -------- |
+| number | Yes      |
+
+---
+
+### `height`
+
+| Type | Required |
+| ---- | -------- |
+| number | Yes      |
+
+---
+
+
+## EventType
+
+| Type | Required |
+| ---- | -------- |
+| string | Yes      |
+
+---
+
+## EventInfo
+
+### `id`
+
+| Type | Required |
+| ---- | -------- |
+| string | Yes      |
+
+---
+
+### `date`
+
+| Type | Required |
+| ---- | -------- |
+| string | Yes      |
+
+---
+
+### `type`
+
+| Type | Required |
+| ---- | -------- |
+| [EventType](#eventtype) | Yes      |
+
+---
+
+### `item`
+
+| Type | Required |
+| ---- | -------- |
+| [NodeItem](/docs/type#nodeitem) | [EdgeItem](/docs/type#edgeitem) | No      |
+
+---
+
+### `elementId`
+
+| Type | Required |
+| ---- | -------- |
+| string | No      |
+
+---
+
+### `payload`
+
+| Type | Required |
+| ---- | -------- |
+| any | No      |
+
+---
+
+### `event`
+
+| Type | Required |
+| ---- | -------- |
+| [PIXI.InteractionEvent](https://pixijs.download/dev/docs/PIXI.InteractionData.html) | No      |
+
+---
+
+### `avoidEventRecording`
+
+| Type | Required |
+| ---- | -------- |
+| boolean | No      |
+
+---
+
+
+### `avoidHistoryRecording`
+
+| Type | Required |
+| ---- | -------- |
+| boolean | No      |
+
+---
+
+
+
+## GraphEditorConfig
+
+### `enableNetworkStatistics`
+
+| Type | Required |
+| ---- | -------- |
+| boolean | Yes      |
+
+---
+  
+## GraphLabelData
+
+### `global`
+
+| Type | Required |
+| ---- | -------- |
+| { nodes: string[]; edges: string[] } | Yes      |
+
+---
+
+### `nodes`
+
+| Type | Required |
+| ---- | -------- |
+| Record<string, string[]> | Yes      |
+
+---
+
+### `edges`
+
+| Type | Required |
+| ---- | -------- |
+| Record<string, string[]> | Yes      |
+
+---
+
+### `isGlobalFirst`
+
+| Type | Required |
+| ---- | -------- |
+| { nodes: boolean; edges: boolean; } | No      |
+
+---
+
+## SettingsBarProps
+
+### `opened`
+
+| Type | Required |
+| ---- | -------- |
+| boolean | No      |
+
+---
+
+### `forms`
+
+| Type | Required |
+| ---- | -------- |
+| [JSONSchemaForm](#jsonschemaform)[] | No      |
+
+---
+
+### `createClusterForm`
+
+| Type | Required |
+| ---- | -------- |
+| [JSONSchemaForm](#jsonschemaform) | No      |
+
+---
+
+## DataBarProps
+
+### `opened`
+
+| Type | Required |
+| ---- | -------- |
+| boolean | No      |
+
+---
+
+### `editable`
+
+| Type | Required |
+| ---- | -------- |
+| boolean | No      |
+
+---
+
+
+## ActionBarProps
+
+### `opened`
+
+| Type | Required |
+| ---- | -------- |
+| boolean | No      |
+
+---
+
+### `recording`
+
+| Type | Required |
+| ---- | -------- |
+| boolean | No      |
+
+---
+
+### `eventRecording`
+
+| Type | Required |
+| ---- | -------- |
+| boolean | No      |
+
+---
+
+### `autoOpen`
+
+| Type | Required |
+| ---- | -------- |
+| boolean | No      |
+
+---
+
+## EditorMode
+
+| Type | Required |
+| ---- | -------- |
+| 
+'ADD' |
+'DELETE' |
+'CONTINUES_ADD' |
+'CONTINUES_DELETE' |
+'DEFAULT' |
+'ADD_CLUSTER_ELEMENT' 
+ | No      |
+
+---
+
+
+## RecordedEvent
+
+[EventInfo](#eventinfo)
+
+
+## Playlist
+
+### `id`
+
+| Type | Required |
+| ---- | -------- |
+| string | Yes      |
+
+---
+
+### `name`
+
+| Type | Required |
+| ---- | -------- |
+| string | Yes      |
+
+### `events`
+
+| Type | Required |
+| ---- | -------- |
+| [EventInfo](#eventinfo)[] | Yes      |
+
+---
+
+## PIXIBasicStyle
+
+### `left`
+
+| Type | Required |
+| ---- | -------- |
+| number | No      |
+
+---
+
+### `top`
+
+| Type | Required |
+| ---- | -------- |
+| number | No      |
+
+---
+
+### `width`
+
+| Type | Required |
+| ---- | -------- |
+| number | No      |
+
+---
+
+### `height`
+
+| Type | Required |
+| ---- | -------- |
+| number | No      |
+
+---
+
+### `zIndex`
+
+| Type | Required |
+| ---- | -------- |
+| number | No      |
+
+---
+
+### `display`
+
+| Type | Required |
+| ---- | -------- |
+| string | No      |
+
+---
+
+### `position`
+
+| Type | Required |
+| ---- | -------- |
+| string | No      |
+
+---
+
+### `alignItems`
+
+| Type | Required |
+| ---- | -------- |
+| string | No      |
+
+---
+
+### `justifyContent`
+
+| Type | Required |
+| ---- | -------- |
+| string | No      |
+
+---
+
+### `flexDirection`
+
+| Type | Required |
+| ---- | -------- |
+| string | No      |
+
+---
+
+### `flexWrap`
+
+| Type | Required |
+| ---- | -------- |
+| string | No      |
+
+---
+
+## PIXIShapeStyle
+
+### `backgroundColor`
+
+| Type | Required |
+| ---- | -------- |
+| string | No      |
+
+---
+
+### `color`
+
+| Type | Required |
+| ---- | -------- |
+| string | No      |
+
+---
+
+### `borderColor`
+
+| Type | Required |
+| ---- | -------- |
+| string | No      |
+
+---
+
+### `borderWidth`
+
+| Type | Required |
+| ---- | -------- |
+| string | No      |
+
+---
+
+### `borderRadius`
+
+| Type | Required |
+| ---- | -------- |
+| string | No      |
+
+---
+
+
+## JSONSchemaForm
+
+For props please check [react-jsonschema-form](https://react-jsonschema-form.readthedocs.io/en/latest/) out.

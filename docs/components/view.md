@@ -2,10 +2,9 @@
 title: View
 ---
 
-## Usage
-
 To use View on Graph
-Check example
+
+## Examples
 
 ```js live=true
 <Graph
@@ -30,3 +29,35 @@ Check example
   )}
 />
 ```
+
+
+
+---
+
+# Reference
+
+## Props
+
+### `style`
+
+| Type | Required |
+| ---- | -------- |
+| [PIXIBasicStyle](/docs/type#pixibasicstyle) & [PIXIShapeStyle](/docs/type#pixishapestyle) | No      |
+
+---
+
+### `children`
+
+| Type | Required |
+| ---- | -------- |
+| React.ReactNode | Yes      |
+
+---
+
+### `isSprite`
+
+| Type | Required |
+| ---- | -------- |
+| boolean | No      |
+
+---
