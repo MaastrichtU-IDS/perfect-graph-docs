@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[42],{111:function(a){a.exports=JSON.parse('{"allTagsPath":"/perfect-graph-docs/blog/tags","slug":"hola","name":"hola","count":1,"permalink":"/perfect-graph-docs/blog/tags/hola"}')}}]);
