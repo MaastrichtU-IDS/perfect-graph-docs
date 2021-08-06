@@ -5,7 +5,7 @@ title: Installation
 Please make sure you have a proper setup for a React project.
 
 ```js
-yarn add perfect-graph @emotion/react @emotion/styled @material-ui/core @material-ui/icons semantic-ui-css semantic-ui-react colay colay-ui immer react-beautiful-dnd @rjsf/core @rjsf/material-ui @rjsf/semantic-ui
+yarn add perfect-graph @emotion/react @emotion/styled @material-ui/core @material-ui/icons semantic-ui-css semantic-ui-react colay colay-ui immer react-beautiful-dnd @rjsf/core @rjsf/material-ui @rjsf/semantic-ui jsoneditor jsoneditor-react brace
 ```
 
 So let's start coding
