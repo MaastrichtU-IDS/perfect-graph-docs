@@ -1,8 +1,6 @@
 ---
-title: Flex Layout
+title: Layout
 ---
-
-As we learned, if we want to change the position of a Graph Element , we need to add style.left and style.top . But what if we want to centeralize the element inside of its parent element. The solution is coming with Yoga Layout Engine. We implement it inside of the Graph. So you can use [alignItems, justifyContent, paddingTop, paddingBottom ...] just like another style property
 
 ```js live=true
 <Graph
@@ -14,12 +12,8 @@ As we learned, if we want to change the position of a Graph Element , we need to
   edges={[{ id: 51, source: 1, target: 2 }]}
   renderNode={({ item }) => (
     <Graph.View
-      style={{
-        width: 100,
-        height: 100,
-        alignItems: "center",
-        justifyContent: "center",
-      }}
+      width={100}
+      height={100}
     >
       <Graph.Text>Heyy</Graph.Text>
     </Graph.View>
