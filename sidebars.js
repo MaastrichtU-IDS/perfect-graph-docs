@@ -38,14 +38,6 @@ module.exports = {
         'components/graph',
         'components/view',
         'components/text',
-        // 'components/image',
-        // {
-        //   type: 'category',
-        //   label: 'Templates',
-        //   items: [
-        //     'components/templates/profile',
-        //   ],
-        // }
       ],
     },
     {
@@ -54,6 +46,13 @@ module.exports = {
       items: [
         'advanced-guides/plugins',
         'advanced-guides/themes',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Type Reference',
+      items: [
+        'type/modules',
       ],
     },
   ],

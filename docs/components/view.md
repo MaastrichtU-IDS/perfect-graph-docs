@@ -11,20 +11,22 @@ To use View on Graph
   style={{ width: "100%", height: 250 }}
   nodes={[
     {
-      id: 1,
+      id: '1',
       position: { x: 10, y: 10 },
-      data: { color: "red" },
+      data: { color: 10066329 },
     },
     {
-      id: 2,
+      id: '2',
       position: { x: 300, y: 10 },
-      data: { color: "blue" },
+      data: { color: 4149685 },
     },
   ]}
-  edges={[{ id: 51, source: 1, target: 2 }]}
+  edges={[{ id: 'edge:1', source: '1', target: '2' }]}
   renderNode={({ item: { data } }) => (
     <Graph.View
-      style={{ width: 100, height: 100, backgroundColor: data.color }}
+      width={100}
+      height={100}
+      fill={data.color}
     />
   )}
 />
@@ -38,26 +40,7 @@ To use View on Graph
 
 ## Props
 
-### `style`
+[PIXI.Graphics React Component](https://reactpixi.org/components/graphics)
 
-| Type | Required |
-| ---- | -------- |
-| [PIXIBasicStyle](/docs/type#pixibasicstyle) & [PIXIShapeStyle](/docs/type#pixishapestyle) | No      |
+Ƭ **ViewProps**: `React.ComponentProps`<typeof `InletGraphics`\> & { `children?`: `React.ReactNode` ; `fill?`: `number` ; `radius?`: `number`  }
 
----
-
-### `children`
-
-| Type | Required |
-| ---- | -------- |
-| React.ReactNode | Yes      |
-
----
-
-### `isSprite`
-
-| Type | Required |
-| ---- | -------- |
-| boolean | No      |
-
----

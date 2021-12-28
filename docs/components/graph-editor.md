@@ -10,10 +10,10 @@ A React component to create a Graph Editor easily, you can just pass data and re
 function MyGraphEditor() {
   const [data, setData] = React.useState({
     nodes: [
-      { id: 1, position: { x: 10, y: 10 } },
-      { id: 2, position: { x: 300, y: 100 } },
+      { id: '1', position: { x: 10, y: 10 } },
+      { id: '2', position: { x: 300, y: 100 } },
     ],
-    edges: [{ id: 51, source: 1, target: 2 }],
+    edges: [{ id: 'edge:1', source: '1', target: '2' }],
   });
   return (
     <Graph
