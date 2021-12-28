@@ -22,7 +22,7 @@
 
 #### Defined in
 
-[src/components/View/index.tsx:13](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/components/View/index.tsx#L13)
+[components/View/index.tsx:13](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/View/index.tsx#L13)
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 #### Defined in
 
-[src/components/View/index.tsx:27](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/components/View/index.tsx#L27)
+[components/View/index.tsx:27](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/View/index.tsx#L27)
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 #### Defined in
 
-[src/components/View/index.tsx:25](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/components/View/index.tsx#L25)
+[components/View/index.tsx:25](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/View/index.tsx#L25)
 
 ## Variables
 
@@ -54,4 +54,4 @@ The rectangle creator for PIXI.
 
 #### Defined in
 
-[src/components/View/index.tsx:71](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/components/View/index.tsx#L71)
+[components/View/index.tsx:71](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/View/index.tsx#L71)

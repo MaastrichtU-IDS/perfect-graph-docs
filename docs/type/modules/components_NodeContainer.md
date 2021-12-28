@@ -23,15 +23,15 @@
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `children` | [`RenderNode`](type.md#rendernode) | - |
-| `config` | [`NodeConfig`](type.md#nodeconfig) | Node config data |
+| `children` | `RenderNode` | - |
+| `config` | `NodeConfig` | Node config data |
 | `graphID` | `string` | Related graph id |
-| `graphRef` | `React.RefObject`<[`GraphRef`](type.md#graphref)\> | Related graph instance ref |
+| `graphRef` | `React.RefObject`<`GraphRef`\> | Related graph instance ref |
 | `item` | `any` | Node data |
 
 #### Defined in
 
-[src/components/NodeContainer/index.tsx:16](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/components/NodeContainer/index.tsx#L16)
+[components/NodeContainer/index.tsx:16](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/NodeContainer/index.tsx#L16)
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 #### Defined in
 
-[src/components/NodeContainer/index.tsx:36](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/components/NodeContainer/index.tsx#L36)
+[components/NodeContainer/index.tsx:36](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/NodeContainer/index.tsx#L36)
 
 ## Variables
 
@@ -54,4 +54,4 @@ operations.
 
 #### Defined in
 
-[src/components/NodeContainer/index.tsx:120](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/components/NodeContainer/index.tsx#L120)
+[components/NodeContainer/index.tsx:120](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/NodeContainer/index.tsx#L120)

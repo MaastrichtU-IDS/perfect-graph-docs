@@ -23,15 +23,15 @@
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `children` | [`RenderClusterNode`](type.md#renderclusternode) | - |
-| `config?` | [`NodeConfig`](type.md#nodeconfig) | Cluster node config |
+| `children` | `RenderClusterNode` | - |
+| `config?` | `NodeConfig` | Cluster node config |
 | `graphID` | `string` | Related graph id |
-| `graphRef` | `React.RefObject`<[`GraphRef`](type.md#graphref)\> | Related graph instance ref |
-| `item` | [`Cluster`](type.md#cluster) | Cluster node data |
+| `graphRef` | `React.RefObject`<`GraphRef`\> | Related graph instance ref |
+| `item` | `Cluster` | Cluster node data |
 
 #### Defined in
 
-[src/components/ClusterNodeContainer/index.tsx:16](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/components/ClusterNodeContainer/index.tsx#L16)
+[components/ClusterNodeContainer/index.tsx:16](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/ClusterNodeContainer/index.tsx#L16)
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 #### Defined in
 
-[src/components/ClusterNodeContainer/index.tsx:37](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/components/ClusterNodeContainer/index.tsx#L37)
+[components/ClusterNodeContainer/index.tsx:37](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/ClusterNodeContainer/index.tsx#L37)
 
 ## Variables
 
@@ -54,4 +54,4 @@ operations.
 
 #### Defined in
 
-[src/components/ClusterNodeContainer/index.tsx:122](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/components/ClusterNodeContainer/index.tsx#L122)
+[components/ClusterNodeContainer/index.tsx:122](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/ClusterNodeContainer/index.tsx#L122)

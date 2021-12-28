@@ -6,6 +6,7 @@
 
 ### Type aliases
 
+- [ViewportOnPress](components_Viewport.md#viewportonpress)
 - [ViewportProps](components_Viewport.md#viewportprops)
 
 ### Variables
@@ -14,13 +15,37 @@
 
 ## Type aliases
 
+### ViewportOnPress
+
+Ƭ **ViewportOnPress**: (`event`: `ViewportOnPressEvent`) => `void` \| `undefined`
+
+#### Type declaration
+
+▸ (`event`): `void` \| `undefined`
+
+##### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `event` | `ViewportOnPressEvent` |
+
+##### Returns
+
+`void` \| `undefined`
+
+#### Defined in
+
+[components/Viewport/index.tsx:30](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/Viewport/index.tsx#L30)
+
+___
+
 ### ViewportProps
 
 Ƭ **ViewportProps**: { `children?`: `React.ReactNode`  } & `Omit`<`NativeViewportProps`, ``"app"`` \| ``"theme"``\>
 
 #### Defined in
 
-[src/components/Viewport/index.tsx:351](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/components/Viewport/index.tsx#L351)
+[components/Viewport/index.tsx:360](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/Viewport/index.tsx#L360)
 
 ## Variables
 
@@ -32,4 +57,4 @@ The wrapper for Node and Edge Elements to provide drag, pinch, and zoom function
 
 #### Defined in
 
-[src/components/Viewport/index.tsx:443](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/components/Viewport/index.tsx#L443)
+[components/Viewport/index.tsx:452](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/Viewport/index.tsx#L452)

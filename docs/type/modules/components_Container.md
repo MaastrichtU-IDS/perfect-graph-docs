@@ -18,11 +18,11 @@
 
 ### ContainerProps
 
-Ƭ **ContainerProps**: [`PIXIBasicProps`](type.md#pixibasicprops) & [`PIXIDisplayObjectProps`](type.md#pixidisplayobjectprops) & `Omit`<`React.ComponentProps`<typeof `PIXIReactContainer`\>, ``"children"``\> & { `children`: `Enumerable`<`React.ReactNode`\> ; `draggable?`: `boolean` ; `onDrag?`: (`param`: `Position`) => `void`  }
+Ƭ **ContainerProps**: `PIXIBasicProps` & `PIXIDisplayObjectProps` & `Omit`<`React.ComponentProps`<typeof `PIXIReactContainer`\>, ``"children"``\> & { `children`: `Enumerable`<`React.ReactNode`\> ; `draggable?`: `boolean` ; `onDrag?`: (`param`: `Position`) => `void`  }
 
 #### Defined in
 
-[src/components/Container/index.tsx:16](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/components/Container/index.tsx#L16)
+[components/Container/index.tsx:16](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/Container/index.tsx#L16)
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 #### Defined in
 
-[src/components/Container/index.tsx:35](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/components/Container/index.tsx#L35)
+[components/Container/index.tsx:35](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/Container/index.tsx#L35)
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 #### Defined in
 
-[src/components/Container/index.tsx:34](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/components/Container/index.tsx#L34)
+[components/Container/index.tsx:34](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/Container/index.tsx#L34)
 
 ## Variables
 
@@ -54,4 +54,4 @@ The container for PIXI objects. It facilitates drag operations.
 
 #### Defined in
 
-[src/components/Container/index.tsx:41](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/components/Container/index.tsx#L41)
+[components/Container/index.tsx:41](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/Container/index.tsx#L41)

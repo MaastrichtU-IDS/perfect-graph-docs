@@ -1,36 +1,36 @@
-[perfect-graph](../README.md) / [Modules](../modules.md) / [utils/TimeoutManager](../modules/utils_TimeoutManager.md) / Timeout
+[perfect-graph](../README.md) / [Modules](../modules.md) / [utils/TimeoutManager/smart-timer](../modules/utils_TimeoutManager_smart_timer.md) / Timeout
 
 # Class: Timeout
 
-[utils/TimeoutManager](../modules/utils_TimeoutManager.md).Timeout
+[utils/TimeoutManager/smart-timer](../modules/utils_TimeoutManager_smart_timer.md).Timeout
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](utils_TimeoutManager.Timeout.md#constructor)
+- [constructor](utils_TimeoutManager_smart_timer.Timeout.md#constructor)
 
 ### Properties
 
-- [keyId](utils_TimeoutManager.Timeout.md#keyid)
-- [metadata](utils_TimeoutManager.Timeout.md#metadata)
-- [originalMs](utils_TimeoutManager.Timeout.md#originalms)
+- [keyId](utils_TimeoutManager_smart_timer.Timeout.md#keyid)
+- [metadata](utils_TimeoutManager_smart_timer.Timeout.md#metadata)
+- [originalMs](utils_TimeoutManager_smart_timer.Timeout.md#originalms)
 
 ### Methods
 
-- [clear](utils_TimeoutManager.Timeout.md#clear)
-- [create](utils_TimeoutManager.Timeout.md#create)
-- [executed](utils_TimeoutManager.Timeout.md#executed)
-- [exists](utils_TimeoutManager.Timeout.md#exists)
-- [instantiate](utils_TimeoutManager.Timeout.md#instantiate)
-- [lastExecuted](utils_TimeoutManager.Timeout.md#lastexecuted)
-- [pause](utils_TimeoutManager.Timeout.md#pause)
-- [paused](utils_TimeoutManager.Timeout.md#paused)
-- [pending](utils_TimeoutManager.Timeout.md#pending)
-- [remaining](utils_TimeoutManager.Timeout.md#remaining)
-- [restart](utils_TimeoutManager.Timeout.md#restart)
-- [resume](utils_TimeoutManager.Timeout.md#resume)
-- [set](utils_TimeoutManager.Timeout.md#set)
+- [clear](utils_TimeoutManager_smart_timer.Timeout.md#clear)
+- [create](utils_TimeoutManager_smart_timer.Timeout.md#create)
+- [executed](utils_TimeoutManager_smart_timer.Timeout.md#executed)
+- [exists](utils_TimeoutManager_smart_timer.Timeout.md#exists)
+- [instantiate](utils_TimeoutManager_smart_timer.Timeout.md#instantiate)
+- [lastExecuted](utils_TimeoutManager_smart_timer.Timeout.md#lastexecuted)
+- [pause](utils_TimeoutManager_smart_timer.Timeout.md#pause)
+- [paused](utils_TimeoutManager_smart_timer.Timeout.md#paused)
+- [pending](utils_TimeoutManager_smart_timer.Timeout.md#pending)
+- [remaining](utils_TimeoutManager_smart_timer.Timeout.md#remaining)
+- [restart](utils_TimeoutManager_smart_timer.Timeout.md#restart)
+- [resume](utils_TimeoutManager_smart_timer.Timeout.md#resume)
+- [set](utils_TimeoutManager_smart_timer.Timeout.md#set)
 
 ## Constructors
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-[src/utils/TimeoutManager/smart-timer.ts:51](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/utils/TimeoutManager/smart-timer.ts#L51)
+[utils/TimeoutManager/smart-timer.ts:51](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/TimeoutManager/smart-timer.ts#L51)
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 #### Defined in
 
-[src/utils/TimeoutManager/smart-timer.ts:55](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/utils/TimeoutManager/smart-timer.ts#L55)
+[utils/TimeoutManager/smart-timer.ts:55](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/TimeoutManager/smart-timer.ts#L55)
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 #### Defined in
 
-[src/utils/TimeoutManager/smart-timer.ts:53](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/utils/TimeoutManager/smart-timer.ts#L53)
+[utils/TimeoutManager/smart-timer.ts:53](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/TimeoutManager/smart-timer.ts#L53)
 
 ## Methods
 
@@ -89,7 +89,7 @@ clear timeout and optionally erase all knowledge of its existence
 
 #### Defined in
 
-[src/utils/TimeoutManager/smart-timer.ts:62](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/utils/TimeoutManager/smart-timer.ts#L62)
+[utils/TimeoutManager/smart-timer.ts:62](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/TimeoutManager/smart-timer.ts#L62)
 
 ___
 
@@ -114,7 +114,7 @@ same as set() except returns false if timeout already exists
 
 #### Defined in
 
-[src/utils/TimeoutManager/smart-timer.ts:136](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/utils/TimeoutManager/smart-timer.ts#L136)
+[utils/TimeoutManager/smart-timer.ts:136](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/TimeoutManager/smart-timer.ts#L136)
 
 ▸ `Static` **create**(`callback`, `ms`, ...`params`): `boolean` \| `Checker`
 
@@ -134,7 +134,7 @@ same as set() except returns false if timeout already exists
 
 #### Defined in
 
-[src/utils/TimeoutManager/smart-timer.ts:143](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/utils/TimeoutManager/smart-timer.ts#L143)
+[utils/TimeoutManager/smart-timer.ts:143](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/TimeoutManager/smart-timer.ts#L143)
 
 ___
 
@@ -156,7 +156,7 @@ test if a timeout has run
 
 #### Defined in
 
-[src/utils/TimeoutManager/smart-timer.ts:173](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/utils/TimeoutManager/smart-timer.ts#L173)
+[utils/TimeoutManager/smart-timer.ts:173](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/TimeoutManager/smart-timer.ts#L173)
 
 ___
 
@@ -178,13 +178,13 @@ timeout has been created
 
 #### Defined in
 
-[src/utils/TimeoutManager/smart-timer.ts:165](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/utils/TimeoutManager/smart-timer.ts#L165)
+[utils/TimeoutManager/smart-timer.ts:165](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/TimeoutManager/smart-timer.ts#L165)
 
 ___
 
 ### instantiate
 
-▸ `Static` **instantiate**(`callback`, `ms?`, ...`params`): [`TimeoutInstance`](../interfaces/utils_TimeoutManager.TimeoutInstance.md)
+▸ `Static` **instantiate**(`callback`, `ms?`, ...`params`): [`TimeoutInstance`](../interfaces/utils_TimeoutManager_smart_timer.TimeoutInstance.md)
 
 instantiate timeout to handle as object
 
@@ -198,11 +198,11 @@ instantiate timeout to handle as object
 
 #### Returns
 
-[`TimeoutInstance`](../interfaces/utils_TimeoutManager.TimeoutInstance.md)
+[`TimeoutInstance`](../interfaces/utils_TimeoutManager_smart_timer.TimeoutInstance.md)
 
 #### Defined in
 
-[src/utils/TimeoutManager/smart-timer.ts:281](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/utils/TimeoutManager/smart-timer.ts#L281)
+[utils/TimeoutManager/smart-timer.ts:281](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/TimeoutManager/smart-timer.ts#L281)
 
 ___
 
@@ -224,7 +224,7 @@ when timeout was last executed
 
 #### Defined in
 
-[src/utils/TimeoutManager/smart-timer.ts:181](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/utils/TimeoutManager/smart-timer.ts#L181)
+[utils/TimeoutManager/smart-timer.ts:181](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/TimeoutManager/smart-timer.ts#L181)
 
 ___
 
@@ -246,7 +246,7 @@ pause our execution countdown until we're ready for it to resume
 
 #### Defined in
 
-[src/utils/TimeoutManager/smart-timer.ts:241](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/utils/TimeoutManager/smart-timer.ts#L241)
+[utils/TimeoutManager/smart-timer.ts:241](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/TimeoutManager/smart-timer.ts#L241)
 
 ___
 
@@ -268,7 +268,7 @@ timeout does exist, but will not execute because it is paused
 
 #### Defined in
 
-[src/utils/TimeoutManager/smart-timer.ts:199](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/utils/TimeoutManager/smart-timer.ts#L199)
+[utils/TimeoutManager/smart-timer.ts:199](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/TimeoutManager/smart-timer.ts#L199)
 
 ___
 
@@ -290,7 +290,7 @@ timeout does exist, but has not yet run
 
 #### Defined in
 
-[src/utils/TimeoutManager/smart-timer.ts:191](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/utils/TimeoutManager/smart-timer.ts#L191)
+[utils/TimeoutManager/smart-timer.ts:191](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/TimeoutManager/smart-timer.ts#L191)
 
 ___
 
@@ -312,7 +312,7 @@ remaining time until timeout will occur
 
 #### Defined in
 
-[src/utils/TimeoutManager/smart-timer.ts:209](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/utils/TimeoutManager/smart-timer.ts#L209)
+[utils/TimeoutManager/smart-timer.ts:209](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/TimeoutManager/smart-timer.ts#L209)
 
 ___
 
@@ -334,7 +334,7 @@ restart timeout with original time
 
 #### Defined in
 
-[src/utils/TimeoutManager/smart-timer.ts:223](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/utils/TimeoutManager/smart-timer.ts#L223)
+[utils/TimeoutManager/smart-timer.ts:223](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/TimeoutManager/smart-timer.ts#L223)
 
 ___
 
@@ -356,7 +356,7 @@ resume paused Timeout with the remaining time
 
 #### Defined in
 
-[src/utils/TimeoutManager/smart-timer.ts:258](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/utils/TimeoutManager/smart-timer.ts#L258)
+[utils/TimeoutManager/smart-timer.ts:258](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/TimeoutManager/smart-timer.ts#L258)
 
 ___
 
@@ -381,7 +381,7 @@ returns a function allowing you to test if it has executed
 
 #### Defined in
 
-[src/utils/TimeoutManager/smart-timer.ts:79](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/utils/TimeoutManager/smart-timer.ts#L79)
+[utils/TimeoutManager/smart-timer.ts:79](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/TimeoutManager/smart-timer.ts#L79)
 
 ▸ `Static` **set**(`callback`, `ms`, ...`params`): `Checker`
 
@@ -401,7 +401,7 @@ returns a function allowing you to test if it has executed
 
 #### Defined in
 
-[src/utils/TimeoutManager/smart-timer.ts:86](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/utils/TimeoutManager/smart-timer.ts#L86)
+[utils/TimeoutManager/smart-timer.ts:86](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/TimeoutManager/smart-timer.ts#L86)
 
 ▸ `Static` **set**(...`args`): `Checker`
 
@@ -417,4 +417,4 @@ returns a function allowing you to test if it has executed
 
 #### Defined in
 
-[src/utils/TimeoutManager/smart-timer.ts:87](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/utils/TimeoutManager/smart-timer.ts#L87)
+[utils/TimeoutManager/smart-timer.ts:87](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/TimeoutManager/smart-timer.ts#L87)

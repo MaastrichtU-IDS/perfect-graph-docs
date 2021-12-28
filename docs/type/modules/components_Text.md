@@ -18,4 +18,4 @@
 
 #### Defined in
 
-[src/components/Text/index.tsx:155](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/components/Text/index.tsx#L155)
+[components/Text/index.tsx:155](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/Text/index.tsx#L155)

@@ -38,7 +38,7 @@
 
 #### Defined in
 
-[src/plugins/dataConverter/index.ts:164](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/plugins/dataConverter/index.ts#L164)
+[plugins/dataConverter/index.ts:164](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/plugins/dataConverter/index.ts#L164)
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 #### Defined in
 
-[src/plugins/dataConverter/index.ts:328](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/plugins/dataConverter/index.ts#L328)
+[plugins/dataConverter/index.ts:328](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/plugins/dataConverter/index.ts#L328)
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 #### Defined in
 
-[src/plugins/dataConverter/index.ts:57](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/plugins/dataConverter/index.ts#L57)
+[plugins/dataConverter/index.ts:57](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/plugins/dataConverter/index.ts#L57)
 
 ___
 
@@ -104,7 +104,7 @@ ___
 
 #### Defined in
 
-[src/plugins/dataConverter/index.ts:228](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/plugins/dataConverter/index.ts#L228)
+[plugins/dataConverter/index.ts:228](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/plugins/dataConverter/index.ts#L228)
 
 ___
 
@@ -124,4 +124,4 @@ ___
 
 #### Defined in
 
-[src/plugins/dataConverter/index.ts:283](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/plugins/dataConverter/index.ts#L283)
+[plugins/dataConverter/index.ts:283](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/plugins/dataConverter/index.ts#L283)

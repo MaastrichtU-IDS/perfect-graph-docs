@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[src/core/theme/index.ts:178](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/core/theme/index.ts#L178)
+[core/theme/index.ts:178](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/core/theme/index.ts#L178)
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 #### Defined in
 
-[src/core/theme/index.ts:180](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/core/theme/index.ts#L180)
+[core/theme/index.ts:180](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/core/theme/index.ts#L180)
 
 ## Variables
 
@@ -124,7 +124,7 @@ ___
 
 #### Defined in
 
-[src/core/theme/index.ts:82](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/core/theme/index.ts#L82)
+[core/theme/index.ts:82](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/core/theme/index.ts#L82)
 
 ___
 
@@ -203,7 +203,7 @@ ___
 
 #### Defined in
 
-[src/core/theme/index.ts:3](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/core/theme/index.ts#L3)
+[core/theme/index.ts:3](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/core/theme/index.ts#L3)
 
 ___
 
@@ -213,7 +213,7 @@ ___
 
 #### Defined in
 
-[src/core/theme/index.ts:171](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/core/theme/index.ts#L171)
+[core/theme/index.ts:171](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/core/theme/index.ts#L171)
 
 ## Functions
 
@@ -233,7 +233,7 @@ ___
 
 #### Defined in
 
-[src/core/theme/index.ts:172](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/core/theme/index.ts#L172)
+[core/theme/index.ts:172](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/core/theme/index.ts#L172)
 
 ___
 
@@ -314,4 +314,4 @@ ___
 
 #### Defined in
 
-[src/core/theme/index.ts:173](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/core/theme/index.ts#L173)
+[core/theme/index.ts:173](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/core/theme/index.ts#L173)

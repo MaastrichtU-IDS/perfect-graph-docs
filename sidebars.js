@@ -14,22 +14,21 @@ module.exports = {
       label: 'Getting Started',
       items: [
         'getting-started/installation',
-        'getting-started/configuration',
       ],
     },
-    {
-      type: 'category',
-      label: 'Guides',
-      items: [
-        // {
-        //   type: 'category',
-        //   label: 'Layout',
-        //   items: [
-        //     'guides/layout/flex-layout',
-        //   ],
-        // }
-      ],
-    },
+    // {
+    //   type: 'category',
+    //   label: 'Guides',
+    //   items: [
+    //     // {
+    //     //   type: 'category',
+    //     //   label: 'Layout',
+    //     //   items: [
+    //     //     'guides/layout/flex-layout',
+    //     //   ],
+    //     // }
+    //   ],
+    // },
     {
       type: 'category',
       label: 'Components',

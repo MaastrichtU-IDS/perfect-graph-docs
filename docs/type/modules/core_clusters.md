@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[src/core/clusters/index.ts:46](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/core/clusters/index.ts#L46)
+[core/clusters/index.ts:46](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/core/clusters/index.ts#L46)

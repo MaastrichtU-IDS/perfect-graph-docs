@@ -45,7 +45,10 @@ function MyGraph() {
 }
 ```
 
-To use GraphEditor you need to install material-ui packages. We use the latest version: yarn add @mui/icons-material @mui/material @mui/styles @emotion/react @emotion/styled react-beautiful-dnd @rjsf/core @rjsf/material-ui react-color
+To use GraphEditor you need to install material-ui packages. We use the latest version: 
+```js
+yarn add @mui/icons-material @mui/material @mui/styles @emotion/react @emotion/styled react-beautiful-dnd @rjsf/core @rjsf/material-ui react-color
+```
 
 ```js
 import { GraphEditor } from "perfect-graph";
@@ -69,15 +72,24 @@ function MyGraphEditor() {
 }
 ```
 
-To have json editor: yarn add brace jsoneditor jsoneditor-react
+To have json editor: 
+```js
+yarn add brace jsoneditor jsoneditor-react
+```
 
-To use rdf based operation please install the required dependencies: yarn add jsonld jsonld-context-parser n3 rdf-literal rdflib
+To use rdf based operation please install the required dependencies:
+```js
+yarn add jsonld jsonld-context-parser n3 rdf-literal rdflib
+```
 
 To use layouts, please install the required dependencies:
+```js
 yarn add cytoscape-avsdf cytoscape-cise cytoscape-cola cytoscape-d3-force cytoscape-dagre cytoscape-euler cytoscape-fcose cytoscape-klay cytoscape-spread
+```
 
 To support material-ui v5 with @rjsf/material-ui, we need to add some special configuration until they have fully support for v5
 
+```js
 // webpack.config.js
 const createExpoWebpackConfigAsync = require('@expo/webpack-config');
 
@@ -90,7 +102,9 @@ module.exports = async function (env, argv) {
 }, argv);
   return config;
 };
+```
 
+```js
 // babel.config.js
 module.exports = function(api) {
   api.cache(true);
@@ -119,6 +133,7 @@ module.exports = function(api) {
     ]
   };
 };
+```
 
 
 If the PIXI.js renderer takes a lot time to render all elements and blocks the UI then consider on:
@@ -128,6 +143,6 @@ In example when a huge data chunk imported to perfect-graph, if the view quality
 - If there is an error: Can not set readonly 'x' of '#Object' 
  That could be related with position ; If you use cy.$(id).position() in somewhere and store it that can cause an issue. Use cy.$(id).position().x , cy.$(id).position().y
 
-Furthermore please refer to the Components Section.
+Furthermore please refer to the [Components Section](../components/graph-editor).
 
 

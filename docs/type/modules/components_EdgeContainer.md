@@ -28,16 +28,16 @@
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `children` | [`RenderEdge`](type.md#renderedge) | - |
-| `config` | [`EdgeConfig`](type.md#edgeconfig) | Edge config data |
-| `drawLine?` | [`DrawLine`](type.md#drawline) | Draw line function for edge connection vector |
+| `children` | `RenderEdge` | - |
+| `config` | `EdgeConfig` | Edge config data |
+| `drawLine?` | `DrawLine` | Draw line function for edge connection vector |
 | `graphID` | `string` | Related graph id |
-| `graphRef` | `React.RefObject`<[`GraphRef`](type.md#graphref)\> | Related graph instance ref |
+| `graphRef` | `React.RefObject`<`GraphRef`\> | Related graph instance ref |
 | `item` | `any` | Edge data |
 
 #### Defined in
 
-[src/components/EdgeContainer/index.tsx:21](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/components/EdgeContainer/index.tsx#L21)
+[components/EdgeContainer/index.tsx:21](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/EdgeContainer/index.tsx#L21)
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 #### Defined in
 
-[src/components/EdgeContainer/index.tsx:45](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/components/EdgeContainer/index.tsx#L45)
+[components/EdgeContainer/index.tsx:45](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/EdgeContainer/index.tsx#L45)
 
 ## Variables
 
@@ -60,7 +60,7 @@ operations.
 
 #### Defined in
 
-[src/components/EdgeContainer/index.tsx:321](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/components/EdgeContainer/index.tsx#L321)
+[components/EdgeContainer/index.tsx:321](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/EdgeContainer/index.tsx#L321)
 
 ## Functions
 
@@ -88,7 +88,7 @@ The calculator for the edges connection info.
 
 #### Defined in
 
-[src/components/EdgeContainer/index.tsx:52](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/components/EdgeContainer/index.tsx#L52)
+[components/EdgeContainer/index.tsx:52](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/EdgeContainer/index.tsx#L52)
 
 ___
 
@@ -122,4 +122,4 @@ The calculator for the edge connection vector.
 
 #### Defined in
 
-[src/components/EdgeContainer/index.tsx:84](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/components/EdgeContainer/index.tsx#L84)
+[components/EdgeContainer/index.tsx:84](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/EdgeContainer/index.tsx#L84)

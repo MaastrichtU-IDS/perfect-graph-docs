@@ -25,7 +25,7 @@
 
 #### Defined in
 
-[src/components/Graphics/index.tsx:17](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/components/Graphics/index.tsx#L17)
+[components/Graphics/index.tsx:17](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/Graphics/index.tsx#L17)
 
 ## Variables
 
@@ -37,7 +37,7 @@
 
 #### Defined in
 
-[src/components/Graphics/index.tsx:332](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/components/Graphics/index.tsx#L332)
+[components/Graphics/index.tsx:332](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/Graphics/index.tsx#L332)
 
 ## Functions
 
@@ -65,7 +65,7 @@
 
 #### Defined in
 
-[src/components/Graphics/index.tsx:274](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/components/Graphics/index.tsx#L274)
+[components/Graphics/index.tsx:274](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/Graphics/index.tsx#L274)
 
 ___
 
@@ -83,18 +83,18 @@ It draws the line with the given config for graphics.
 | `config.alpha?` | `number` |
 | `config.arrowHead?` | `Object` |
 | `config.arrowHead.radius?` | `number` |
-| `config.config` | [`EdgeConfig`](type.md#edgeconfig) |
+| `config.config` | `EdgeConfig` |
 | `config.directed?` | `boolean` |
 | `config.distance?` | `number` |
 | `config.distanceVector` | `Position` |
 | `config.fill?` | `number` |
-| `config.from` | [`BoundingBox`](type.md#boundingbox) |
+| `config.from` | `BoundingBox` |
 | `config.graphics` | `Graphics` |
 | `config.margin?` | `Position` |
 | `config.normVector` | `Position` |
 | `config.sourceElement` | `NodeSingular` |
 | `config.targetElement` | `NodeSingular` |
-| `config.to` | [`BoundingBox`](type.md#boundingbox) |
+| `config.to` | `BoundingBox` |
 | `config.type?` | ``"bezier"`` \| ``"segments"`` \| ``"straight"`` |
 | `config.undirectedNormVector` | `Victor` |
 | `config.undirectedUnitVector` | `Position` |
@@ -107,4 +107,4 @@ It draws the line with the given config for graphics.
 
 #### Defined in
 
-[src/components/Graphics/index.tsx:102](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/components/Graphics/index.tsx#L102)
+[components/Graphics/index.tsx:102](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/Graphics/index.tsx#L102)

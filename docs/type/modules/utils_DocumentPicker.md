@@ -19,4 +19,4 @@
 | Name | Type |
 | :------ | :------ |
 | ``get` **name**(): `string`` | `Object` |
-| `getDocumentAsync` | (`__namedParameters`: `DocumentPickerOptions`) => `Promise`<`DocumentResult`\> |
+| `getDocumentAsync` | (`__namedParameters`: [`DocumentPickerOptions`](utils_DocumentPicker_types.md#documentpickeroptions)) => `Promise`<[`DocumentResult`](utils_DocumentPicker_types.md#documentresult)\> |

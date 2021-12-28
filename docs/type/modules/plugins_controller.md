@@ -12,7 +12,7 @@
 
 ### useController
 
-▸ `Const` **useController**(`useControllerData`, `_graphEditorRef?`): (`Pick`<[`GraphEditorProps`](components_GraphEditor.md#grapheditorprops), ``"nodes"`` \| ``"edges"`` \| ``"onEvent"`` \| ``"graphConfig"`` \| ``"eventHistory"``\> \| { `onEvent`: (`eventInfo`: [`EventInfo`](type.md#eventinfo)) => `void` ; `update`: (`updater`: `UpdateFunction`) => `void`  })[]
+▸ `Const` **useController**(`useControllerData`, `_graphEditorRef?`): (`Pick`<[`GraphEditorProps`](components_GraphEditor.md#grapheditorprops), ``"nodes"`` \| ``"edges"`` \| ``"onEvent"`` \| ``"graphConfig"`` \| ``"eventHistory"``\> \| { `onEvent`: (`eventInfo`: `EventInfo`) => `void` ; `update`: (`updater`: `UpdateFunction`) => `void`  })[]
 
 Graph Editor Controller. There are events handlers for the graph editor. It return the changed props.
 
@@ -20,13 +20,13 @@ Graph Editor Controller. There are events handlers for the graph editor. It retu
 
 | Name | Type |
 | :------ | :------ |
-| `useControllerData` | `Partial`<[`ControllerState`](type.md#controllerstate)\> |
-| `_graphEditorRef?` | `MutableRefObject`<[`GraphEditorRef`](type.md#grapheditorref)\> |
+| `useControllerData` | `Partial`<`ControllerState`\> |
+| `_graphEditorRef?` | `MutableRefObject`<`GraphEditorRef`\> |
 
 #### Returns
 
-(`Pick`<[`GraphEditorProps`](components_GraphEditor.md#grapheditorprops), ``"nodes"`` \| ``"edges"`` \| ``"onEvent"`` \| ``"graphConfig"`` \| ``"eventHistory"``\> \| { `onEvent`: (`eventInfo`: [`EventInfo`](type.md#eventinfo)) => `void` ; `update`: (`updater`: `UpdateFunction`) => `void`  })[]
+(`Pick`<[`GraphEditorProps`](components_GraphEditor.md#grapheditorprops), ``"nodes"`` \| ``"edges"`` \| ``"onEvent"`` \| ``"graphConfig"`` \| ``"eventHistory"``\> \| { `onEvent`: (`eventInfo`: `EventInfo`) => `void` ; `update`: (`updater`: `UpdateFunction`) => `void`  })[]
 
 #### Defined in
 
-[src/plugins/controller/index.tsx:59](https://github.com/MaastrichtU-IDS/perfect-graph/blob/451d41e/src/plugins/controller/index.tsx#L59)
+[plugins/controller/index.tsx:59](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/plugins/controller/index.tsx#L59)
