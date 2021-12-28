@@ -4,6 +4,10 @@
 
 ## Table of contents
 
+### Namespaces
+
+- [&lt;internal\&gt;](components_EdgeContainer._internal_.md)
+
 ### Type aliases
 
 - [EdgeContainerProps](components_EdgeContainer.md#edgecontainerprops)
@@ -28,39 +32,39 @@
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `children` | `RenderEdge` | - |
-| `config` | `EdgeConfig` | Edge config data |
-| `drawLine?` | `DrawLine` | Draw line function for edge connection vector |
+| `children` | [`RenderEdge`](components_EdgeContainer._internal_.md#renderedge) | - |
+| `config` | [`EdgeConfig`](components_EdgeContainer._internal_.md#edgeconfig) | Edge config data |
+| `drawLine?` | [`DrawLine`](components_EdgeContainer._internal_.md#drawline) | Draw line function for edge connection vector |
 | `graphID` | `string` | Related graph id |
-| `graphRef` | `React.RefObject`<`GraphRef`\> | Related graph instance ref |
+| `graphRef` | [`RefObject`](../interfaces/components_ClusterNodeContainer._internal_.RefObject.md)<[`GraphRef`](components_ClusterNodeContainer._internal_.md#graphref)\> | Related graph instance ref |
 | `item` | `any` | Edge data |
 
 #### Defined in
 
-[components/EdgeContainer/index.tsx:21](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/EdgeContainer/index.tsx#L21)
+[src/components/EdgeContainer/index.tsx:21](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/EdgeContainer/index.tsx#L21)
 
 ___
 
 ### EdgeContainerType
 
-Ƭ **EdgeContainerType**: `React.FC`<[`EdgeContainerProps`](components_EdgeContainer.md#edgecontainerprops)\>
+Ƭ **EdgeContainerType**: [`FC`](components_ClusterNodeContainer._internal_.md#fc)<[`EdgeContainerProps`](components_EdgeContainer.md#edgecontainerprops)\>
 
 #### Defined in
 
-[components/EdgeContainer/index.tsx:45](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/EdgeContainer/index.tsx#L45)
+[src/components/EdgeContainer/index.tsx:45](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/EdgeContainer/index.tsx#L45)
 
 ## Variables
 
 ### EdgeContainer
 
-• **EdgeContainer**: `FC`<[`EdgeContainerProps`](components_EdgeContainer.md#edgecontainerprops)\>
+• **EdgeContainer**: [`FC`](components_ClusterNodeContainer._internal_.md#fc)<[`EdgeContainerProps`](components_EdgeContainer.md#edgecontainerprops)\>
 
 The container for Edge Elements. It facilitates drawLine, visibility, and other
 operations.
 
 #### Defined in
 
-[components/EdgeContainer/index.tsx:321](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/EdgeContainer/index.tsx#L321)
+[src/components/EdgeContainer/index.tsx:321](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/EdgeContainer/index.tsx#L321)
 
 ## Functions
 
@@ -88,7 +92,7 @@ The calculator for the edges connection info.
 
 #### Defined in
 
-[components/EdgeContainer/index.tsx:52](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/EdgeContainer/index.tsx#L52)
+[src/components/EdgeContainer/index.tsx:52](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/EdgeContainer/index.tsx#L52)
 
 ___
 
@@ -111,15 +115,15 @@ The calculator for the edge connection vector.
 
 | Name | Type |
 | :------ | :------ |
-| `distanceVector` | `Victor` |
-| `fromPosition` | `Victor` |
-| `midpointPosition` | `Victor` |
-| `normVector` | `Victor` |
-| `toPosition` | `Victor` |
-| `undirectedNormVector` | `Victor` |
-| `undirectedUnitVector` | `Victor` |
-| `unitVector` | `Victor` |
+| `distanceVector` | [`Victor`](../classes/components_EdgeContainer._internal_.Victor.md) |
+| `fromPosition` | [`Victor`](../classes/components_EdgeContainer._internal_.Victor.md) |
+| `midpointPosition` | [`Victor`](../classes/components_EdgeContainer._internal_.Victor.md) |
+| `normVector` | [`Victor`](../classes/components_EdgeContainer._internal_.Victor.md) |
+| `toPosition` | [`Victor`](../classes/components_EdgeContainer._internal_.Victor.md) |
+| `undirectedNormVector` | [`Victor`](../classes/components_EdgeContainer._internal_.Victor.md) |
+| `undirectedUnitVector` | [`Victor`](../classes/components_EdgeContainer._internal_.Victor.md) |
+| `unitVector` | [`Victor`](../classes/components_EdgeContainer._internal_.Victor.md) |
 
 #### Defined in
 
-[components/EdgeContainer/index.tsx:84](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/EdgeContainer/index.tsx#L84)
+[src/components/EdgeContainer/index.tsx:84](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/EdgeContainer/index.tsx#L84)

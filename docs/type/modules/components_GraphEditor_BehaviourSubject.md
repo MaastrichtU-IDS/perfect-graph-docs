@@ -4,6 +4,10 @@
 
 ## Table of contents
 
+### Namespaces
+
+- [&lt;internal\&gt;](components_GraphEditor_BehaviourSubject._internal_.md)
+
 ### Type aliases
 
 - [Subscription](components_GraphEditor_BehaviourSubject.md#subscription)
@@ -32,7 +36,7 @@
 
 #### Defined in
 
-[components/GraphEditor/BehaviourSubject.tsx:1](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/GraphEditor/BehaviourSubject.tsx#L1)
+[src/components/GraphEditor/BehaviourSubject.tsx:1](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/GraphEditor/BehaviourSubject.tsx#L1)
 
 ## Functions
 
@@ -59,10 +63,10 @@
 | Name | Type |
 | :------ | :------ |
 | `next` | (`nextValue`: `T`) => `void` |
-| `subscribe` | (`subscriber`: `Subscriber`) => [`Subscription`](components_GraphEditor_BehaviourSubject.md#subscription)<`T`\> |
-| `subscribers` | `Subscriber`[] |
+| `subscribe` | (`subscriber`: [`Subscriber`](components_GraphEditor_BehaviourSubject._internal_.md#subscriber)) => [`Subscription`](components_GraphEditor_BehaviourSubject.md#subscription)<`T`\> |
+| `subscribers` | [`Subscriber`](components_GraphEditor_BehaviourSubject._internal_.md#subscriber)[] |
 | `value` | `T` |
 
 #### Defined in
 
-[components/GraphEditor/BehaviourSubject.tsx:4](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/GraphEditor/BehaviourSubject.tsx#L4)
+[src/components/GraphEditor/BehaviourSubject.tsx:4](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/GraphEditor/BehaviourSubject.tsx#L4)

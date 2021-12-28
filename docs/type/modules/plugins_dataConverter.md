@@ -22,7 +22,7 @@
 
 | Name | Type |
 | :------ | :------ |
-| `jsonLDList` | `Record`<`string`, `any`\>[] |
+| `jsonLDList` | [`Record`](components_ClusterNodeContainer._internal_.md#record)<`string`, `any`\>[] |
 | `graph` | `Object` |
 | `graph.edges` | `Object` |
 | `graph.nodes` | `Object` |
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-[plugins/dataConverter/index.ts:164](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/plugins/dataConverter/index.ts#L164)
+[src/plugins/dataConverter/index.ts:164](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/plugins/dataConverter/index.ts#L164)
 
 ___
 
@@ -52,13 +52,13 @@ ___
 
 #### Defined in
 
-[plugins/dataConverter/index.ts:328](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/plugins/dataConverter/index.ts#L328)
+[src/plugins/dataConverter/index.ts:328](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/plugins/dataConverter/index.ts#L328)
 
 ___
 
 ### convertToJSONLD
 
-▸ `Const` **convertToJSONLD**(`text`): `Promise`<`Record`<`string`, `any`\>[]\>
+▸ `Const` **convertToJSONLD**(`text`): `Promise`<[`Record`](components_ClusterNodeContainer._internal_.md#record)<`string`, `any`\>[]\>
 
 #### Parameters
 
@@ -68,11 +68,11 @@ ___
 
 #### Returns
 
-`Promise`<`Record`<`string`, `any`\>[]\>
+`Promise`<[`Record`](components_ClusterNodeContainer._internal_.md#record)<`string`, `any`\>[]\>
 
 #### Defined in
 
-[plugins/dataConverter/index.ts:57](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/plugins/dataConverter/index.ts#L57)
+[src/plugins/dataConverter/index.ts:57](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/plugins/dataConverter/index.ts#L57)
 
 ___
 
@@ -104,7 +104,7 @@ ___
 
 #### Defined in
 
-[plugins/dataConverter/index.ts:228](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/plugins/dataConverter/index.ts#L228)
+[src/plugins/dataConverter/index.ts:228](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/plugins/dataConverter/index.ts#L228)
 
 ___
 
@@ -124,4 +124,4 @@ ___
 
 #### Defined in
 
-[plugins/dataConverter/index.ts:283](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/plugins/dataConverter/index.ts#L283)
+[src/plugins/dataConverter/index.ts:283](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/plugins/dataConverter/index.ts#L283)

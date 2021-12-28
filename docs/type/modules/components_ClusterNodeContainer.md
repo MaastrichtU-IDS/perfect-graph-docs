@@ -4,6 +4,10 @@
 
 ## Table of contents
 
+### Namespaces
+
+- [&lt;internal\&gt;](components_ClusterNodeContainer._internal_.md)
+
 ### Type aliases
 
 - [ClusterNodeContainerProps](components_ClusterNodeContainer.md#clusternodecontainerprops)
@@ -23,35 +27,35 @@
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `children` | `RenderClusterNode` | - |
-| `config?` | `NodeConfig` | Cluster node config |
+| `children` | [`RenderClusterNode`](components_ClusterNodeContainer._internal_.md#renderclusternode) | - |
+| `config?` | [`NodeConfig`](components_ClusterNodeContainer._internal_.md#nodeconfig) | Cluster node config |
 | `graphID` | `string` | Related graph id |
-| `graphRef` | `React.RefObject`<`GraphRef`\> | Related graph instance ref |
-| `item` | `Cluster` | Cluster node data |
+| `graphRef` | [`RefObject`](../interfaces/components_ClusterNodeContainer._internal_.RefObject.md)<[`GraphRef`](components_ClusterNodeContainer._internal_.md#graphref)\> | Related graph instance ref |
+| `item` | [`Cluster`](components_ClusterNodeContainer._internal_.md#cluster) | Cluster node data |
 
 #### Defined in
 
-[components/ClusterNodeContainer/index.tsx:16](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/ClusterNodeContainer/index.tsx#L16)
+[src/components/ClusterNodeContainer/index.tsx:16](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/ClusterNodeContainer/index.tsx#L16)
 
 ___
 
 ### ClusterNodeContainerType
 
-Ƭ **ClusterNodeContainerType**: `React.ForwardedRef`<[`ClusterNodeContainerProps`](components_ClusterNodeContainer.md#clusternodecontainerprops)\>
+Ƭ **ClusterNodeContainerType**: [`ForwardedRef`](components_ClusterNodeContainer._internal_.md#forwardedref)<[`ClusterNodeContainerProps`](components_ClusterNodeContainer.md#clusternodecontainerprops)\>
 
 #### Defined in
 
-[components/ClusterNodeContainer/index.tsx:37](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/ClusterNodeContainer/index.tsx#L37)
+[src/components/ClusterNodeContainer/index.tsx:37](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/ClusterNodeContainer/index.tsx#L37)
 
 ## Variables
 
 ### ClusterNodeContainer
 
-• **ClusterNodeContainer**: `FC`<[`ClusterNodeContainerProps`](components_ClusterNodeContainer.md#clusternodecontainerprops)\>
+• **ClusterNodeContainer**: [`FC`](components_ClusterNodeContainer._internal_.md#fc)<[`ClusterNodeContainerProps`](components_ClusterNodeContainer.md#clusternodecontainerprops)\>
 
 The container for ClusterNodes. It facilitates drag, visibility, and other
 operations.
 
 #### Defined in
 
-[components/ClusterNodeContainer/index.tsx:122](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/ClusterNodeContainer/index.tsx#L122)
+[src/components/ClusterNodeContainer/index.tsx:122](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/ClusterNodeContainer/index.tsx#L122)

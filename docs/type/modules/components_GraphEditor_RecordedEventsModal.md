@@ -4,6 +4,10 @@
 
 ## Table of contents
 
+### Namespaces
+
+- [&lt;internal\&gt;](components_GraphEditor_RecordedEventsModal._internal_.md)
+
 ### Functions
 
 - [RecordedEventsModal](components_GraphEditor_RecordedEventsModal.md#recordedeventsmodal)
@@ -12,18 +16,18 @@
 
 ### RecordedEventsModal
 
-▸ `Const` **RecordedEventsModal**(`props`): `Element`
+▸ `Const` **RecordedEventsModal**(`props`): [`Element`](../interfaces/components_GraphEditor_ColorPicker._internal_.Element.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `props` | `EventsModalProps` |
+| `props` | [`EventsModalProps`](components_GraphEditor_RecordedEventsModal._internal_.md#eventsmodalprops) |
 
 #### Returns
 
-`Element`
+[`Element`](../interfaces/components_GraphEditor_ColorPicker._internal_.Element.md)
 
 #### Defined in
 
-[components/GraphEditor/RecordedEventsModal.tsx:14](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/GraphEditor/RecordedEventsModal.tsx#L14)
+[src/components/GraphEditor/RecordedEventsModal.tsx:14](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/GraphEditor/RecordedEventsModal.tsx#L14)

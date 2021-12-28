@@ -4,6 +4,10 @@
 
 ## Table of contents
 
+### Namespaces
+
+- [&lt;internal\&gt;](components_Text._internal_.md)
+
 ### Variables
 
 - [Text](components_Text.md#text)
@@ -12,10 +16,10 @@
 
 ### Text
 
-• **Text**: `FC`<`IText`\> = `ReactPIXIText`
+• **Text**: [`FC`](components_ClusterNodeContainer._internal_.md#fc)<[`IText`](components_Text._internal_.md#itext)\> = `ReactPIXIText`
 
 [PIXI.Text React Component](https://reactpixi.org/components/text)
 
 #### Defined in
 
-[components/Text/index.tsx:155](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/Text/index.tsx#L155)
+[src/components/Text/index.tsx:155](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/Text/index.tsx#L155)

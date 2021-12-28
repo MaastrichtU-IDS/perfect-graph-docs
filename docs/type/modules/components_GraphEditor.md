@@ -4,6 +4,10 @@
 
 ## Table of contents
 
+### Namespaces
+
+- [&lt;internal\&gt;](components_GraphEditor._internal_.md)
+
 ### Type aliases
 
 - [GraphEditorProps](components_GraphEditor.md#grapheditorprops)
@@ -24,59 +28,59 @@
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `actionBar?` | [`ActionBarConfig`](components_GraphEditor_ActionBar.md#actionbarconfig) | Config for ActionBar |
-| `children?` | `React.ReactNode` | - |
-| `config?` | `GraphEditorConfig` | GraphEditor config data for all operations. |
+| `children?` | [`ReactNode`](components_ClusterNodeContainer._internal_.md#reactnode) | - |
+| `config?` | [`GraphEditorConfig`](components_GraphEditor._internal_.md#grapheditorconfig) | GraphEditor config data for all operations. |
 | `dataBar?` | [`DataBarProps`](components_GraphEditor_DataBar.md#databarprops) | Config for DataBar |
-| `drawLine?` | `DrawLine` | The function to draw line for edge connection vectors |
-| `edges` | `EdgeData`[] | Edge data list to render |
-| `eventHistory?` | `EventHistory` | Event history will be displayed on SettingsBar |
-| `events?` | `RecordedEvent`[] | Recorded events will be displayed on SettingsBar |
+| `drawLine?` | [`DrawLine`](components_EdgeContainer._internal_.md#drawline) | The function to draw line for edge connection vectors |
+| `edges` | [`EdgeData`](components_ClusterNodeContainer._internal_.md#edgedata)[] | Edge data list to render |
+| `eventHistory?` | [`EventHistory`](components_GraphEditor._internal_.md#eventhistory) | Event history will be displayed on SettingsBar |
+| `events?` | [`RecordedEvent`](components_GraphEditor._internal_.md#recordedevent)[] | Recorded events will be displayed on SettingsBar |
 | `extraData?` | `any` | To rerender the graph when the extra data changes |
-| `graphConfig?` | `GraphConfig` | All graph config data for nodes and edges. It will supply the config data for the graph. |
+| `graphConfig?` | [`GraphConfig`](components_Graph._internal_.md#graphconfig) | All graph config data for nodes and edges. It will supply the config data for the graph. |
 | `isFocusMode?` | `boolean` | Focus mode for chunk stacked nodes |
 | `isLoading?` | `boolean` | Display loading indicator |
-| `label?` | `GraphLabelData` | Config for labels of nodes and edges |
+| `label?` | [`GraphLabelData`](components_GraphEditor._internal_.md#graphlabeldata) | Config for labels of nodes and edges |
 | `modals?` | `Object` | Modal components for displaying modal dialogs |
 | `modals.ElementSettings?` | [`ModalComponentProps`](components_GraphEditor_ModalComponent.md#modalcomponentprops) | - |
-| `mode?` | `EditorMode` | Editor mode for changing actions and mouse icon |
-| `networkStatistics?` | `NetworkStatistics` | Calculated network statistics will be displayed on SettingsBar |
-| `nodes` | `NodeData`[] | Node data list to render |
-| `onBoxSelection?` | `OnBoxSelection` | Event handler for box selection event. It gives the selected nodes |
-| `onEvent?` | `OnEvent` | Event handler for all events that are emitted by the graph editor. |
-| `playlists?` | `Playlist`[] | Events playlist will be displayed on SettingsBar |
+| `mode?` | [`EditorMode`](components_GraphEditor._internal_.md#editormode) | Editor mode for changing actions and mouse icon |
+| `networkStatistics?` | [`NetworkStatistics`](components_GraphEditor._internal_.md#networkstatistics) | Calculated network statistics will be displayed on SettingsBar |
+| `nodes` | [`NodeData`](components_ClusterNodeContainer._internal_.md#nodedata)[] | Node data list to render |
+| `onBoxSelection?` | [`OnBoxSelection`](components_Graph._internal_.md#onboxselection) | Event handler for box selection event. It gives the selected nodes |
+| `onEvent?` | [`OnEvent`](components_GraphEditor._internal_.md#onevent) | Event handler for all events that are emitted by the graph editor. |
+| `playlists?` | [`Playlist`](components_GraphEditor._internal_.md#playlist)[] | Events playlist will be displayed on SettingsBar |
 | `preferencesModal?` | [`PreferencesModalProps`](components_GraphEditor_PreferencesModal.md#preferencesmodalprops) | Config for PreferencesModal |
-| `previousDataList?` | `PreviousData`[] | Focus mode stack |
-| `renderClusterNode?` | `RenderClusterNode` | It returns a PIXI.DisplayObject instance as React.Node for the cluster node |
-| `renderEdge?` | `GraphEditorRenderEdge`<`RenderElementAdditionalInfo`\> | It returns a PIXI.DisplayObject instance as React.Node for the edge |
-| `renderNode?` | `GraphEditorRenderNode`<`RenderElementAdditionalInfo`\> | It returns a PIXI.DisplayObject instance as React.Node for the node |
+| `previousDataList?` | [`PreviousData`](components_GraphEditor._internal_.md#previousdata)[] | Focus mode stack |
+| `renderClusterNode?` | [`RenderClusterNode`](components_ClusterNodeContainer._internal_.md#renderclusternode) | It returns a PIXI.DisplayObject instance as React.Node for the cluster node |
+| `renderEdge?` | [`GraphEditorRenderEdge`](components_GraphEditor._internal_.md#grapheditorrenderedge)<[`RenderElementAdditionalInfo`](components_GraphEditor._internal_.md#renderelementadditionalinfo)\> | It returns a PIXI.DisplayObject instance as React.Node for the edge |
+| `renderNode?` | [`GraphEditorRenderNode`](components_GraphEditor._internal_.md#grapheditorrendernode)<[`RenderElementAdditionalInfo`](components_GraphEditor._internal_.md#renderelementadditionalinfo)\> | It returns a PIXI.DisplayObject instance as React.Node for the node |
 | `selectedElementIds?` | `string`[] | It gives the selected nodes. It is used for selected node highlighting and DataBar |
 | `settingsBar?` | [`SettingsBarProps`](components_GraphEditor_SettingsBar.md#settingsbarprops) | Config for SettingsBar |
-| `style?` | `ViewProps`[``"style"``] | Style for graph container view |
-| `renderMoreAction?` | () => `ReactElement`<`any`, `string` \| `JSXElementConstructor`<`any`\>\> | - |
+| `style?` | [`ViewProps`](components_Graph._internal_.md#viewprops)[``"style"``] | Style for graph container view |
+| `renderMoreAction?` | () => [`ReactElement`](../interfaces/components_ClusterNodeContainer._internal_.ReactElement.md)<`any`, `string` \| [`JSXElementConstructor`](components_ClusterNodeContainer._internal_.md#jsxelementconstructor)<`any`\>\> | - |
 
 #### Defined in
 
-[components/GraphEditor/index.tsx:48](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/GraphEditor/index.tsx#L48)
+[src/components/GraphEditor/index.tsx:48](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/GraphEditor/index.tsx#L48)
 
 ___
 
 ### GraphEditorType
 
-Ƭ **GraphEditorType**: `React.FC`<[`GraphEditorProps`](components_GraphEditor.md#grapheditorprops)\>
+Ƭ **GraphEditorType**: [`FC`](components_ClusterNodeContainer._internal_.md#fc)<[`GraphEditorProps`](components_GraphEditor.md#grapheditorprops)\>
 
 #### Defined in
 
-[components/GraphEditor/index.tsx:178](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/GraphEditor/index.tsx#L178)
+[src/components/GraphEditor/index.tsx:178](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/GraphEditor/index.tsx#L178)
 
 ## Variables
 
 ### GraphEditor
 
-• **GraphEditor**: `React.FC`<`PropsWithRef`<`GraphEditorRef`, [`GraphEditorProps`](components_GraphEditor.md#grapheditorprops)\>\>
+• **GraphEditor**: [`FC`](components_ClusterNodeContainer._internal_.md#fc)<[`PropsWithRef`](components_Container._internal_.md#propswithref)<[`GraphEditorRef`](components_GraphEditor._internal_.md#grapheditorref), [`GraphEditorProps`](components_GraphEditor.md#grapheditorprops)\>\>
 
 It is a wrapper for Graph with editor components. It has Sidebar, DataBar, ActionBar
 to give the power of editing.
 
 #### Defined in
 
-[components/GraphEditor/index.tsx:910](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/GraphEditor/index.tsx#L910)
+[src/components/GraphEditor/index.tsx:910](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/GraphEditor/index.tsx#L910)

@@ -18,11 +18,11 @@
 
 | Name | Type |
 | :------ | :------ |
-| `id` | (`props`: `any`) => `Element` |
-| `number` | (`props`: `any`) => `Element` |
-| `string` | (`props`: `any`) => `Element` |
-| `unknown` | (`props`: `any`) => `Element` |
+| `id` | (`props`: `any`) => [`Element`](../interfaces/components_GraphEditor_ColorPicker._internal_.Element.md) |
+| `number` | (`props`: `any`) => [`Element`](../interfaces/components_GraphEditor_ColorPicker._internal_.Element.md) |
+| `string` | (`props`: `any`) => [`Element`](../interfaces/components_GraphEditor_ColorPicker._internal_.Element.md) |
+| `unknown` | (`props`: `any`) => [`Element`](../interfaces/components_GraphEditor_ColorPicker._internal_.Element.md) |
 
 #### Defined in
 
-[components/GraphEditor/constants.tsx:6](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/GraphEditor/constants.tsx#L6)
+[src/components/GraphEditor/constants.tsx:6](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/GraphEditor/constants.tsx#L6)

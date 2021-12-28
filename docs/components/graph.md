@@ -42,16 +42,16 @@ function MyGraph() {
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `children?` | `React.ReactNode` | - |
-| `config?` | [`GraphConfig`](../type/modules/type.md#graphconfig) | All graph config for nodes and edges |
-| `drawLine?` | [`DrawLine`](../type/modules/type.md#drawline) | The function to draw line for edge connection vectors |
-| `edges` | [`EdgeData`](../type/modules/type.md#edgedata)[] | Edge data list to render |
+| `children?` | [`ReactNode`](../type/modules/components_ClusterNodeContainer._internal_.md#reactnode) | - |
+| `config?` | [`GraphConfig`](../type/modules/components_Graph._internal_.md#graphconfig) | All graph config for nodes and edges |
+| `drawLine?` | [`DrawLine`](../type/modules/components_EdgeContainer._internal_.md#drawline) | The function to draw line for edge connection vectors |
+| `edges` | [`EdgeData`](../type/modules/components_ClusterNodeContainer._internal_.md#edgedata)[] | Edge data list to render |
 | `extraData?` | `any` | To rerender the graph when the extra data changes |
-| `nodes` | [`NodeData`](../type/modules/type.md#nodedata)[] | Node data list to render |
-| `onPress?` | [`ViewportProps`](../type/modules/components_Viewport.md#viewportprops)[``"onPress"``] | Event handler for graph canvas background |
-| `renderClusterNode?` | [`RenderClusterNode`](../type/modules/type.md#renderclusternode) | It returns a PIXI.DisplayObject instance as React.Node for the cluster node |
-| `renderEdge?` | [`RenderEdge`](../type/modules/type.md#renderedge) | It returns a PIXI.DisplayObject instance as React.Node for the edge |
-| `renderNode?` | [`RenderNode`](../type/modules/type.md#rendernode) | It returns a PIXI.DisplayObject instance as React.Node for the node |
+| `nodes` | [`NodeData`](../type/modules/components_ClusterNodeContainer._internal_.md#nodedata)[] | Node data list to render |
+| `onBoxSelection?` | [`OnBoxSelection`](../type/modules/components_Graph._internal_.md#onboxselection) | Event handler for box selection event. It gives the selected nodes |
+| `onPress?` | [`ViewportOnPress`](../type/modules/components_Viewport.md#viewportonpress) | Event handler for graph canvas background |
+| `renderClusterNode?` | [`RenderClusterNode`](../type/modules/components_ClusterNodeContainer._internal_.md#renderclusternode) | It returns a PIXI.DisplayObject instance as React.Node for the cluster node |
+| `renderEdge?` | [`RenderEdge`](../type/modules/components_EdgeContainer._internal_.md#renderedge) | It returns a PIXI.DisplayObject instance as React.Node for the edge |
+| `renderNode?` | [`RenderNode`](../type/modules/components_Graph._internal_.md#rendernode) | It returns a PIXI.DisplayObject instance as React.Node for the node |
 | `selectedElementIds?` | `string`[] | It gives the selected nodes. It is used for selected node highlighting and DataBar |
-| `style?` | `ViewProps`[``"style"``] | Style for graph container view |
-| `onBoxSelection?` | (`c`: { `boundingBox`: `BoundingBox` ; `elements`: `cytoscape.Collection` ; `event`: `PIXI.InteractionEvent` ; `itemIds`: `string`[]  }) => `void` | - |
+| `style?` | [`ViewProps`](../type/modules/components_Graph._internal_.md#viewprops)[``"style"``] | Style for graph container view |

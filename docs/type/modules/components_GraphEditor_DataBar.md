@@ -4,6 +4,10 @@
 
 ## Table of contents
 
+### Namespaces
+
+- [&lt;internal\&gt;](components_GraphEditor_DataBar._internal_.md)
+
 ### Type aliases
 
 - [DataBarProps](components_GraphEditor_DataBar.md#databarprops)
@@ -25,20 +29,20 @@
 | Name | Type |
 | :------ | :------ |
 | `editable?` | `boolean` |
-| `footer?` | `React.FC` |
-| `header?` | `React.FC` |
+| `footer?` | [`FC`](components_ClusterNodeContainer._internal_.md#fc) |
+| `header?` | [`FC`](components_ClusterNodeContainer._internal_.md#fc) |
 | `isOpen?` | `boolean` |
 | `sort?` | `any` |
 
 #### Defined in
 
-[components/GraphEditor/DataBar/index.tsx:26](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/GraphEditor/DataBar/index.tsx#L26)
+[src/components/GraphEditor/DataBar/index.tsx:26](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/GraphEditor/DataBar/index.tsx#L26)
 
 ## Functions
 
 ### DataBar
 
-▸ `Const` **DataBar**(`props`): `Element`
+▸ `Const` **DataBar**(`props`): [`Element`](../interfaces/components_GraphEditor_ColorPicker._internal_.Element.md)
 
 #### Parameters
 
@@ -48,31 +52,31 @@
 
 #### Returns
 
-`Element`
+[`Element`](../interfaces/components_GraphEditor_ColorPicker._internal_.Element.md)
 
 #### Defined in
 
-[components/GraphEditor/DataBar/index.tsx:34](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/GraphEditor/DataBar/index.tsx#L34)
+[src/components/GraphEditor/DataBar/index.tsx:34](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/GraphEditor/DataBar/index.tsx#L34)
 
 ___
 
 ### EdgeElementSummary
 
-▸ `Const` **EdgeElementSummary**(`props`): `Element`
+▸ `Const` **EdgeElementSummary**(`props`): [`Element`](../interfaces/components_GraphEditor_ColorPicker._internal_.Element.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `props` | `EdgeElementSummaryProps` |
+| `props` | [`EdgeElementSummaryProps`](components_GraphEditor_DataBar._internal_.md#edgeelementsummaryprops) |
 
 #### Returns
 
-`Element`
+[`Element`](../interfaces/components_GraphEditor_ColorPicker._internal_.Element.md)
 
 #### Defined in
 
-[components/GraphEditor/DataBar/index.tsx:276](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/GraphEditor/DataBar/index.tsx#L276)
+[src/components/GraphEditor/DataBar/index.tsx:276](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/GraphEditor/DataBar/index.tsx#L276)
 
 ___
 
@@ -92,4 +96,4 @@ ___
 
 #### Defined in
 
-[components/GraphEditor/DataBar/index.tsx:296](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/GraphEditor/DataBar/index.tsx#L296)
+[src/components/GraphEditor/DataBar/index.tsx:296](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/GraphEditor/DataBar/index.tsx#L296)

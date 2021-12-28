@@ -4,6 +4,10 @@
 
 ## Table of contents
 
+### Namespaces
+
+- [&lt;internal\&gt;](core_theme._internal_.md)
+
 ### Type aliases
 
 - [Theme](core_theme.md#theme)
@@ -28,7 +32,7 @@
 
 #### Defined in
 
-[core/theme/index.ts:178](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/core/theme/index.ts#L178)
+[src/core/theme/index.ts:178](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/core/theme/index.ts#L178)
 
 ___
 
@@ -44,7 +48,7 @@ ___
 
 #### Defined in
 
-[core/theme/index.ts:180](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/core/theme/index.ts#L180)
+[src/core/theme/index.ts:180](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/core/theme/index.ts#L180)
 
 ## Variables
 
@@ -124,7 +128,7 @@ ___
 
 #### Defined in
 
-[core/theme/index.ts:82](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/core/theme/index.ts#L82)
+[src/core/theme/index.ts:82](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/core/theme/index.ts#L82)
 
 ___
 
@@ -203,37 +207,37 @@ ___
 
 #### Defined in
 
-[core/theme/index.ts:3](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/core/theme/index.ts#L3)
+[src/core/theme/index.ts:3](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/core/theme/index.ts#L3)
 
 ___
 
 ### ThemeContext
 
-• **ThemeContext**: `Context`<[{ `palette`: { `action`: { `active`: `number` = 0; `disabled`: `number` = 0; `disabledBackground`: `number` = 0; `focus`: `number` = 0; `hover`: `number` = 0; `selected`: `number` = 0 } ; `background`: { `default`: `number` = 16448250; `paper`: `number` = 10066329 } ; `common`: { `black`: `number` = 0; `white`: `number` = 16777215 } ; `divider`: `number` = 0x0B0B0B; `error`: { `contrastText`: `number` = 16777215; `dark`: `number` = 13840175; `light`: `number` = 15037299; `main`: `number` = 16007990 } ; `grey`: { `100`: `number` = 16119285; `200`: `number` = 15658734; `300`: `number` = 14737632; `400`: `number` = 12434877; `50`: `number` = 16448250; `500`: `number` = 10395294; `600`: `number` = 7697781; `700`: `number` = 6381921; `800`: `number` = 4342338; `900`: `number` = 2171169; `A100`: `number` = 14013909; `A200`: `number` = 11184810; `A400`: `number` = 3158064; `A700`: `number` = 6381921 } ; `info`: { `contrastText`: `number` = 16777215; `dark`: `number` = 1668818; `light`: `number` = 6600182; `main`: `number` = 2201331 } ; `primary`: { `contrastText`: `number` = 16777215; `dark`: `number` = 3162015; `light`: `number` = 7964363; `main`: `number` = 4149685 } ; `secondary`: { `contrastText`: `number` = 16777215; `dark`: `number` = 12915042; `light`: `number` = 16728193; `main`: `number` = 16056407 } ; `success`: { `contrastText`: `number` = 0; `dark`: `number` = 3706428; `light`: `number` = 8505220; `main`: `number` = 5025616 } ; `text`: { `disabled`: `number` = 0x0B0B0B; `primary`: `number` = 0x0B0B0B; `secondary`: `number` = 0x0B0B0B } ; `warning`: { `contrastText`: `number` = 0; `dark`: `number` = 16088064; `light`: `number` = 16758605; `main`: `number` = 16750592 }  }  }, `Dispatch`<`SetStateAction`<{ `palette`: { `action`: { `active`: `number` = 0; `disabled`: `number` = 0; `disabledBackground`: `number` = 0; `focus`: `number` = 0; `hover`: `number` = 0; `selected`: `number` = 0 } ; `background`: { `default`: `number` = 16448250; `paper`: `number` = 10066329 } ; `common`: { `black`: `number` = 0; `white`: `number` = 16777215 } ; `divider`: `number` = 0x0B0B0B; `error`: { `contrastText`: `number` = 16777215; `dark`: `number` = 13840175; `light`: `number` = 15037299; `main`: `number` = 16007990 } ; `grey`: { `100`: `number` = 16119285; `200`: `number` = 15658734; `300`: `number` = 14737632; `400`: `number` = 12434877; `50`: `number` = 16448250; `500`: `number` = 10395294; `600`: `number` = 7697781; `700`: `number` = 6381921; `800`: `number` = 4342338; `900`: `number` = 2171169; `A100`: `number` = 14013909; `A200`: `number` = 11184810; `A400`: `number` = 3158064; `A700`: `number` = 6381921 } ; `info`: { `contrastText`: `number` = 16777215; `dark`: `number` = 1668818; `light`: `number` = 6600182; `main`: `number` = 2201331 } ; `primary`: { `contrastText`: `number` = 16777215; `dark`: `number` = 3162015; `light`: `number` = 7964363; `main`: `number` = 4149685 } ; `secondary`: { `contrastText`: `number` = 16777215; `dark`: `number` = 12915042; `light`: `number` = 16728193; `main`: `number` = 16056407 } ; `success`: { `contrastText`: `number` = 0; `dark`: `number` = 3706428; `light`: `number` = 8505220; `main`: `number` = 5025616 } ; `text`: { `disabled`: `number` = 0x0B0B0B; `primary`: `number` = 0x0B0B0B; `secondary`: `number` = 0x0B0B0B } ; `warning`: { `contrastText`: `number` = 0; `dark`: `number` = 16088064; `light`: `number` = 16758605; `main`: `number` = 16750592 }  }  }\>\>]\> = `Context`
+• **ThemeContext**: [`Context`](../interfaces/components_ClusterNodeContainer._internal_.Context.md)<[{ `palette`: { `action`: { `active`: `number` = 0; `disabled`: `number` = 0; `disabledBackground`: `number` = 0; `focus`: `number` = 0; `hover`: `number` = 0; `selected`: `number` = 0 } ; `background`: { `default`: `number` = 16448250; `paper`: `number` = 10066329 } ; `common`: { `black`: `number` = 0; `white`: `number` = 16777215 } ; `divider`: `number` = 0x0B0B0B; `error`: { `contrastText`: `number` = 16777215; `dark`: `number` = 13840175; `light`: `number` = 15037299; `main`: `number` = 16007990 } ; `grey`: { `100`: `number` = 16119285; `200`: `number` = 15658734; `300`: `number` = 14737632; `400`: `number` = 12434877; `50`: `number` = 16448250; `500`: `number` = 10395294; `600`: `number` = 7697781; `700`: `number` = 6381921; `800`: `number` = 4342338; `900`: `number` = 2171169; `A100`: `number` = 14013909; `A200`: `number` = 11184810; `A400`: `number` = 3158064; `A700`: `number` = 6381921 } ; `info`: { `contrastText`: `number` = 16777215; `dark`: `number` = 1668818; `light`: `number` = 6600182; `main`: `number` = 2201331 } ; `primary`: { `contrastText`: `number` = 16777215; `dark`: `number` = 3162015; `light`: `number` = 7964363; `main`: `number` = 4149685 } ; `secondary`: { `contrastText`: `number` = 16777215; `dark`: `number` = 12915042; `light`: `number` = 16728193; `main`: `number` = 16056407 } ; `success`: { `contrastText`: `number` = 0; `dark`: `number` = 3706428; `light`: `number` = 8505220; `main`: `number` = 5025616 } ; `text`: { `disabled`: `number` = 0x0B0B0B; `primary`: `number` = 0x0B0B0B; `secondary`: `number` = 0x0B0B0B } ; `warning`: { `contrastText`: `number` = 0; `dark`: `number` = 16088064; `light`: `number` = 16758605; `main`: `number` = 16750592 }  }  }, [`Dispatch`](core_theme._internal_.md#dispatch)<[`SetStateAction`](core_theme._internal_.md#setstateaction)<{ `palette`: { `action`: { `active`: `number` = 0; `disabled`: `number` = 0; `disabledBackground`: `number` = 0; `focus`: `number` = 0; `hover`: `number` = 0; `selected`: `number` = 0 } ; `background`: { `default`: `number` = 16448250; `paper`: `number` = 10066329 } ; `common`: { `black`: `number` = 0; `white`: `number` = 16777215 } ; `divider`: `number` = 0x0B0B0B; `error`: { `contrastText`: `number` = 16777215; `dark`: `number` = 13840175; `light`: `number` = 15037299; `main`: `number` = 16007990 } ; `grey`: { `100`: `number` = 16119285; `200`: `number` = 15658734; `300`: `number` = 14737632; `400`: `number` = 12434877; `50`: `number` = 16448250; `500`: `number` = 10395294; `600`: `number` = 7697781; `700`: `number` = 6381921; `800`: `number` = 4342338; `900`: `number` = 2171169; `A100`: `number` = 14013909; `A200`: `number` = 11184810; `A400`: `number` = 3158064; `A700`: `number` = 6381921 } ; `info`: { `contrastText`: `number` = 16777215; `dark`: `number` = 1668818; `light`: `number` = 6600182; `main`: `number` = 2201331 } ; `primary`: { `contrastText`: `number` = 16777215; `dark`: `number` = 3162015; `light`: `number` = 7964363; `main`: `number` = 4149685 } ; `secondary`: { `contrastText`: `number` = 16777215; `dark`: `number` = 12915042; `light`: `number` = 16728193; `main`: `number` = 16056407 } ; `success`: { `contrastText`: `number` = 0; `dark`: `number` = 3706428; `light`: `number` = 8505220; `main`: `number` = 5025616 } ; `text`: { `disabled`: `number` = 0x0B0B0B; `primary`: `number` = 0x0B0B0B; `secondary`: `number` = 0x0B0B0B } ; `warning`: { `contrastText`: `number` = 0; `dark`: `number` = 16088064; `light`: `number` = 16758605; `main`: `number` = 16750592 }  }  }\>\>]\> = `Context`
 
 #### Defined in
 
-[core/theme/index.ts:171](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/core/theme/index.ts#L171)
+[src/core/theme/index.ts:171](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/core/theme/index.ts#L171)
 
 ## Functions
 
 ### ThemeProvider
 
-▸ `Const` **ThemeProvider**(`props`): `Element`
+▸ `Const` **ThemeProvider**(`props`): [`Element`](../interfaces/components_GraphEditor_ColorPicker._internal_.Element.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `props` | `ProviderProps`<{ `palette`: { `action`: { `active`: `number` = 0; `disabled`: `number` = 0; `disabledBackground`: `number` = 0; `focus`: `number` = 0; `hover`: `number` = 0; `selected`: `number` = 0 } ; `background`: { `default`: `number` = 16448250; `paper`: `number` = 10066329 } ; `common`: { `black`: `number` = 0; `white`: `number` = 16777215 } ; `divider`: `number` = 0x0B0B0B; `error`: { `contrastText`: `number` = 16777215; `dark`: `number` = 13840175; `light`: `number` = 15037299; `main`: `number` = 16007990 } ; `grey`: { `100`: `number` = 16119285; `200`: `number` = 15658734; `300`: `number` = 14737632; `400`: `number` = 12434877; `50`: `number` = 16448250; `500`: `number` = 10395294; `600`: `number` = 7697781; `700`: `number` = 6381921; `800`: `number` = 4342338; `900`: `number` = 2171169; `A100`: `number` = 14013909; `A200`: `number` = 11184810; `A400`: `number` = 3158064; `A700`: `number` = 6381921 } ; `info`: { `contrastText`: `number` = 16777215; `dark`: `number` = 1668818; `light`: `number` = 6600182; `main`: `number` = 2201331 } ; `primary`: { `contrastText`: `number` = 16777215; `dark`: `number` = 3162015; `light`: `number` = 7964363; `main`: `number` = 4149685 } ; `secondary`: { `contrastText`: `number` = 16777215; `dark`: `number` = 12915042; `light`: `number` = 16728193; `main`: `number` = 16056407 } ; `success`: { `contrastText`: `number` = 0; `dark`: `number` = 3706428; `light`: `number` = 8505220; `main`: `number` = 5025616 } ; `text`: { `disabled`: `number` = 0x0B0B0B; `primary`: `number` = 0x0B0B0B; `secondary`: `number` = 0x0B0B0B } ; `warning`: { `contrastText`: `number` = 0; `dark`: `number` = 16088064; `light`: `number` = 16758605; `main`: `number` = 16750592 }  }  }\> |
+| `props` | [`ProviderProps`](core_theme._internal_.md#providerprops)<{ `palette`: { `action`: { `active`: `number` = 0; `disabled`: `number` = 0; `disabledBackground`: `number` = 0; `focus`: `number` = 0; `hover`: `number` = 0; `selected`: `number` = 0 } ; `background`: { `default`: `number` = 16448250; `paper`: `number` = 10066329 } ; `common`: { `black`: `number` = 0; `white`: `number` = 16777215 } ; `divider`: `number` = 0x0B0B0B; `error`: { `contrastText`: `number` = 16777215; `dark`: `number` = 13840175; `light`: `number` = 15037299; `main`: `number` = 16007990 } ; `grey`: { `100`: `number` = 16119285; `200`: `number` = 15658734; `300`: `number` = 14737632; `400`: `number` = 12434877; `50`: `number` = 16448250; `500`: `number` = 10395294; `600`: `number` = 7697781; `700`: `number` = 6381921; `800`: `number` = 4342338; `900`: `number` = 2171169; `A100`: `number` = 14013909; `A200`: `number` = 11184810; `A400`: `number` = 3158064; `A700`: `number` = 6381921 } ; `info`: { `contrastText`: `number` = 16777215; `dark`: `number` = 1668818; `light`: `number` = 6600182; `main`: `number` = 2201331 } ; `primary`: { `contrastText`: `number` = 16777215; `dark`: `number` = 3162015; `light`: `number` = 7964363; `main`: `number` = 4149685 } ; `secondary`: { `contrastText`: `number` = 16777215; `dark`: `number` = 12915042; `light`: `number` = 16728193; `main`: `number` = 16056407 } ; `success`: { `contrastText`: `number` = 0; `dark`: `number` = 3706428; `light`: `number` = 8505220; `main`: `number` = 5025616 } ; `text`: { `disabled`: `number` = 0x0B0B0B; `primary`: `number` = 0x0B0B0B; `secondary`: `number` = 0x0B0B0B } ; `warning`: { `contrastText`: `number` = 0; `dark`: `number` = 16088064; `light`: `number` = 16758605; `main`: `number` = 16750592 }  }  }\> |
 
 #### Returns
 
-`Element`
+[`Element`](../interfaces/components_GraphEditor_ColorPicker._internal_.Element.md)
 
 #### Defined in
 
-[core/theme/index.ts:172](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/core/theme/index.ts#L172)
+[src/core/theme/index.ts:172](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/core/theme/index.ts#L172)
 
 ___
 
@@ -314,4 +318,4 @@ ___
 
 #### Defined in
 
-[core/theme/index.ts:173](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/core/theme/index.ts#L173)
+[src/core/theme/index.ts:173](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/core/theme/index.ts#L173)

@@ -12,7 +12,7 @@
 
 ### DefaultRenderEdge
 
-▸ `Const` **DefaultRenderEdge**(`c`): `ReactElement`<`any`, `string` \| `JSXElementConstructor`<`any`\>\>
+▸ `Const` **DefaultRenderEdge**(`c`): [`ReactElement`](../interfaces/components_ClusterNodeContainer._internal_.ReactElement.md)<`any`, `string` \| [`JSXElementConstructor`](components_ClusterNodeContainer._internal_.md#jsxelementconstructor)<`any`\>\>
 
 Default render edge component. If renderEdge is not suplied, it will render.
 
@@ -20,12 +20,12 @@ Default render edge component. If renderEdge is not suplied, it will render.
 
 | Name | Type |
 | :------ | :------ |
-| `c` | { `config`: `EdgeConfig` ; `context`: `EdgeContext` ; `count`: `number` ; `element`: `EdgeSingular` ; `from`: `Position` ; `index`: `number` ; `item`: `EdgeData` ; `sortedIndex`: `number` ; `sourceElement`: `NodeSingular` ; `targetElement`: `NodeSingular` ; `to`: `Position`  } & `RenderElementParams` |
+| `c` | { `config`: [`EdgeConfig`](components_EdgeContainer._internal_.md#edgeconfig) ; `context`: [`EdgeContext`](components_EdgeContainer._internal_.md#edgecontext) ; `count`: `number` ; `element`: `EdgeSingular` ; `from`: [`Position`](components_ClusterNodeContainer._internal_.md#position) ; `index`: `number` ; `item`: [`EdgeData`](components_ClusterNodeContainer._internal_.md#edgedata) ; `sortedIndex`: `number` ; `sourceElement`: `NodeSingular` ; `targetElement`: `NodeSingular` ; `to`: [`Position`](components_ClusterNodeContainer._internal_.md#position)  } & [`RenderElementParams`](components_ClusterNodeContainer._internal_.md#renderelementparams) |
 
 #### Returns
 
-`ReactElement`<`any`, `string` \| `JSXElementConstructor`<`any`\>\>
+[`ReactElement`](../interfaces/components_ClusterNodeContainer._internal_.ReactElement.md)<`any`, `string` \| [`JSXElementConstructor`](components_ClusterNodeContainer._internal_.md#jsxelementconstructor)<`any`\>\>
 
 #### Defined in
 
-[components/Graph/DefaultRenderEdge.tsx:10](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/Graph/DefaultRenderEdge.tsx#L10)
+[src/components/Graph/DefaultRenderEdge.tsx:10](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/Graph/DefaultRenderEdge.tsx#L10)

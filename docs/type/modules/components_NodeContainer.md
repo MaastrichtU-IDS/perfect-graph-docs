@@ -23,35 +23,35 @@
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `children` | `RenderNode` | - |
-| `config` | `NodeConfig` | Node config data |
+| `children` | [`RenderNode`](components_Graph._internal_.md#rendernode) | - |
+| `config` | [`NodeConfig`](components_ClusterNodeContainer._internal_.md#nodeconfig) | Node config data |
 | `graphID` | `string` | Related graph id |
-| `graphRef` | `React.RefObject`<`GraphRef`\> | Related graph instance ref |
+| `graphRef` | [`RefObject`](../interfaces/components_ClusterNodeContainer._internal_.RefObject.md)<[`GraphRef`](components_ClusterNodeContainer._internal_.md#graphref)\> | Related graph instance ref |
 | `item` | `any` | Node data |
 
 #### Defined in
 
-[components/NodeContainer/index.tsx:16](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/NodeContainer/index.tsx#L16)
+[src/components/NodeContainer/index.tsx:16](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/NodeContainer/index.tsx#L16)
 
 ___
 
 ### NodeContainerType
 
-Ƭ **NodeContainerType**: `React.ForwardedRef`<[`NodeContainerProps`](components_NodeContainer.md#nodecontainerprops)\>
+Ƭ **NodeContainerType**: [`ForwardedRef`](components_ClusterNodeContainer._internal_.md#forwardedref)<[`NodeContainerProps`](components_NodeContainer.md#nodecontainerprops)\>
 
 #### Defined in
 
-[components/NodeContainer/index.tsx:36](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/NodeContainer/index.tsx#L36)
+[src/components/NodeContainer/index.tsx:36](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/NodeContainer/index.tsx#L36)
 
 ## Variables
 
 ### NodeContainer
 
-• **NodeContainer**: `FC`<[`NodeContainerProps`](components_NodeContainer.md#nodecontainerprops)\>
+• **NodeContainer**: [`FC`](components_ClusterNodeContainer._internal_.md#fc)<[`NodeContainerProps`](components_NodeContainer.md#nodecontainerprops)\>
 
 The container for Node Elements. It facilitates drag, visibility, and other
 operations.
 
 #### Defined in
 
-[components/NodeContainer/index.tsx:120](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/components/NodeContainer/index.tsx#L120)
+[src/components/NodeContainer/index.tsx:120](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/NodeContainer/index.tsx#L120)

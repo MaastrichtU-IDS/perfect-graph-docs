@@ -118,17 +118,17 @@
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:116](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L116)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:116](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L116)
 
 ## Properties
 
 ### \_animation
 
-• `Private` **\_animation**: `IAnimationState`
+• `Private` **\_animation**: [`IAnimationState`](../modules/utils_addFlexLayout_flex_layout._internal_.md#ianimationstate)
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:95](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L95)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:95](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L95)
 
 ___
 
@@ -140,7 +140,7 @@ Used instead of Yoga.AspectRatio because of Yoga issue https://github.com/facebo
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:105](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L105)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:105](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L105)
 
 ___
 
@@ -150,7 +150,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:89](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L89)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:89](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L89)
 
 ___
 
@@ -160,17 +160,17 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:107](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L107)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:107](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L107)
 
 ___
 
 ### \_height
 
-• `Private` **\_height**: `YogaSize`
+• `Private` **\_height**: [`YogaSize`](../modules/utils_addFlexLayout_flex_layout._internal_.md#yogasize)
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:87](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L87)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:87](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L87)
 
 ___
 
@@ -180,7 +180,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:91](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L91)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:91](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L91)
 
 ___
 
@@ -190,7 +190,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:93](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L93)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:93](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L93)
 
 ___
 
@@ -200,7 +200,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:114](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L114)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:114](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L114)
 
 ___
 
@@ -212,7 +212,7 @@ Internal values stored to reduce calls to nbind
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:112](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L112)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:112](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L112)
 
 ___
 
@@ -224,17 +224,17 @@ Will be recalculated in next frame
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:100](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L100)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:100](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L100)
 
 ___
 
 ### \_width
 
-• `Private` **\_width**: `YogaSize`
+• `Private` **\_width**: [`YogaSize`](../modules/utils_addFlexLayout_flex_layout._internal_.md#yogasize)
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:85](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L85)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:85](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L85)
 
 ___
 
@@ -246,7 +246,7 @@ If set, position transitions will be animated
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:72](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L72)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:72](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L72)
 
 ___
 
@@ -256,7 +256,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:65](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L65)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:65](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L65)
 
 ___
 
@@ -269,17 +269,17 @@ Defaults to true on PIXI.Text and PIXI.Sprite.
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:83](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L83)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:83](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L83)
 
 ___
 
 ### node
 
-• `Readonly` **node**: `YogaNode`
+• `Readonly` **node**: [`YogaNode`](../interfaces/utils_addFlexLayout_flex_layout._internal_.YogaNode.md)
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:63](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L63)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:63](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L63)
 
 ___
 
@@ -289,7 +289,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:67](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L67)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:67](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L67)
 
 ___
 
@@ -301,7 +301,7 @@ True if Yoga should manage PIXI objects width/height
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:77](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L77)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:77](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L77)
 
 ___
 
@@ -311,7 +311,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:61](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L61)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:61](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L61)
 
 ___
 
@@ -321,7 +321,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:57](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L57)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:57](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L57)
 
 ___
 
@@ -331,7 +331,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:55](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L55)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:55](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L55)
 
 ___
 
@@ -341,7 +341,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:59](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L59)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:59](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L59)
 
 ___
 
@@ -353,7 +353,7 @@ Internal value. True if we are currently in WebGLRenderer.render() (based on 'pr
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:48](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L48)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:48](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L48)
 
 ___
 
@@ -365,7 +365,7 @@ Experimental feature for building layouts independent of pixi tree
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:53](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L53)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:53](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L53)
 
 ## Accessors
 
@@ -379,7 +379,7 @@ Experimental feature for building layouts independent of pixi tree
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:423](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L423)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:423](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L423)
 
 • `set` **alignContent**(`align`): `void`
 
@@ -395,7 +395,7 @@ Experimental feature for building layouts independent of pixi tree
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:417](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L417)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:417](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L417)
 
 ___
 
@@ -409,7 +409,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:434](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L434)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:434](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L434)
 
 • `set` **alignItems**(`align`): `void`
 
@@ -425,7 +425,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:428](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L428)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:428](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L428)
 
 ___
 
@@ -439,7 +439,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:446](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L446)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:446](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L446)
 
 • `set` **alignSelf**(`align`): `void`
 
@@ -455,21 +455,21 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:440](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L440)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:440](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L440)
 
 ___
 
 ### animationState
 
-• `get` **animationState**(): `Readonly`<`IAnimationState`\>
+• `get` **animationState**(): [`Readonly`](../modules/components_ClusterNodeContainer._internal_.md#readonly)<[`IAnimationState`](../modules/utils_addFlexLayout_flex_layout._internal_.md#ianimationstate)\>
 
 #### Returns
 
-`Readonly`<`IAnimationState`\>
+[`Readonly`](../modules/components_ClusterNodeContainer._internal_.md#readonly)<[`IAnimationState`](../modules/utils_addFlexLayout_flex_layout._internal_.md#ianimationstate)\>
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:148](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L148)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:148](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L148)
 
 ___
 
@@ -483,7 +483,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:320](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L320)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:320](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L320)
 
 • `set` **aspectRatio**(`value`): `void`
 
@@ -499,7 +499,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:312](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L312)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:312](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L312)
 
 ___
 
@@ -513,7 +513,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:620](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L620)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:620](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L620)
 
 • `set` **border**(`margin`): `void`
 
@@ -529,7 +529,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:612](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L612)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:612](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L612)
 
 ___
 
@@ -549,7 +549,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:624](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L624)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:624](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L624)
 
 ___
 
@@ -563,7 +563,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:642](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L642)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:642](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L642)
 
 • `set` **borderBottom**(`value`): `void`
 
@@ -579,7 +579,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:637](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L637)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:637](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L637)
 
 ___
 
@@ -593,7 +593,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:651](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L651)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:651](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L651)
 
 • `set` **borderLeft**(`value`): `void`
 
@@ -609,7 +609,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:646](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L646)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:646](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L646)
 
 ___
 
@@ -623,7 +623,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:660](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L660)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:660](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L660)
 
 • `set` **borderRight**(`value`): `void`
 
@@ -639,7 +639,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:655](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L655)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:655](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L655)
 
 ___
 
@@ -653,7 +653,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:633](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L633)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:633](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L633)
 
 • `set` **borderTop**(`value`): `void`
 
@@ -669,21 +669,21 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:628](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L628)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:628](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L628)
 
 ___
 
 ### bottom
 
-• `get` **bottom**(): `PixelsOrPercentage`
+• `get` **bottom**(): [`PixelsOrPercentage`](../modules/utils_addFlexLayout_flex_layout._internal_.md#pixelsorpercentage)
 
 #### Returns
 
-`PixelsOrPercentage`
+[`PixelsOrPercentage`](../modules/utils_addFlexLayout_flex_layout._internal_.md#pixelsorpercentage)
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:678](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L678)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:678](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L678)
 
 • `set` **bottom**(`value`): `void`
 
@@ -691,7 +691,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `value` | `PixelsOrPercentage` |
+| `value` | [`PixelsOrPercentage`](../modules/utils_addFlexLayout_flex_layout._internal_.md#pixelsorpercentage) |
 
 #### Returns
 
@@ -699,7 +699,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:673](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L673)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:673](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L673)
 
 ___
 
@@ -715,7 +715,7 @@ Returns computed height in pixels
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:342](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L342)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:342](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L342)
 
 ___
 
@@ -731,7 +731,7 @@ Returns computed width in pixels
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:335](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L335)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:335](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L335)
 
 ___
 
@@ -745,7 +745,7 @@ Same as 'fromConfig()'
 
 | Name | Type |
 | :------ | :------ |
-| `config` | `Partial`<[`YogaLayout`](utils_addFlexLayout_flex_layout.YogaLayout.md)\> |
+| `config` | [`Partial`](../modules/components_ClusterNodeContainer._internal_.md#partial)<[`YogaLayout`](utils_addFlexLayout_flex_layout.YogaLayout.md)\> |
 
 #### Returns
 
@@ -753,7 +753,7 @@ Same as 'fromConfig()'
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:171](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L171)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:171](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L171)
 
 ___
 
@@ -767,7 +767,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:743](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L743)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:743](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L743)
 
 • `set` **display**(`value`): `void`
 
@@ -783,7 +783,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:737](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L737)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:737](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L737)
 
 ___
 
@@ -797,7 +797,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:486](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L486)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:486](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L486)
 
 • `set` **flexBasis**(`basis`): `void`
 
@@ -813,7 +813,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:481](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L481)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:481](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L481)
 
 ___
 
@@ -827,7 +827,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:401](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L401)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:401](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L401)
 
 • `set` **flexDirection**(`direction`): `void`
 
@@ -843,7 +843,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:393](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L393)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:393](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L393)
 
 ___
 
@@ -857,7 +857,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:468](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L468)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:468](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L468)
 
 • `set` **flexGrow**(`grow`): `void`
 
@@ -873,7 +873,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:463](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L463)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:463](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L463)
 
 ___
 
@@ -887,7 +887,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:477](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L477)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:477](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L477)
 
 • `set` **flexShrink**(`shrink`): `void`
 
@@ -903,7 +903,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:472](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L472)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:472](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L472)
 
 ___
 
@@ -917,7 +917,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:458](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L458)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:458](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L458)
 
 • `set` **flexWrap**(`wrap`): `void`
 
@@ -933,7 +933,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:452](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L452)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:452](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L452)
 
 ___
 
@@ -947,7 +947,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:757](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L757)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:757](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L757)
 
 • `set` **gap**(`val`): `void`
 
@@ -963,7 +963,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:748](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L748)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:748](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L748)
 
 ___
 
@@ -979,13 +979,13 @@ Returns true if object size is independent of its children sizes.
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:248](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L248)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:248](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L248)
 
 ___
 
 ### height
 
-• `get` **height**(): `YogaSize`
+• `get` **height**(): [`YogaSize`](../modules/utils_addFlexLayout_flex_layout._internal_.md#yogasize)
 
 Can handle:
 - pixels (eg 150)
@@ -995,11 +995,11 @@ Can handle:
 
 #### Returns
 
-`YogaSize`
+[`YogaSize`](../modules/utils_addFlexLayout_flex_layout._internal_.md#yogasize)
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:388](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L388)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:388](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L388)
 
 • `set` **height**(`value`): `void`
 
@@ -1013,7 +1013,7 @@ Can handle:
 
 | Name | Type |
 | :------ | :------ |
-| `value` | `YogaSize` |
+| `value` | [`YogaSize`](../modules/utils_addFlexLayout_flex_layout._internal_.md#yogasize) |
 
 #### Returns
 
@@ -1021,7 +1021,7 @@ Can handle:
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:377](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L377)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:377](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L377)
 
 ___
 
@@ -1035,7 +1035,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:328](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L328)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:328](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L328)
 
 ___
 
@@ -1049,7 +1049,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:241](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L241)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:241](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L241)
 
 ___
 
@@ -1063,7 +1063,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:324](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L324)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:324](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L324)
 
 ___
 
@@ -1077,7 +1077,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:412](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L412)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:412](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L412)
 
 • `set` **justifyContent**(`just`): `void`
 
@@ -1093,21 +1093,21 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:406](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L406)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:406](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L406)
 
 ___
 
 ### left
 
-• `get` **left**(): `PixelsOrPercentage`
+• `get` **left**(): [`PixelsOrPercentage`](../modules/utils_addFlexLayout_flex_layout._internal_.md#pixelsorpercentage)
 
 #### Returns
 
-`PixelsOrPercentage`
+[`PixelsOrPercentage`](../modules/utils_addFlexLayout_flex_layout._internal_.md#pixelsorpercentage)
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:687](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L687)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:687](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L687)
 
 • `set` **left**(`value`): `void`
 
@@ -1115,7 +1115,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `value` | `PixelsOrPercentage` |
+| `value` | [`PixelsOrPercentage`](../modules/utils_addFlexLayout_flex_layout._internal_.md#pixelsorpercentage) |
 
 #### Returns
 
@@ -1123,7 +1123,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:682](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L682)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:682](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L682)
 
 ___
 
@@ -1137,7 +1137,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:566](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L566)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:566](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L566)
 
 • `set` **margin**(`margin`): `void`
 
@@ -1153,7 +1153,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:554](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L554)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:554](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L554)
 
 ___
 
@@ -1173,7 +1173,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:562](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L562)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:562](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L562)
 
 ___
 
@@ -1187,7 +1187,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:587](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L587)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:587](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L587)
 
 • `set` **marginBottom**(`value`): `void`
 
@@ -1203,7 +1203,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:582](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L582)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:582](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L582)
 
 ___
 
@@ -1217,7 +1217,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:599](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L599)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:599](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L599)
 
 • `set` **marginLeft**(`value`): `void`
 
@@ -1233,7 +1233,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:591](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L591)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:591](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L591)
 
 ___
 
@@ -1247,7 +1247,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:608](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L608)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:608](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L608)
 
 • `set` **marginRight**(`value`): `void`
 
@@ -1263,7 +1263,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:603](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L603)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:603](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L603)
 
 ___
 
@@ -1277,7 +1277,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:578](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L578)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:578](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L578)
 
 • `set` **marginTop**(`value`): `void`
 
@@ -1293,21 +1293,21 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:570](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L570)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:570](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L570)
 
 ___
 
 ### maxHeight
 
-• `get` **maxHeight**(): `PixelsOrPercentage`
+• `get` **maxHeight**(): [`PixelsOrPercentage`](../modules/utils_addFlexLayout_flex_layout._internal_.md#pixelsorpercentage)
 
 #### Returns
 
-`PixelsOrPercentage`
+[`PixelsOrPercentage`](../modules/utils_addFlexLayout_flex_layout._internal_.md#pixelsorpercentage)
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:732](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L732)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:732](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L732)
 
 • `set` **maxHeight**(`value`): `void`
 
@@ -1315,7 +1315,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `value` | `PixelsOrPercentage` |
+| `value` | [`PixelsOrPercentage`](../modules/utils_addFlexLayout_flex_layout._internal_.md#pixelsorpercentage) |
 
 #### Returns
 
@@ -1323,21 +1323,21 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:727](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L727)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:727](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L727)
 
 ___
 
 ### maxWidth
 
-• `get` **maxWidth**(): `PixelsOrPercentage`
+• `get` **maxWidth**(): [`PixelsOrPercentage`](../modules/utils_addFlexLayout_flex_layout._internal_.md#pixelsorpercentage)
 
 #### Returns
 
-`PixelsOrPercentage`
+[`PixelsOrPercentage`](../modules/utils_addFlexLayout_flex_layout._internal_.md#pixelsorpercentage)
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:723](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L723)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:723](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L723)
 
 • `set` **maxWidth**(`value`): `void`
 
@@ -1345,7 +1345,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `value` | `PixelsOrPercentage` |
+| `value` | [`PixelsOrPercentage`](../modules/utils_addFlexLayout_flex_layout._internal_.md#pixelsorpercentage) |
 
 #### Returns
 
@@ -1353,21 +1353,21 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:718](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L718)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:718](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L718)
 
 ___
 
 ### minHeight
 
-• `get` **minHeight**(): `PixelsOrPercentage`
+• `get` **minHeight**(): [`PixelsOrPercentage`](../modules/utils_addFlexLayout_flex_layout._internal_.md#pixelsorpercentage)
 
 #### Returns
 
-`PixelsOrPercentage`
+[`PixelsOrPercentage`](../modules/utils_addFlexLayout_flex_layout._internal_.md#pixelsorpercentage)
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:714](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L714)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:714](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L714)
 
 • `set` **minHeight**(`value`): `void`
 
@@ -1375,7 +1375,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `value` | `PixelsOrPercentage` |
+| `value` | [`PixelsOrPercentage`](../modules/utils_addFlexLayout_flex_layout._internal_.md#pixelsorpercentage) |
 
 #### Returns
 
@@ -1383,21 +1383,21 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:709](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L709)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:709](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L709)
 
 ___
 
 ### minWidth
 
-• `get` **minWidth**(): `PixelsOrPercentage`
+• `get` **minWidth**(): [`PixelsOrPercentage`](../modules/utils_addFlexLayout_flex_layout._internal_.md#pixelsorpercentage)
 
 #### Returns
 
-`PixelsOrPercentage`
+[`PixelsOrPercentage`](../modules/utils_addFlexLayout_flex_layout._internal_.md#pixelsorpercentage)
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:705](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L705)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:705](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L705)
 
 • `set` **minWidth**(`value`): `void`
 
@@ -1405,7 +1405,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `value` | `PixelsOrPercentage` |
+| `value` | [`PixelsOrPercentage`](../modules/utils_addFlexLayout_flex_layout._internal_.md#pixelsorpercentage) |
 
 #### Returns
 
@@ -1413,7 +1413,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:700](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L700)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:700](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L700)
 
 ___
 
@@ -1427,7 +1427,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:510](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L510)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:510](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L510)
 
 • `set` **padding**(`margin`): `void`
 
@@ -1443,7 +1443,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:502](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L502)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:502](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L502)
 
 ___
 
@@ -1463,7 +1463,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:514](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L514)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:514](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L514)
 
 ___
 
@@ -1477,7 +1477,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:532](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L532)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:532](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L532)
 
 • `set` **paddingBottom**(`value`): `void`
 
@@ -1493,7 +1493,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:527](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L527)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:527](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L527)
 
 ___
 
@@ -1507,7 +1507,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:541](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L541)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:541](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L541)
 
 • `set` **paddingLeft**(`value`): `void`
 
@@ -1523,7 +1523,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:536](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L536)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:536](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L536)
 
 ___
 
@@ -1537,7 +1537,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:550](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L550)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:550](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L550)
 
 • `set` **paddingRight**(`value`): `void`
 
@@ -1553,7 +1553,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:545](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L545)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:545](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L545)
 
 ___
 
@@ -1567,7 +1567,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:523](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L523)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:523](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L523)
 
 • `set` **paddingTop**(`value`): `void`
 
@@ -1583,7 +1583,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:518](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L518)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:518](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L518)
 
 ___
 
@@ -1597,7 +1597,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:497](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L497)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:497](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L497)
 
 • `set` **position**(`type`): `void`
 
@@ -1613,21 +1613,21 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:491](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L491)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:491](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L491)
 
 ___
 
 ### right
 
-• `get` **right**(): `PixelsOrPercentage`
+• `get` **right**(): [`PixelsOrPercentage`](../modules/utils_addFlexLayout_flex_layout._internal_.md#pixelsorpercentage)
 
 #### Returns
 
-`PixelsOrPercentage`
+[`PixelsOrPercentage`](../modules/utils_addFlexLayout_flex_layout._internal_.md#pixelsorpercentage)
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:696](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L696)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:696](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L696)
 
 • `set` **right**(`value`): `void`
 
@@ -1635,7 +1635,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `value` | `PixelsOrPercentage` |
+| `value` | [`PixelsOrPercentage`](../modules/utils_addFlexLayout_flex_layout._internal_.md#pixelsorpercentage) |
 
 #### Returns
 
@@ -1643,7 +1643,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:691](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L691)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:691](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L691)
 
 ___
 
@@ -1663,21 +1663,21 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:152](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L152)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:152](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L152)
 
 ___
 
 ### top
 
-• `get` **top**(): `PixelsOrPercentage`
+• `get` **top**(): [`PixelsOrPercentage`](../modules/utils_addFlexLayout_flex_layout._internal_.md#pixelsorpercentage)
 
 #### Returns
 
-`PixelsOrPercentage`
+[`PixelsOrPercentage`](../modules/utils_addFlexLayout_flex_layout._internal_.md#pixelsorpercentage)
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:669](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L669)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:669](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L669)
 
 • `set` **top**(`value`): `void`
 
@@ -1685,7 +1685,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `value` | `PixelsOrPercentage` |
+| `value` | [`PixelsOrPercentage`](../modules/utils_addFlexLayout_flex_layout._internal_.md#pixelsorpercentage) |
 
 #### Returns
 
@@ -1693,13 +1693,13 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:664](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L664)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:664](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L664)
 
 ___
 
 ### width
 
-• `get` **width**(): `YogaSize`
+• `get` **width**(): [`YogaSize`](../modules/utils_addFlexLayout_flex_layout._internal_.md#yogasize)
 
 Can handle:
 - pixels (eg 150)
@@ -1709,11 +1709,11 @@ Can handle:
 
 #### Returns
 
-`YogaSize`
+[`YogaSize`](../modules/utils_addFlexLayout_flex_layout._internal_.md#yogasize)
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:365](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L365)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:365](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L365)
 
 • `set` **width**(`value`): `void`
 
@@ -1727,7 +1727,7 @@ Can handle:
 
 | Name | Type |
 | :------ | :------ |
-| `value` | `YogaSize` |
+| `value` | [`YogaSize`](../modules/utils_addFlexLayout_flex_layout._internal_.md#yogasize) |
 
 #### Returns
 
@@ -1735,13 +1735,13 @@ Can handle:
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:354](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L354)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:354](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L354)
 
 ## Methods
 
 ### \_parseValue
 
-▸ `Private` **_parseValue**(`value`): `PixelsOrPercentage`
+▸ `Private` **_parseValue**(`value`): [`PixelsOrPercentage`](../modules/utils_addFlexLayout_flex_layout._internal_.md#pixelsorpercentage)
 
 #### Parameters
 
@@ -1753,11 +1753,11 @@ Can handle:
 
 #### Returns
 
-`PixelsOrPercentage`
+[`PixelsOrPercentage`](../modules/utils_addFlexLayout_flex_layout._internal_.md#pixelsorpercentage)
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:778](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L778)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:778](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L778)
 
 ___
 
@@ -1778,7 +1778,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:196](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L196)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:196](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L196)
 
 ___
 
@@ -1800,7 +1800,7 @@ Copies all properties (styles, size, rescaleToYoga etc) from other YogaLayout ob
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:179](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L179)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:179](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L179)
 
 ___
 
@@ -1814,7 +1814,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:188](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L188)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:188](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L188)
 
 ___
 
@@ -1828,7 +1828,7 @@ Assigns given properties to this yoga layout
 
 | Name | Type |
 | :------ | :------ |
-| `config` | `Partial`<[`YogaLayout`](utils_addFlexLayout_flex_layout.YogaLayout.md)\> |
+| `config` | [`Partial`](../modules/components_ClusterNodeContainer._internal_.md#partial)<[`YogaLayout`](utils_addFlexLayout_flex_layout.YogaLayout.md)\> |
 
 #### Returns
 
@@ -1836,7 +1836,7 @@ Assigns given properties to this yoga layout
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:163](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L163)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:163](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L163)
 
 ___
 
@@ -1850,7 +1850,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:258](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L258)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:258](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L258)
 
 ___
 
@@ -1864,7 +1864,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:222](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L222)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:222](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L222)
 
 ___
 
@@ -1884,7 +1884,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:206](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L206)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:206](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L206)
 
 ___
 
@@ -1900,7 +1900,7 @@ Mark object as dirty and request layout recalculation
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:218](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L218)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:218](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L218)
 
 ___
 
@@ -1914,7 +1914,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:229](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L229)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:229](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L229)
 
 ___
 
@@ -1928,7 +1928,7 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:761](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L761)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:761](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L761)
 
 ___
 
@@ -1942,4 +1942,4 @@ ___
 
 #### Defined in
 
-[utils/addFlexLayout/flex-layout/YogaLayout.ts:253](https://github.com/MaastrichtU-IDS/perfect-graph/blob/15648b3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L253)
+[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:253](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L253)
