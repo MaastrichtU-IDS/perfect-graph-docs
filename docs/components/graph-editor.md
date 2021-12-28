@@ -31,247 +31,35 @@ function MyGraphEditor() {
 
 ## Props
 
-### `children`
-
-| Type | Required |
-| ---- | -------- |
-| React.ReactNode | No      |
-
----
-
-### `edges`
-
-The edge item list.
-
-| Type | Required |
-| ---- | -------- |
-| [EdgeItem](/docs/type#edgeitem)[] | Yes      |
-
----
-
-### `extraData`
-
-A marker property for telling the list to re-render (since it implements PureComponent). If any of your renderItem, Header, Footer, etc. functions depend on anything outside of the data prop, stick it here and treat it immutably.
-
-| Type | Required |
-| ---- | -------- |
-| any | No      |
-
----
-
-### `style`
-
-
-| Type  | Required |
-| ----- | -------- |
-| style | No       |
-
-- [ViewStyleProps](https://reactnative.dev/docs/view-style-props)
-
----
-
-### `nodes`
-
-The node item list.
-
-| Type | Required |
-| ---- | -------- |
-| [NodeItem](/docs/type#nodeitem)[] | Yes      |
-
----
-
-### `renderNode`
-
-`(info: RenderNodeInput) => ?React.Element\<any\>`
-
-Takes an item from `data` and renders it into the list
-
-Parameters: [RenderNodeInput](/docs/type#rendernodeinput)
-
-| Type | Required |
-| ---- | -------- |
-| function | No      |
-
----
-
-### `renderEdge`
-
-`(info: RenderEdgeInput) => ?React.Element\<any\>`
-
-Takes an item from `data` and renders it into the list
-
-Parameters: [RenderEdgeInput](/docs/type#renderedgeinput)
-
-| Type | Required |
-| ---- | -------- |
-| function | No      |
-
----
-
-### `renderClusterNode`
-
-`(info: RenderNodeInput) => ?React.Element\<any\>`
-
-Takes an item from `data` and renders it into the list
-
-Parameters: [RenderNodeInput](/docs/type#rendernodeinput)
-
-| Type | Required |
-| ---- | -------- |
-| function | No      |
-
----
-
-### `drawLine`
-
-| Type | Required |
-| ---- | -------- |
-| [DrawLine](/docs/type#drawline) | No      |
-
----
-
-### `graphConfig`
-
-| Type | Required |
-| ---- | -------- |
-| [GraphConfig](/docs/type#graphconfig) | No      |
-
----
-
-### `selectedElementIds`
-
-| Type | Required |
-| ---- | -------- |
-| string[] | No      |
-
----
-
-### `onBoxSelection`
-
-| Type  | Required |
-| ----- | -------- |
-| `(params: {
-    event: PIXI.InteractionEvent,
-    elements: cytoscape.Collection,
-    elementIds: string[],
-    boundingBox: BoundingBox;
-  }) => boolean` | No     |
-
-Parameters:  
-  - params: {
-    element: [NodeElement](#nodeelement);
-    event: [PIXI.InteractionEvent](https://pixijs.download/dev/docs/PIXI.InteractionEvent.html);
-    elements: [cytoscape.Collection](https://js.cytoscape.org/#collection);
-    elementIds: string[];
-    boundingBox: [BoundingBox](#boundingbox);
-  }
-
----
-
-### `onEvent`
-
-| Type  | Required |
-| ----- | -------- |
-| `(params: EventInfo) => void` | No     |
-
-Parameters:  
-  - params: [EventInfo](/docs/type#eventinfo)
-
----
-
-### `config`
-
-| Type  | Required |
-| ----- | -------- |
-| [GraphEditorConfig](/docs/type#grapheditorconfig) | No     |
-
----
-
-### `label`
-
-| Type  | Required |
-| ----- | -------- |
-| [GraphLabelData](/docs/type#graphlabeldata) | No     |
-
----
-
-### `settingsBar`
-
-| Type  | Required |
-| ----- | -------- |
-| [SettingsBarProps](/docs/type#settingsbarprops) | No     |
-
----
-
-### `dataBar`
-
-| Type  | Required |
-| ----- | -------- |
-| [DataBarProps](/docs/type#databarprops) | No     |
-
----
-
-### `actionBar`
-
-| Type  | Required |
-| ----- | -------- |
-| [ActionBarProps](/docs/type#actionbarprops) | No     |
-
----
-
-### `selectedElementIds`
-
-| Type  | Required |
-| ----- | -------- |
-| string[] | No     |
-
----
-
-### `mode`
-
-| Type  | Required |
-| ----- | -------- |
-| [EditorMode](/docs/type#editormode) | No     |
-
----
-
-### `events`
-
-| Type  | Required |
-| ----- | -------- |
-| [RecordedEvent](/docs/type#recordedevent)[] | No     |
-
----
-
-### `eventHistory`
-
-| Type  | Required |
-| ----- | -------- |
-| [EventHistory](/docs/type#eventhistory)[] | No     |
-
----
-
-### `playlists`
-
-| Type  | Required |
-| ----- | -------- |
-| [Playlist](/docs/type#playlist)[] | No     |
-
----
-
-### `globalNetworkStatistics`
-
-| Type  | Required |
-| ----- | -------- |
-| any | No     |
-
----
-
-### `loading`
-
-| Type  | Required |
-| ----- | -------- |
-| boolean | No     |
-
----
-
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `actionBar?` | `Pick`<`ActionBarProps`, ``"renderMoreAction"`` \| ``"isOpen"`` \| ``"recording"`` \| ``"eventRecording"`` \| ``"autoOpen"`` \| ``"theming"``\> | Config for ActionBar |
+| `children?` | `React.ReactNode` | - |
+| `config?` | [`GraphEditorConfig`](type.md#grapheditorconfig) | GraphEditor config data for all operations. |
+| `dataBar?` | `Pick`<`DataBarProps`, ``"editable"`` \| ``"isOpen"``\> | Config for DataBar |
+| `drawLine?` | [`DrawLine`](type.md#drawline) | The function to draw line for edge connection vectors |
+| `edges` | [`EdgeData`](type.md#edgedata)[] | Edge data list to render |
+| `eventHistory?` | [`EventHistory`](type.md#eventhistory) | Event history will be displayed on SettingsBar |
+| `events?` | [`RecordedEvent`](type.md#recordedevent)[] | Recorded events will be displayed on SettingsBar |
+| `extraData?` | `any` | To rerender the graph when the extra data changes |
+| `graphConfig?` | [`GraphConfig`](type.md#graphconfig) | All graph config data for nodes and edges. It will supply the config data for the graph. |
+| `isFocusMode?` | `boolean` | Focus mode for chunk stacked nodes |
+| `isLoading?` | `boolean` | Display loading indicator |
+| `label?` | [`GraphLabelData`](type.md#graphlabeldata) | Config for labels of nodes and edges |
+| `modals?` | `Object` | Modal components for displaying modal dialogs |
+| `modals.ElementSettings?` | `ModalComponentProps` | - |
+| `mode?` | [`EditorMode`](type.md#editormode) | Editor mode for changing actions and mouse icon |
+| `networkStatistics?` | [`NetworkStatistics`](type.md#networkstatistics) | Calculated network statistics will be displayed on SettingsBar |
+| `nodes` | [`NodeData`](type.md#nodedata)[] | Node data list to render |
+| `onEvent?` | [`OnEvent`](type.md#onevent) | Event handler for all events that are emitted by the graph editor. |
+| `playlists?` | [`Playlist`](type.md#playlist)[] | Events playlist will be displayed on SettingsBar |
+| `preferencesModal?` | `PreferencesModalProps` | Config for PreferencesModal |
+| `previousDataList?` | { `edges`: [`EdgeData`](type.md#edgedata)[] ; `nodes`: [`NodeData`](type.md#nodedata)[]  }[] | Focus mode stack |
+| `renderClusterNode?` | [`RenderClusterNode`](type.md#renderclusternode) | It returns a PIXI.DisplayObject instance as React.Node for the cluster node |
+| `renderEdge?` | [`GraphEditorRenderEdge`](type.md#grapheditorrenderedge)<`RenderElementAdditionalInfo`\> | It returns a PIXI.DisplayObject instance as React.Node for the edge |
+| `renderNode?` | [`GraphEditorRenderNode`](type.md#grapheditorrendernode)<`RenderElementAdditionalInfo`\> | It returns a PIXI.DisplayObject instance as React.Node for the node |
+| `selectedElementIds?` | `string`[] | It gives the selected nodes. It is used for selected node highlighting and DataBar |
+| `settingsBar?` | `SettingsBarProps` | Config for SettingsBar |
+| `style?` | `ViewProps`[``"style"``] | Style for graph container view |
+| `onBoxSelection?` | (`c`: { `boundingBox`: [`BoundingBox`](type.md#boundingbox) ; `elements`: `cytoscape.Collection` ; `event`: `PIXI.InteractionEvent` ; `itemIds`: `string`[]  }) => `void` | - |
+| `renderMoreAction?` | () => `ReactElement`<`any`, `string` \| `JSXElementConstructor`<`any`\>\> | - |

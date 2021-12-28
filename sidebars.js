@@ -38,7 +38,7 @@ module.exports = {
         'components/graph',
         'components/view',
         'components/text',
-        'components/image',
+        // 'components/image',
         // {
         //   type: 'category',
         //   label: 'Templates',
