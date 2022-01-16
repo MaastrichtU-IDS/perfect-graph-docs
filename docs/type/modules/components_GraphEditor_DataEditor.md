@@ -4,10 +4,6 @@
 
 ## Table of contents
 
-### Namespaces
-
-- [&lt;internal\&gt;](components_GraphEditor_DataEditor._internal_.md)
-
 ### Type aliases
 
 - [DataEditorProps](components_GraphEditor_DataEditor.md#dataeditorprops)
@@ -27,42 +23,42 @@
 
 | Name | Type |
 | :------ | :------ |
-| `data` | [`DataItem`](components_GraphEditor_DataEditor._internal_.md#dataitem)[] |
+| `data` | `DataItem`[] |
 | `globalLabel?` | `string`[] \| ``null`` |
 | `isGlobalLabelFirst?` | `boolean` |
 | `localLabel?` | `string`[] \| ``null`` |
-| `style?` | [`BoxProps`](components_GraphEditor_DataEditor._internal_.md#boxprops)[``"style"``] |
-| `onEvent` | (`param`: { `index?`: `number` ; `item?`: [`DataItem`](components_GraphEditor_DataEditor._internal_.md#dataitem) ; `payload`: `any` ; `type`: [`EventType`](components_GraphEditor_DataEditor._internal_.md#eventtype)  }) => `void` |
+| `style?` | `BoxProps`[``"style"``] |
+| `onEvent` | (`param`: { `index?`: `number` ; `item?`: `DataItem` ; `payload`: `any` ; `type`: `EventType`  }) => `void` |
 
 #### Defined in
 
-[src/components/GraphEditor/DataEditor/index.tsx:14](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/GraphEditor/DataEditor/index.tsx#L14)
+[components/GraphEditor/DataEditor/index.tsx:14](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/components/GraphEditor/DataEditor/index.tsx#L14)
 
 ## Functions
 
 ### DataEditor
 
-▸ `Const` **DataEditor**(`props`): [`Element`](../interfaces/components_GraphEditor_ColorPicker._internal_.Element.md)
+▸ `Const` **DataEditor**(`props`): `Element`
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`DataEditorProps`](components_GraphEditor_DataEditor._internal_.md#dataeditorprops) |
+| `props` | `DataEditorProps` |
 
 #### Returns
 
-[`Element`](../interfaces/components_GraphEditor_ColorPicker._internal_.Element.md)
+`Element`
 
 #### Defined in
 
-[src/components/GraphEditor/DataEditor/index.tsx:70](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/GraphEditor/DataEditor/index.tsx#L70)
+[components/GraphEditor/DataEditor/index.tsx:70](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/components/GraphEditor/DataEditor/index.tsx#L70)
 
 ___
 
 ### DataEditorElement
 
-▸ `Const` **DataEditorElement**(`props`): [`Element`](../interfaces/components_GraphEditor_ColorPicker._internal_.Element.md)
+▸ `Const` **DataEditorElement**(`props`): `Element`
 
 #### Parameters
 
@@ -72,8 +68,8 @@ ___
 
 #### Returns
 
-[`Element`](../interfaces/components_GraphEditor_ColorPicker._internal_.Element.md)
+`Element`
 
 #### Defined in
 
-[src/components/GraphEditor/DataEditor/index.tsx:28](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/GraphEditor/DataEditor/index.tsx#L28)
+[components/GraphEditor/DataEditor/index.tsx:28](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/components/GraphEditor/DataEditor/index.tsx#L28)

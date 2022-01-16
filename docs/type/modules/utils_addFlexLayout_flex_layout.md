@@ -4,10 +4,6 @@
 
 ## Table of contents
 
-### Namespaces
-
-- [&lt;internal\&gt;](utils_addFlexLayout_flex_layout._internal_.md)
-
 ### Classes
 
 - [YogaLayout](../classes/utils_addFlexLayout_flex_layout.YogaLayout.md)
@@ -55,7 +51,7 @@
 
 #### Defined in
 
-[src/utils/addFlexLayout/flex-layout/YogaContants.ts:54](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaContants.ts#L54)
+[utils/addFlexLayout/flex-layout/YogaContants.ts:54](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/utils/addFlexLayout/flex-layout/YogaContants.ts#L54)
 
 ___
 
@@ -71,7 +67,7 @@ ___
 
 #### Defined in
 
-[src/utils/addFlexLayout/flex-layout/index.ts:13](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/index.ts#L13)
+[utils/addFlexLayout/flex-layout/index.ts:13](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/utils/addFlexLayout/flex-layout/index.ts#L13)
 
 ___
 
@@ -89,17 +85,17 @@ ___
 
 #### Defined in
 
-[src/utils/addFlexLayout/flex-layout/YogaLayout.ts:35](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L35)
+[utils/addFlexLayout/flex-layout/YogaLayout.ts:35](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/utils/addFlexLayout/flex-layout/YogaLayout.ts#L35)
 
 ___
 
 ### YogaLayoutConfig
 
-Ƭ **YogaLayoutConfig**: [`Partial`](components_ClusterNodeContainer._internal_.md#partial)<[`YogaLayout`](../classes/utils_addFlexLayout_flex_layout.YogaLayout.md)\>
+Ƭ **YogaLayoutConfig**: `Partial`<[`YogaLayout`](../classes/utils_addFlexLayout_flex_layout.YogaLayout.md)\>
 
 #### Defined in
 
-[src/utils/addFlexLayout/flex-layout/YogaLayoutConfig.ts:4](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaLayoutConfig.ts#L4)
+[utils/addFlexLayout/flex-layout/YogaLayoutConfig.ts:4](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/utils/addFlexLayout/flex-layout/YogaLayoutConfig.ts#L4)
 
 ## Variables
 
@@ -122,7 +118,7 @@ ___
 
 #### Defined in
 
-[src/utils/addFlexLayout/flex-layout/YogaContants.ts:25](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaContants.ts#L25)
+[utils/addFlexLayout/flex-layout/YogaContants.ts:25](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/utils/addFlexLayout/flex-layout/YogaContants.ts#L25)
 
 ___
 
@@ -139,7 +135,7 @@ ___
 
 #### Defined in
 
-[src/utils/addFlexLayout/flex-layout/YogaContants.ts:41](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaContants.ts#L41)
+[utils/addFlexLayout/flex-layout/YogaContants.ts:41](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/utils/addFlexLayout/flex-layout/YogaContants.ts#L41)
 
 ___
 
@@ -158,7 +154,7 @@ ___
 
 #### Defined in
 
-[src/utils/addFlexLayout/flex-layout/YogaContants.ts:4](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaContants.ts#L4)
+[utils/addFlexLayout/flex-layout/YogaContants.ts:4](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/utils/addFlexLayout/flex-layout/YogaContants.ts#L4)
 
 ___
 
@@ -176,7 +172,7 @@ ___
 
 #### Defined in
 
-[src/utils/addFlexLayout/flex-layout/YogaContants.ts:19](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaContants.ts#L19)
+[utils/addFlexLayout/flex-layout/YogaContants.ts:19](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/utils/addFlexLayout/flex-layout/YogaContants.ts#L19)
 
 ___
 
@@ -196,7 +192,7 @@ ___
 
 #### Defined in
 
-[src/utils/addFlexLayout/flex-layout/YogaContants.ts:11](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaContants.ts#L11)
+[utils/addFlexLayout/flex-layout/YogaContants.ts:11](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/utils/addFlexLayout/flex-layout/YogaContants.ts#L11)
 
 ___
 
@@ -213,7 +209,7 @@ ___
 
 #### Defined in
 
-[src/utils/addFlexLayout/flex-layout/YogaContants.ts:36](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaContants.ts#L36)
+[utils/addFlexLayout/flex-layout/YogaContants.ts:36](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/utils/addFlexLayout/flex-layout/YogaContants.ts#L36)
 
 ___
 
@@ -263,7 +259,7 @@ ___
 
 #### Defined in
 
-[src/utils/addFlexLayout/flex-layout/YogaContants.ts:64](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaContants.ts#L64)
+[utils/addFlexLayout/flex-layout/YogaContants.ts:64](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/utils/addFlexLayout/flex-layout/YogaContants.ts#L64)
 
 ___
 
@@ -281,7 +277,7 @@ ___
 
 #### Defined in
 
-[src/utils/addFlexLayout/flex-layout/YogaContants.ts:46](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaContants.ts#L46)
+[utils/addFlexLayout/flex-layout/YogaContants.ts:46](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/utils/addFlexLayout/flex-layout/YogaContants.ts#L46)
 
 ___
 
@@ -291,7 +287,7 @@ ___
 
 #### Defined in
 
-[src/utils/addFlexLayout/flex-layout/YogaContants.ts:52](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/YogaContants.ts#L52)
+[utils/addFlexLayout/flex-layout/YogaContants.ts:52](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/utils/addFlexLayout/flex-layout/YogaContants.ts#L52)
 
 ## Functions
 
@@ -313,7 +309,7 @@ Polyfills PIXI.DisplayObject and PIXI.Container
 
 #### Defined in
 
-[src/utils/addFlexLayout/flex-layout/index.ts:21](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/index.ts#L21)
+[utils/addFlexLayout/flex-layout/index.ts:21](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/utils/addFlexLayout/flex-layout/index.ts#L21)
 
 ___
 
@@ -328,7 +324,7 @@ If renderer is set yoga boundBoxCheck/layotutUpdate in updateTransform will be c
 
 | Name | Type |
 | :------ | :------ |
-| `renderer` | [`Renderer`](../classes/components_ClusterNodeContainer._internal_.Renderer.md) |
+| `renderer` | `Renderer` |
 
 #### Returns
 
@@ -336,4 +332,4 @@ If renderer is set yoga boundBoxCheck/layotutUpdate in updateTransform will be c
 
 #### Defined in
 
-[src/utils/addFlexLayout/flex-layout/index.ts:34](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/addFlexLayout/flex-layout/index.ts#L34)
+[utils/addFlexLayout/flex-layout/index.ts:34](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/utils/addFlexLayout/flex-layout/index.ts#L34)

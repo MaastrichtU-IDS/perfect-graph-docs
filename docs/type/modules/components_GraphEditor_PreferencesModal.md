@@ -4,10 +4,6 @@
 
 ## Table of contents
 
-### Namespaces
-
-- [&lt;internal\&gt;](components_GraphEditor_PreferencesModal._internal_.md)
-
 ### Type aliases
 
 - [PreferencesModalProps](components_GraphEditor_PreferencesModal.md#preferencesmodalprops)
@@ -31,13 +27,13 @@
 
 | Name | Type |
 | :------ | :------ |
-| `components?` | [`Record`](components_ClusterNodeContainer._internal_.md#record)<`string`, [`ReactNode`](components_ClusterNodeContainer._internal_.md#reactnode) \| [`FormProps`](components_GraphEditor_PreferencesModal._internal_.md#formprops)\> |
+| `components?` | `Record`<`string`, `React.ReactNode` \| `FormProps`\> |
 | `isOpen?` | `boolean` |
-| `sidebar?` | [`SidebarItemData`](components_GraphEditor_PreferencesModal._internal_.md#sidebaritemdata)[] |
+| `sidebar?` | `SidebarItemData`[] |
 
 #### Defined in
 
-[src/components/GraphEditor/PreferencesModal/index.tsx:34](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/GraphEditor/PreferencesModal/index.tsx#L34)
+[components/GraphEditor/PreferencesModal/index.tsx:35](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/components/GraphEditor/PreferencesModal/index.tsx#L35)
 
 ## Variables
 
@@ -49,28 +45,28 @@
 
 | Name | Type |
 | :------ | :------ |
-| `EdgeView` | (`graphConfig`: [`GraphConfig`](components_Graph._internal_.md#graphconfig)) => { `formData`: [`Omit`](components_ClusterNodeContainer._internal_.md#omit)<{ `alpha`: `number` ; `fill`: { `default`: `number` ; `hovered`: `number` ; `nodeSelected`: `number` ; `selected`: `number`  } ; `labelVisible`: `boolean` ; `lineType`: [`EdgeLineType`](components_EdgeContainer._internal_.md#edgelinetype) ; `width`: `number`  }, ``"ids"``\> ; `schema`: { `properties`: { `alpha`: { `title`: `string` = 'Alpha'; `type`: `string` = 'number' } ; `fill`: { `properties`: { `default`: { `title`: `string` = 'Default'; `type`: `string` = 'number' } ; `hovered`: { `title`: `string` = 'Hovered'; `type`: `string` = 'number' } ; `nodeSelected`: { `title`: `string` = 'Node Selected'; `type`: `string` = 'number' } ; `selected`: { `title`: `string` = 'Selected'; `type`: `string` = 'number' }  } ; `required`: `string`[] ; `title`: `string` = 'Fill'; `type`: `string` = 'object' } ; `labelVisible`: { `title`: `string` = 'Label Visible'; `type`: `string` = 'boolean' } ; `lineType`: { `enum`: `string`[] ; `enumNames`: `string`[] ; `title`: `string` = 'Line Type'; `type`: `string` = 'string' } ; `width`: { `title`: `string` = 'Width'; `type`: `string` = 'number' }  } ; `required`: `string`[] ; `type`: `string` = 'object' } ; `uiSchema`: { `fill`: { `default`: { `ui:widget`: (`__namedParameters`: [`ColorPickerProps`](components_GraphEditor_ColorPicker._internal_.md#colorpickerprops)) => [`Element`](../interfaces/components_GraphEditor_ColorPicker._internal_.Element.md) = ColorPicker } ; `hovered`: { `ui:widget`: (`__namedParameters`: [`ColorPickerProps`](components_GraphEditor_ColorPicker._internal_.md#colorpickerprops)) => [`Element`](../interfaces/components_GraphEditor_ColorPicker._internal_.Element.md) = ColorPicker } ; `nodeSelected`: { `ui:widget`: (`__namedParameters`: [`ColorPickerProps`](components_GraphEditor_ColorPicker._internal_.md#colorpickerprops)) => [`Element`](../interfaces/components_GraphEditor_ColorPicker._internal_.Element.md) = ColorPicker } ; `selected`: { `ui:widget`: (`__namedParameters`: [`ColorPickerProps`](components_GraphEditor_ColorPicker._internal_.md#colorpickerprops)) => [`Element`](../interfaces/components_GraphEditor_ColorPicker._internal_.Element.md) = ColorPicker }  }  }  } |
-| `NodeView` | (`graphConfig`: [`GraphConfig`](components_Graph._internal_.md#graphconfig)) => { `formData`: [`Omit`](components_ClusterNodeContainer._internal_.md#omit)<{ `fill`: { `default`: `number` ; `edgeSelected`: `number` ; `hovered`: `number` ; `selected`: `number`  } ; `height`: `number` ; `labelVisible`: `boolean` ; `radius`: `number` ; `width`: `number`  }, ``"ids"``\> ; `schema`: { `properties`: { `fill`: { `properties`: { `default`: { `title`: `string` = 'Default'; `type`: `string` = 'number' } ; `edgeSelected`: { `title`: `string` = 'Edge Selected'; `type`: `string` = 'number' } ; `hovered`: { `title`: `string` = 'Hovered'; `type`: `string` = 'number' } ; `selected`: { `title`: `string` = 'Selected'; `type`: `string` = 'number' }  } ; `required`: `string`[] ; `title`: `string` = 'Fill'; `type`: `string` = 'object' } ; `height`: { `title`: `string` = 'Height'; `type`: `string` = 'number' } ; `labelVisible`: { `title`: `string` = 'Label Visible'; `type`: `string` = 'boolean' } ; `radius`: { `title`: `string` = 'Radius'; `type`: `string` = 'number' } ; `width`: { `title`: `string` = 'Width'; `type`: `string` = 'number' }  } ; `required`: `string`[] ; `type`: `string` = 'object' } ; `uiSchema`: { `fill`: { `default`: { `ui:widget`: (`__namedParameters`: [`ColorPickerProps`](components_GraphEditor_ColorPicker._internal_.md#colorpickerprops)) => [`Element`](../interfaces/components_GraphEditor_ColorPicker._internal_.Element.md) = ColorPicker } ; `edgeSelected`: { `ui:widget`: (`__namedParameters`: [`ColorPickerProps`](components_GraphEditor_ColorPicker._internal_.md#colorpickerprops)) => [`Element`](../interfaces/components_GraphEditor_ColorPicker._internal_.Element.md) = ColorPicker } ; `hovered`: { `ui:widget`: (`__namedParameters`: [`ColorPickerProps`](components_GraphEditor_ColorPicker._internal_.md#colorpickerprops)) => [`Element`](../interfaces/components_GraphEditor_ColorPicker._internal_.Element.md) = ColorPicker } ; `selected`: { `ui:widget`: (`__namedParameters`: [`ColorPickerProps`](components_GraphEditor_ColorPicker._internal_.md#colorpickerprops)) => [`Element`](../interfaces/components_GraphEditor_ColorPicker._internal_.Element.md) = ColorPicker }  }  }  } |
+| `EdgeView` | (`graphConfig`: `GraphConfig`) => { `formData`: `Omit`<{ `alpha`: `number` ; `fill`: { `default`: `number` ; `hovered`: `number` ; `nodeSelected`: `number` ; `selected`: `number`  } ; `labelVisible`: `boolean` ; `lineType`: `EdgeLineType` ; `width`: `number`  }, ``"ids"``\> ; `schema`: { `properties`: { `alpha`: { `title`: `string` = 'Alpha'; `type`: `string` = 'number' } ; `fill`: { `properties`: { `default`: { `title`: `string` = 'Default'; `type`: `string` = 'number' } ; `hovered`: { `title`: `string` = 'Hovered'; `type`: `string` = 'number' } ; `nodeSelected`: { `title`: `string` = 'Node Selected'; `type`: `string` = 'number' } ; `selected`: { `title`: `string` = 'Selected'; `type`: `string` = 'number' }  } ; `required`: `string`[] ; `title`: `string` = 'Fill'; `type`: `string` = 'object' } ; `labelVisible`: { `title`: `string` = 'Label Visible'; `type`: `string` = 'boolean' } ; `lineType`: { `enum`: `string`[] ; `enumNames`: `string`[] ; `title`: `string` = 'Line Type'; `type`: `string` = 'string' } ; `width`: { `title`: `string` = 'Width'; `type`: `string` = 'number' }  } ; `required`: `string`[] ; `type`: `string` = 'object' } ; `uiSchema`: { `fill`: { `default`: { `ui:widget`: (`__namedParameters`: `ColorPickerProps`) => `Element` = ColorPicker } ; `hovered`: { `ui:widget`: (`__namedParameters`: `ColorPickerProps`) => `Element` = ColorPicker } ; `nodeSelected`: { `ui:widget`: (`__namedParameters`: `ColorPickerProps`) => `Element` = ColorPicker } ; `selected`: { `ui:widget`: (`__namedParameters`: `ColorPickerProps`) => `Element` = ColorPicker }  }  }  } |
+| `NodeView` | (`graphConfig`: `GraphConfig`) => { `formData`: `Omit`<{ `fill`: { `default`: `number` ; `edgeSelected`: `number` ; `hovered`: `number` ; `selected`: `number`  } ; `height`: `number` ; `labelVisible`: `boolean` ; `radius`: `number` ; `width`: `number`  }, ``"ids"``\> ; `schema`: { `properties`: { `fill`: { `properties`: { `default`: { `title`: `string` = 'Default'; `type`: `string` = 'number' } ; `edgeSelected`: { `title`: `string` = 'Edge Selected'; `type`: `string` = 'number' } ; `hovered`: { `title`: `string` = 'Hovered'; `type`: `string` = 'number' } ; `selected`: { `title`: `string` = 'Selected'; `type`: `string` = 'number' }  } ; `required`: `string`[] ; `title`: `string` = 'Fill'; `type`: `string` = 'object' } ; `height`: { `title`: `string` = 'Height'; `type`: `string` = 'number' } ; `labelVisible`: { `title`: `string` = 'Label Visible'; `type`: `string` = 'boolean' } ; `radius`: { `title`: `string` = 'Radius'; `type`: `string` = 'number' } ; `width`: { `title`: `string` = 'Width'; `type`: `string` = 'number' }  } ; `required`: `string`[] ; `type`: `string` = 'object' } ; `uiSchema`: { `fill`: { `default`: { `ui:widget`: (`__namedParameters`: `ColorPickerProps`) => `Element` = ColorPicker } ; `edgeSelected`: { `ui:widget`: (`__namedParameters`: `ColorPickerProps`) => `Element` = ColorPicker } ; `hovered`: { `ui:widget`: (`__namedParameters`: `ColorPickerProps`) => `Element` = ColorPicker } ; `selected`: { `ui:widget`: (`__namedParameters`: `ColorPickerProps`) => `Element` = ColorPicker }  }  }  } |
 
 #### Defined in
 
-[src/components/GraphEditor/PreferencesModal/index.tsx:352](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/GraphEditor/PreferencesModal/index.tsx#L352)
+[components/GraphEditor/PreferencesModal/index.tsx:365](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/components/GraphEditor/PreferencesModal/index.tsx#L365)
 
 ___
 
 ### DefaultSidebarData
 
-• **DefaultSidebarData**: { `children`: { `id`: `string` = 'NodeView' }[] ; `icon`: [`Element`](../interfaces/components_GraphEditor_ColorPicker._internal_.Element.md) ; `id`: `string` = 'General'; `label`: `string` = 'General' }[]
+• **DefaultSidebarData**: { `children`: { `id`: `string` = 'NodeView' }[] ; `icon`: `Element` ; `id`: `string` = 'General'; `label`: `string` = 'General' }[]
 
 #### Defined in
 
-[src/components/GraphEditor/PreferencesModal/index.tsx:536](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/GraphEditor/PreferencesModal/index.tsx#L536)
+[components/GraphEditor/PreferencesModal/index.tsx:549](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/components/GraphEditor/PreferencesModal/index.tsx#L549)
 
 ## Functions
 
 ### PreferencesModal
 
-▸ `Const` **PreferencesModal**(`props`): [`Element`](../interfaces/components_GraphEditor_ColorPicker._internal_.Element.md)
+▸ `Const` **PreferencesModal**(`props`): `Element`
 
 #### Parameters
 
@@ -80,8 +76,8 @@ ___
 
 #### Returns
 
-[`Element`](../interfaces/components_GraphEditor_ColorPicker._internal_.Element.md)
+`Element`
 
 #### Defined in
 
-[src/components/GraphEditor/PreferencesModal/index.tsx:42](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/GraphEditor/PreferencesModal/index.tsx#L42)
+[components/GraphEditor/PreferencesModal/index.tsx:43](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/components/GraphEditor/PreferencesModal/index.tsx#L43)

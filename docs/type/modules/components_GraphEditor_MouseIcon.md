@@ -27,13 +27,13 @@
 
 #### Defined in
 
-[src/components/GraphEditor/MouseIcon.tsx:5](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/GraphEditor/MouseIcon.tsx#L5)
+[components/GraphEditor/MouseIcon.tsx:5](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/components/GraphEditor/MouseIcon.tsx#L5)
 
 ## Functions
 
 ### MouseIcon
 
-▸ `Const` **MouseIcon**(`props`): ``null`` \| [`Element`](../interfaces/components_GraphEditor_ColorPicker._internal_.Element.md)
+▸ `Const` **MouseIcon**(`props`): ``null`` \| `Element`
 
 #### Parameters
 
@@ -43,8 +43,8 @@
 
 #### Returns
 
-``null`` \| [`Element`](../interfaces/components_GraphEditor_ColorPicker._internal_.Element.md)
+``null`` \| `Element`
 
 #### Defined in
 
-[src/components/GraphEditor/MouseIcon.tsx:10](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/GraphEditor/MouseIcon.tsx#L10)
+[components/GraphEditor/MouseIcon.tsx:10](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/components/GraphEditor/MouseIcon.tsx#L10)

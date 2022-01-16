@@ -4,10 +4,6 @@
 
 ## Table of contents
 
-### Namespaces
-
-- [&lt;internal\&gt;](components_GraphEditor_ActionBar._internal_.md)
-
 ### Type aliases
 
 - [ActionBarConfig](components_GraphEditor_ActionBar.md#actionbarconfig)
@@ -27,21 +23,21 @@
 
 | Name | Type |
 | :------ | :------ |
-| `actions?` | [`Actions`](components_GraphEditor_ActionBar._internal_.md#actions) |
+| `actions?` | `Actions` |
 | `autoOpen?` | `boolean` |
 | `eventRecording?` | `boolean` |
 | `isOpen?` | `boolean` |
-| `left?` | [`FC`](components_ClusterNodeContainer._internal_.md#fc) |
+| `left?` | `React.FC` |
 | `recording?` | `boolean` |
-| `right?` | [`FC`](components_ClusterNodeContainer._internal_.md#fc) |
+| `right?` | `React.FC` |
 | `theming?` | `Object` |
 | `theming.options?` | { `name`: `string` ; `value`: `string`  }[] |
 | `theming.value?` | `string` |
-| `renderMoreAction?` | () => [`ReactElement`](../interfaces/components_ClusterNodeContainer._internal_.ReactElement.md)<`any`, `string` \| [`JSXElementConstructor`](components_ClusterNodeContainer._internal_.md#jsxelementconstructor)<`any`\>\> |
+| `renderMoreAction?` | () => `ReactElement`<`any`, `string` \| `JSXElementConstructor`<`any`\>\> |
 
 #### Defined in
 
-[src/components/GraphEditor/ActionBar/index.tsx:35](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/GraphEditor/ActionBar/index.tsx#L35)
+[components/GraphEditor/ActionBar/index.tsx:34](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/components/GraphEditor/ActionBar/index.tsx#L34)
 
 ___
 
@@ -53,29 +49,29 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `actions?` | [`Actions`](components_GraphEditor_ActionBar._internal_.md#actions) |
+| `actions?` | `Actions` |
 | `autoOpen?` | `boolean` |
 | `eventRecording?` | `boolean` |
 | `isOpen?` | `boolean` |
-| `left?` | [`FC`](components_ClusterNodeContainer._internal_.md#fc) |
+| `left?` | `React.FC` |
 | `recording?` | `boolean` |
-| `right?` | [`FC`](components_ClusterNodeContainer._internal_.md#fc) |
+| `right?` | `React.FC` |
 | `theming?` | `Object` |
 | `theming.options?` | { `name`: `string` ; `value`: `string`  }[] |
 | `theming.value?` | `string` |
 | `onAction` | (`action`: { `type`: `string` ; `value?`: `any`  }) => `void` |
-| `renderMoreAction?` | () => [`ReactElement`](../interfaces/components_ClusterNodeContainer._internal_.ReactElement.md)<`any`, `string` \| [`JSXElementConstructor`](components_ClusterNodeContainer._internal_.md#jsxelementconstructor)<`any`\>\> |
+| `renderMoreAction?` | () => `ReactElement`<`any`, `string` \| `JSXElementConstructor`<`any`\>\> |
 
 #### Defined in
 
-[src/components/GraphEditor/ActionBar/index.tsx:53](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/GraphEditor/ActionBar/index.tsx#L53)
+[components/GraphEditor/ActionBar/index.tsx:52](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/components/GraphEditor/ActionBar/index.tsx#L52)
 
 ## Variables
 
 ### ActionBar
 
-• **ActionBar**: [`FC`](components_ClusterNodeContainer._internal_.md#fc)<[`ActionBarProps`](components_GraphEditor_ActionBar.md#actionbarprops)\>
+• **ActionBar**: `FC`<[`ActionBarProps`](components_GraphEditor_ActionBar.md#actionbarprops)\>
 
 #### Defined in
 
-[src/components/GraphEditor/ActionBar/index.tsx:465](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/GraphEditor/ActionBar/index.tsx#L465)
+[components/GraphEditor/ActionBar/index.tsx:464](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/components/GraphEditor/ActionBar/index.tsx#L464)

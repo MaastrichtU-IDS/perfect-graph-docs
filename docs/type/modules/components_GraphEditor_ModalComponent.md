@@ -4,10 +4,6 @@
 
 ## Table of contents
 
-### Namespaces
-
-- [&lt;internal\&gt;](components_GraphEditor_ModalComponent._internal_.md)
-
 ### Type aliases
 
 - [ModalComponentProps](components_GraphEditor_ModalComponent.md#modalcomponentprops)
@@ -26,21 +22,21 @@
 
 | Name | Type |
 | :------ | :------ |
-| `form?` | [`FormProps`](../interfaces/components_GraphEditor_ModalComponent._internal_.FormProps.md)<`any`\> |
+| `form?` | `FormProps`<`any`\> |
 | `isOpen?` | `boolean` |
 | `name` | `string` |
 | `onClose?` | () => `void` |
-| `render?` | (`props`: `any`) => [`ReactElement`](../interfaces/components_ClusterNodeContainer._internal_.ReactElement.md)<`any`, `string` \| [`JSXElementConstructor`](components_ClusterNodeContainer._internal_.md#jsxelementconstructor)<`any`\>\> |
+| `render?` | (`props`: `any`) => `ReactElement`<`any`, `string` \| `JSXElementConstructor`<`any`\>\> |
 
 #### Defined in
 
-[src/components/GraphEditor/ModalComponent.tsx:20](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/GraphEditor/ModalComponent.tsx#L20)
+[components/GraphEditor/ModalComponent.tsx:20](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/components/GraphEditor/ModalComponent.tsx#L20)
 
 ## Functions
 
 ### ModalComponent
 
-▸ `Const` **ModalComponent**(`props`): [`Element`](../interfaces/components_GraphEditor_ColorPicker._internal_.Element.md)
+▸ `Const` **ModalComponent**(`props`): `Element`
 
 #### Parameters
 
@@ -50,8 +46,8 @@
 
 #### Returns
 
-[`Element`](../interfaces/components_GraphEditor_ColorPicker._internal_.Element.md)
+`Element`
 
 #### Defined in
 
-[src/components/GraphEditor/ModalComponent.tsx:28](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/GraphEditor/ModalComponent.tsx#L28)
+[components/GraphEditor/ModalComponent.tsx:28](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/components/GraphEditor/ModalComponent.tsx#L28)

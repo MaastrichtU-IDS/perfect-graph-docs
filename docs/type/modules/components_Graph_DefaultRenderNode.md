@@ -12,7 +12,7 @@
 
 ### DefaultRenderNode
 
-▸ `Const` **DefaultRenderNode**(`c`): [`ReactElement`](../interfaces/components_ClusterNodeContainer._internal_.ReactElement.md)<`any`, `string` \| [`JSXElementConstructor`](components_ClusterNodeContainer._internal_.md#jsxelementconstructor)<`any`\>\>
+▸ `Const` **DefaultRenderNode**(`c`): `ReactElement`<`any`, `string` \| `JSXElementConstructor`<`any`\>\>
 
 Default render node component. If renderNode is not suplied, it will render.
 
@@ -20,12 +20,12 @@ Default render node component. If renderNode is not suplied, it will render.
 
 | Name | Type |
 | :------ | :------ |
-| `c` | { `config`: [`NodeConfig`](components_ClusterNodeContainer._internal_.md#nodeconfig) ; `context`: [`NodeContext`](components_ClusterNodeContainer._internal_.md#nodecontext) ; `element`: `NodeSingular` ; `item`: [`NodeData`](components_ClusterNodeContainer._internal_.md#nodedata)  } & [`RenderElementParams`](components_ClusterNodeContainer._internal_.md#renderelementparams) |
+| `c` | { `config`: `NodeConfig` ; `context`: `NodeContext` ; `element`: `NodeSingular` ; `item`: `NodeData`  } & `RenderElementParams` |
 
 #### Returns
 
-[`ReactElement`](../interfaces/components_ClusterNodeContainer._internal_.ReactElement.md)<`any`, `string` \| [`JSXElementConstructor`](components_ClusterNodeContainer._internal_.md#jsxelementconstructor)<`any`\>\>
+`ReactElement`<`any`, `string` \| `JSXElementConstructor`<`any`\>\>
 
 #### Defined in
 
-[src/components/Graph/DefaultRenderNode.tsx:10](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/Graph/DefaultRenderNode.tsx#L10)
+[components/Graph/DefaultRenderNode.tsx:10](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/components/Graph/DefaultRenderNode.tsx#L10)

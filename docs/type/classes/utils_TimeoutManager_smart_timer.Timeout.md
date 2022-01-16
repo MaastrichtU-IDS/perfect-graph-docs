@@ -42,31 +42,31 @@
 
 ### keyId
 
-▪ `Static` `Private` **keyId**: [`KeyId`](../interfaces/utils_TimeoutManager_smart_timer._internal_.KeyId.md) = `{}`
+▪ `Static` `Private` **keyId**: `KeyId` = `{}`
 
 #### Defined in
 
-[src/utils/TimeoutManager/smart-timer.ts:51](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/TimeoutManager/smart-timer.ts#L51)
+[utils/TimeoutManager/smart-timer.ts:51](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/utils/TimeoutManager/smart-timer.ts#L51)
 
 ___
 
 ### metadata
 
-▪ `Static` `Private` **metadata**: [`Metadata`](../interfaces/utils_TimeoutManager_smart_timer._internal_.Metadata.md) = `{}`
+▪ `Static` `Private` **metadata**: `Metadata` = `{}`
 
 #### Defined in
 
-[src/utils/TimeoutManager/smart-timer.ts:55](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/TimeoutManager/smart-timer.ts#L55)
+[utils/TimeoutManager/smart-timer.ts:55](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/utils/TimeoutManager/smart-timer.ts#L55)
 
 ___
 
 ### originalMs
 
-▪ `Static` `Private` **originalMs**: [`OriginalMs`](../interfaces/utils_TimeoutManager_smart_timer._internal_.OriginalMs.md) = `{}`
+▪ `Static` `Private` **originalMs**: `OriginalMs` = `{}`
 
 #### Defined in
 
-[src/utils/TimeoutManager/smart-timer.ts:53](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/TimeoutManager/smart-timer.ts#L53)
+[utils/TimeoutManager/smart-timer.ts:53](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/utils/TimeoutManager/smart-timer.ts#L53)
 
 ## Methods
 
@@ -89,13 +89,13 @@ clear timeout and optionally erase all knowledge of its existence
 
 #### Defined in
 
-[src/utils/TimeoutManager/smart-timer.ts:62](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/TimeoutManager/smart-timer.ts#L62)
+[utils/TimeoutManager/smart-timer.ts:62](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/utils/TimeoutManager/smart-timer.ts#L62)
 
 ___
 
 ### create
 
-▸ `Static` **create**(`key`, `callback`, `ms`, ...`params`): `boolean` \| [`Checker`](../modules/utils_TimeoutManager_smart_timer._internal_.md#checker)
+▸ `Static` **create**(`key`, `callback`, `ms`, ...`params`): `boolean` \| `Checker`
 
 same as set() except returns false if timeout already exists
 
@@ -104,19 +104,19 @@ same as set() except returns false if timeout already exists
 | Name | Type |
 | :------ | :------ |
 | `key` | `string` |
-| `callback` | [`Callback`](../modules/utils_TimeoutManager_smart_timer._internal_.md#callback) |
+| `callback` | `Callback` |
 | `ms` | `number` |
 | `...params` | `any`[] |
 
 #### Returns
 
-`boolean` \| [`Checker`](../modules/utils_TimeoutManager_smart_timer._internal_.md#checker)
+`boolean` \| `Checker`
 
 #### Defined in
 
-[src/utils/TimeoutManager/smart-timer.ts:136](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/TimeoutManager/smart-timer.ts#L136)
+[utils/TimeoutManager/smart-timer.ts:136](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/utils/TimeoutManager/smart-timer.ts#L136)
 
-▸ `Static` **create**(`callback`, `ms`, ...`params`): `boolean` \| [`Checker`](../modules/utils_TimeoutManager_smart_timer._internal_.md#checker)
+▸ `Static` **create**(`callback`, `ms`, ...`params`): `boolean` \| `Checker`
 
 same as set() except returns false if timeout already exists
 
@@ -124,17 +124,17 @@ same as set() except returns false if timeout already exists
 
 | Name | Type |
 | :------ | :------ |
-| `callback` | [`Callback`](../modules/utils_TimeoutManager_smart_timer._internal_.md#callback) |
+| `callback` | `Callback` |
 | `ms` | `number` |
 | `...params` | `any`[] |
 
 #### Returns
 
-`boolean` \| [`Checker`](../modules/utils_TimeoutManager_smart_timer._internal_.md#checker)
+`boolean` \| `Checker`
 
 #### Defined in
 
-[src/utils/TimeoutManager/smart-timer.ts:143](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/TimeoutManager/smart-timer.ts#L143)
+[utils/TimeoutManager/smart-timer.ts:143](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/utils/TimeoutManager/smart-timer.ts#L143)
 
 ___
 
@@ -156,7 +156,7 @@ test if a timeout has run
 
 #### Defined in
 
-[src/utils/TimeoutManager/smart-timer.ts:173](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/TimeoutManager/smart-timer.ts#L173)
+[utils/TimeoutManager/smart-timer.ts:173](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/utils/TimeoutManager/smart-timer.ts#L173)
 
 ___
 
@@ -178,7 +178,7 @@ timeout has been created
 
 #### Defined in
 
-[src/utils/TimeoutManager/smart-timer.ts:165](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/TimeoutManager/smart-timer.ts#L165)
+[utils/TimeoutManager/smart-timer.ts:165](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/utils/TimeoutManager/smart-timer.ts#L165)
 
 ___
 
@@ -192,7 +192,7 @@ instantiate timeout to handle as object
 
 | Name | Type | Default value |
 | :------ | :------ | :------ |
-| `callback` | [`Callback`](../modules/utils_TimeoutManager_smart_timer._internal_.md#callback) | `undefined` |
+| `callback` | `Callback` | `undefined` |
 | `ms` | `number` | `0` |
 | `...params` | `any`[] | `undefined` |
 
@@ -202,7 +202,7 @@ instantiate timeout to handle as object
 
 #### Defined in
 
-[src/utils/TimeoutManager/smart-timer.ts:281](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/TimeoutManager/smart-timer.ts#L281)
+[utils/TimeoutManager/smart-timer.ts:281](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/utils/TimeoutManager/smart-timer.ts#L281)
 
 ___
 
@@ -224,7 +224,7 @@ when timeout was last executed
 
 #### Defined in
 
-[src/utils/TimeoutManager/smart-timer.ts:181](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/TimeoutManager/smart-timer.ts#L181)
+[utils/TimeoutManager/smart-timer.ts:181](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/utils/TimeoutManager/smart-timer.ts#L181)
 
 ___
 
@@ -246,7 +246,7 @@ pause our execution countdown until we're ready for it to resume
 
 #### Defined in
 
-[src/utils/TimeoutManager/smart-timer.ts:241](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/TimeoutManager/smart-timer.ts#L241)
+[utils/TimeoutManager/smart-timer.ts:241](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/utils/TimeoutManager/smart-timer.ts#L241)
 
 ___
 
@@ -268,7 +268,7 @@ timeout does exist, but will not execute because it is paused
 
 #### Defined in
 
-[src/utils/TimeoutManager/smart-timer.ts:199](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/TimeoutManager/smart-timer.ts#L199)
+[utils/TimeoutManager/smart-timer.ts:199](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/utils/TimeoutManager/smart-timer.ts#L199)
 
 ___
 
@@ -290,7 +290,7 @@ timeout does exist, but has not yet run
 
 #### Defined in
 
-[src/utils/TimeoutManager/smart-timer.ts:191](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/TimeoutManager/smart-timer.ts#L191)
+[utils/TimeoutManager/smart-timer.ts:191](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/utils/TimeoutManager/smart-timer.ts#L191)
 
 ___
 
@@ -312,13 +312,13 @@ remaining time until timeout will occur
 
 #### Defined in
 
-[src/utils/TimeoutManager/smart-timer.ts:209](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/TimeoutManager/smart-timer.ts#L209)
+[utils/TimeoutManager/smart-timer.ts:209](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/utils/TimeoutManager/smart-timer.ts#L209)
 
 ___
 
 ### restart
 
-▸ `Static` **restart**(`key`): `boolean` \| [`Checker`](../modules/utils_TimeoutManager_smart_timer._internal_.md#checker)
+▸ `Static` **restart**(`key`): `boolean` \| `Checker`
 
 restart timeout with original time
 
@@ -330,17 +330,17 @@ restart timeout with original time
 
 #### Returns
 
-`boolean` \| [`Checker`](../modules/utils_TimeoutManager_smart_timer._internal_.md#checker)
+`boolean` \| `Checker`
 
 #### Defined in
 
-[src/utils/TimeoutManager/smart-timer.ts:223](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/TimeoutManager/smart-timer.ts#L223)
+[utils/TimeoutManager/smart-timer.ts:223](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/utils/TimeoutManager/smart-timer.ts#L223)
 
 ___
 
 ### resume
 
-▸ `Static` **resume**(`key`): `boolean` \| [`Checker`](../modules/utils_TimeoutManager_smart_timer._internal_.md#checker)
+▸ `Static` **resume**(`key`): `boolean` \| `Checker`
 
 resume paused Timeout with the remaining time
 
@@ -352,17 +352,17 @@ resume paused Timeout with the remaining time
 
 #### Returns
 
-`boolean` \| [`Checker`](../modules/utils_TimeoutManager_smart_timer._internal_.md#checker)
+`boolean` \| `Checker`
 
 #### Defined in
 
-[src/utils/TimeoutManager/smart-timer.ts:258](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/TimeoutManager/smart-timer.ts#L258)
+[utils/TimeoutManager/smart-timer.ts:258](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/utils/TimeoutManager/smart-timer.ts#L258)
 
 ___
 
 ### set
 
-▸ `Static` **set**(`key`, `callback`, `ms`, ...`params`): [`Checker`](../modules/utils_TimeoutManager_smart_timer._internal_.md#checker)
+▸ `Static` **set**(`key`, `callback`, `ms`, ...`params`): `Checker`
 
 returns a function allowing you to test if it has executed
 
@@ -371,19 +371,19 @@ returns a function allowing you to test if it has executed
 | Name | Type |
 | :------ | :------ |
 | `key` | `string` |
-| `callback` | [`Callback`](../modules/utils_TimeoutManager_smart_timer._internal_.md#callback) |
+| `callback` | `Callback` |
 | `ms` | `number` |
 | `...params` | `any`[] |
 
 #### Returns
 
-[`Checker`](../modules/utils_TimeoutManager_smart_timer._internal_.md#checker)
+`Checker`
 
 #### Defined in
 
-[src/utils/TimeoutManager/smart-timer.ts:79](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/TimeoutManager/smart-timer.ts#L79)
+[utils/TimeoutManager/smart-timer.ts:79](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/utils/TimeoutManager/smart-timer.ts#L79)
 
-▸ `Static` **set**(`callback`, `ms`, ...`params`): [`Checker`](../modules/utils_TimeoutManager_smart_timer._internal_.md#checker)
+▸ `Static` **set**(`callback`, `ms`, ...`params`): `Checker`
 
 returns a function allowing you to test if it has executed
 
@@ -391,19 +391,19 @@ returns a function allowing you to test if it has executed
 
 | Name | Type |
 | :------ | :------ |
-| `callback` | [`Callback`](../modules/utils_TimeoutManager_smart_timer._internal_.md#callback) |
+| `callback` | `Callback` |
 | `ms` | `number` |
 | `...params` | `any`[] |
 
 #### Returns
 
-[`Checker`](../modules/utils_TimeoutManager_smart_timer._internal_.md#checker)
+`Checker`
 
 #### Defined in
 
-[src/utils/TimeoutManager/smart-timer.ts:86](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/TimeoutManager/smart-timer.ts#L86)
+[utils/TimeoutManager/smart-timer.ts:86](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/utils/TimeoutManager/smart-timer.ts#L86)
 
-▸ `Static` **set**(...`args`): [`Checker`](../modules/utils_TimeoutManager_smart_timer._internal_.md#checker)
+▸ `Static` **set**(...`args`): `Checker`
 
 #### Parameters
 
@@ -413,8 +413,8 @@ returns a function allowing you to test if it has executed
 
 #### Returns
 
-[`Checker`](../modules/utils_TimeoutManager_smart_timer._internal_.md#checker)
+`Checker`
 
 #### Defined in
 
-[src/utils/TimeoutManager/smart-timer.ts:87](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/utils/TimeoutManager/smart-timer.ts#L87)
+[utils/TimeoutManager/smart-timer.ts:87](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/utils/TimeoutManager/smart-timer.ts#L87)

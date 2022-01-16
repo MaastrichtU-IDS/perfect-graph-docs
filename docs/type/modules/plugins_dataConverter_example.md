@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[src/plugins/dataConverter/example.js:1](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/plugins/dataConverter/example.js#L1)
+[plugins/dataConverter/example.js:1](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/plugins/dataConverter/example.js#L1)
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 #### Defined in
 
-[src/plugins/dataConverter/example.js:717](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/plugins/dataConverter/example.js#L717)
+[plugins/dataConverter/example.js:717](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/plugins/dataConverter/example.js#L717)

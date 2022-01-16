@@ -4,10 +4,6 @@
 
 ## Table of contents
 
-### Namespaces
-
-- [&lt;internal\&gt;](components_Graphics._internal_.md)
-
 ### Type aliases
 
 - [GraphicsProps](components_Graphics.md#graphicsprops)
@@ -29,19 +25,19 @@
 
 #### Defined in
 
-[src/components/Graphics/index.tsx:17](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/Graphics/index.tsx#L17)
+[components/Graphics/index.tsx:17](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/components/Graphics/index.tsx#L17)
 
 ## Variables
 
 ### Graphics
 
-• **Graphics**: [`FC`](components_ClusterNodeContainer._internal_.md#fc)<[`IGraphics`](components_Graphics._internal_.md#igraphics)\> = `ReactPIXIGraphics`
+• **Graphics**: `FC`<`IGraphics`\> = `ReactPIXIGraphics`
 
 [PIXI.Graphics React Component](https://reactpixi.org/components/graphics)
 
 #### Defined in
 
-[src/components/Graphics/index.tsx:332](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/Graphics/index.tsx#L332)
+[components/Graphics/index.tsx:332](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/components/Graphics/index.tsx#L332)
 
 ## Functions
 
@@ -53,7 +49,7 @@
 
 | Name | Type |
 | :------ | :------ |
-| `instance` | [`Graphics`](../classes/components_EdgeContainer._internal_.Graphics.md) |
+| `instance` | `Graphics` |
 | `props` | `Object` |
 | `props.alpha?` | `number` |
 | `props.fill?` | `number` |
@@ -69,7 +65,7 @@
 
 #### Defined in
 
-[src/components/Graphics/index.tsx:274](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/Graphics/index.tsx#L274)
+[components/Graphics/index.tsx:274](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/components/Graphics/index.tsx#L274)
 
 ___
 
@@ -87,22 +83,22 @@ It draws the line with the given config for graphics.
 | `config.alpha?` | `number` |
 | `config.arrowHead?` | `Object` |
 | `config.arrowHead.radius?` | `number` |
-| `config.config` | [`EdgeConfig`](components_EdgeContainer._internal_.md#edgeconfig) |
+| `config.config` | `EdgeConfig` |
 | `config.directed?` | `boolean` |
 | `config.distance?` | `number` |
-| `config.distanceVector` | [`Position`](components_Container._internal_.md#position) |
+| `config.distanceVector` | `Position` |
 | `config.fill?` | `number` |
-| `config.from` | [`BoundingBox`](components_ClusterNodeContainer._internal_.md#boundingbox) |
-| `config.graphics` | [`Graphics`](../classes/components_EdgeContainer._internal_.Graphics.md) |
-| `config.margin?` | [`Position`](components_Container._internal_.md#position) |
-| `config.normVector` | [`Position`](components_Container._internal_.md#position) |
+| `config.from` | `BoundingBox` |
+| `config.graphics` | `Graphics` |
+| `config.margin?` | `Position` |
+| `config.normVector` | `Position` |
 | `config.sourceElement` | `NodeSingular` |
 | `config.targetElement` | `NodeSingular` |
-| `config.to` | [`BoundingBox`](components_ClusterNodeContainer._internal_.md#boundingbox) |
+| `config.to` | `BoundingBox` |
 | `config.type?` | ``"bezier"`` \| ``"segments"`` \| ``"straight"`` |
-| `config.undirectedNormVector` | [`Victor`](../classes/components_EdgeContainer._internal_.Victor.md) |
-| `config.undirectedUnitVector` | [`Position`](components_Container._internal_.md#position) |
-| `config.unitVector` | [`Victor`](../classes/components_EdgeContainer._internal_.Victor.md) |
+| `config.undirectedNormVector` | `Victor` |
+| `config.undirectedUnitVector` | `Position` |
+| `config.unitVector` | `Victor` |
 | `config.width?` | `number` |
 
 #### Returns
@@ -111,4 +107,4 @@ It draws the line with the given config for graphics.
 
 #### Defined in
 
-[src/components/Graphics/index.tsx:102](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/Graphics/index.tsx#L102)
+[components/Graphics/index.tsx:102](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/components/Graphics/index.tsx#L102)

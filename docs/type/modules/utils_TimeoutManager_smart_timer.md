@@ -4,10 +4,6 @@
 
 ## Table of contents
 
-### Namespaces
-
-- [&lt;internal\&gt;](utils_TimeoutManager_smart_timer._internal_.md)
-
 ### Classes
 
 - [Timeout](../classes/utils_TimeoutManager_smart_timer.Timeout.md)

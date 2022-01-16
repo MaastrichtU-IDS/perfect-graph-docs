@@ -4,10 +4,6 @@
 
 ## Table of contents
 
-### Namespaces
-
-- [&lt;internal\&gt;](core_utils_events._internal_.md)
-
 ### Functions
 
 - [dragTrack](core_utils_events.md#dragtrack)
@@ -22,7 +18,7 @@
 
 | Name | Type |
 | :------ | :------ |
-| `onDrag` | (`pos`: [`Position`](components_ClusterNodeContainer._internal_.md#position)) => `void` \| { `keepDragging?`: `boolean` ; `position?`: [`Position`](components_ClusterNodeContainer._internal_.md#position)  } |
+| `onDrag` | (`pos`: `Position`) => `void` \| { `keepDragging?`: `boolean` ; `position?`: `Position`  } |
 
 #### Returns
 
@@ -30,9 +26,9 @@
 
 | Name | Type |
 | :------ | :------ |
-| `onDown` | (`position`: [`Position`](components_ClusterNodeContainer._internal_.md#position)) => `void` |
-| `onMove` | (`position`: [`Position`](components_ClusterNodeContainer._internal_.md#position)) => `undefined` \| [`OnDragResult`](core_utils_events._internal_.md#ondragresult) |
+| `onDown` | (`position`: `Position`) => `void` |
+| `onMove` | (`position`: `Position`) => `undefined` \| `OnDragResult` |
 
 #### Defined in
 
-[src/core/utils/events.tsx:9](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/core/utils/events.tsx#L9)
+[core/utils/events.tsx:9](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/core/utils/events.tsx#L9)

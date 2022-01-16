@@ -4,10 +4,6 @@
 
 ## Table of contents
 
-### Namespaces
-
-- [&lt;internal\&gt;](components_GraphEditor_SettingsBar._internal_.md)
-
 ### Type aliases
 
 - [SettingsBarProps](components_GraphEditor_SettingsBar.md#settingsbarprops)
@@ -26,22 +22,22 @@
 
 | Name | Type |
 | :------ | :------ |
-| `createClusterForm?` | [`FormProps`](../interfaces/components_GraphEditor_ModalComponent._internal_.FormProps.md)<`any`\> |
+| `createClusterForm?` | `FormProps`<`any`\> |
 | `defaults?` | `Object` |
-| `defaults.layout?` | [`DefaultsOption`](components_GraphEditor_SettingsBar._internal_.md#defaultsoption) |
-| `forms?` | [`SettingsForm`](components_GraphEditor_SettingsBar._internal_.md#settingsform)[] |
+| `defaults.layout?` | `DefaultsOption` |
+| `forms?` | `SettingsForm`[] |
 | `isOpen?` | `boolean` |
 
 #### Defined in
 
-[src/components/GraphEditor/SettingsBar/index.tsx:37](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/GraphEditor/SettingsBar/index.tsx#L37)
+[components/GraphEditor/SettingsBar/index.tsx:37](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/components/GraphEditor/SettingsBar/index.tsx#L37)
 
 ## Variables
 
 ### SettingsBar
 
-• **SettingsBar**: [`FC`](components_ClusterNodeContainer._internal_.md#fc)<[`SettingsBarProps`](components_GraphEditor_SettingsBar.md#settingsbarprops)\>
+• **SettingsBar**: `FC`<[`SettingsBarProps`](components_GraphEditor_SettingsBar.md#settingsbarprops)\>
 
 #### Defined in
 
-[src/components/GraphEditor/SettingsBar/index.tsx:342](https://github.com/MaastrichtU-IDS/perfect-graph/blob/27ebaf3/src/components/GraphEditor/SettingsBar/index.tsx#L342)
+[components/GraphEditor/SettingsBar/index.tsx:398](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/components/GraphEditor/SettingsBar/index.tsx#L398)
