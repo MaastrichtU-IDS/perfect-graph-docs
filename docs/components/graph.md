@@ -10,10 +10,10 @@ A React component to create a Graph View easily, you can just pass data and rend
 function MyGraph() {
   const [data, setData] = React.useState({
     nodes: [
-      { id: '1', position: { x: 10, y: 10 } },
-      { id: '2', position: { x: 300, y: 100 } },
+      { id: "1", position: { x: 10, y: 10 } },
+      { id: "2", position: { x: 300, y: 100 } },
     ],
-    edges: [{ id: 'edge:1', source: '1', target: '2' }],
+    edges: [{ id: "edge:1", source: "1", target: "2" }],
   });
   return (
     <Graph
@@ -40,18 +40,18 @@ function MyGraph() {
 
 ## Props
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `children?` | [`ReactNode`](../type/modules/components_ClusterNodeContainer._internal_.md#reactnode) | - |
-| `config?` | [`GraphConfig`](../type/modules/components_Graph._internal_.md#graphconfig) | All graph config for nodes and edges |
-| `drawLine?` | [`DrawLine`](../type/modules/components_EdgeContainer._internal_.md#drawline) | The function to draw line for edge connection vectors |
-| `edges` | [`EdgeData`](../type/modules/components_ClusterNodeContainer._internal_.md#edgedata)[] | Edge data list to render |
-| `extraData?` | `any` | To rerender the graph when the extra data changes |
-| `nodes` | [`NodeData`](../type/modules/components_ClusterNodeContainer._internal_.md#nodedata)[] | Node data list to render |
-| `onBoxSelection?` | [`OnBoxSelection`](../type/modules/components_Graph._internal_.md#onboxselection) | Event handler for box selection event. It gives the selected nodes |
-| `onPress?` | [`ViewportOnPress`](../type/modules/components_Viewport.md#viewportonpress) | Event handler for graph canvas background |
-| `renderClusterNode?` | [`RenderClusterNode`](../type/modules/components_ClusterNodeContainer._internal_.md#renderclusternode) | It returns a PIXI.DisplayObject instance as React.Node for the cluster node |
-| `renderEdge?` | [`RenderEdge`](../type/modules/components_EdgeContainer._internal_.md#renderedge) | It returns a PIXI.DisplayObject instance as React.Node for the edge |
-| `renderNode?` | [`RenderNode`](../type/modules/components_Graph._internal_.md#rendernode) | It returns a PIXI.DisplayObject instance as React.Node for the node |
-| `selectedElementIds?` | `string`[] | It gives the selected nodes. It is used for selected node highlighting and DataBar |
-| `style?` | [`ViewProps`](../type/modules/components_Graph._internal_.md#viewprops)[``"style"``] | Style for graph container view |
+| Name                  | Type                                                                                                | Description                                                                        |
+| :-------------------- | :-------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------- |
+| `children?`           | [`ReactNode`](../type/modules/components_ClusterNodeContainer._internal_#reactnode)                 | -                                                                                  |
+| `config?`             | [`GraphConfig`](../type/modules/components_Graph._internal_#graphconfig)                            | All graph config for nodes and edges                                               |
+| `drawLine?`           | [`DrawLine`](../type/modules/components_EdgeContainer._internal_#drawline)                          | The function to draw line for edge connection vectors                              |
+| `edges`               | [`EdgeData`](../type/modules/components_ClusterNodeContainer._internal_#edgedata)[]                 | Edge data list to render                                                           |
+| `extraData?`          | `any`                                                                                               | To rerender the graph when the extra data changes                                  |
+| `nodes`               | [`NodeData`](../type/modules/components_ClusterNodeContainer._internal_#nodedata)[]                 | Node data list to render                                                           |
+| `onBoxSelection?`     | [`OnBoxSelection`](../type/modules/components_Graph._internal_#onboxselection)                      | Event handler for box selection event. It gives the selected nodes                 |
+| `onPress?`            | [`ViewportOnPress`](../type/modules/components_Viewport#viewportonpress)                            | Event handler for graph canvas background                                          |
+| `renderClusterNode?`  | [`RenderClusterNode`](../type/modules/components_ClusterNodeContainer._internal_#renderclusternode) | It returns a PIXI.DisplayObject instance as React.Node for the cluster node        |
+| `renderEdge?`         | [`RenderEdge`](../type/modules/components_EdgeContainer._internal_#renderedge)                      | It returns a PIXI.DisplayObject instance as React.Node for the edge                |
+| `renderNode?`         | [`RenderNode`](../type/modules/components_Graph._internal_#rendernode)                              | It returns a PIXI.DisplayObject instance as React.Node for the node                |
+| `selectedElementIds?` | `string`[]                                                                                          | It gives the selected nodes. It is used for selected node highlighting and DataBar |
+| `style?`              | [`ViewProps`](../type/modules/components_Graph._internal_#viewprops)[``"style"``]                   | Style for graph container view                                                     |

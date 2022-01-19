@@ -4,27 +4,31 @@
 
 ## Table of contents
 
+### Namespaces
+
+- [&lt;internal\&gt;](components_Container._internal_.md)
+
 ### Type aliases
 
-- [ContainerProps](components_Container.md#containerprops)
-- [ContainerRef](components_Container.md#containerref)
-- [ContainerType](components_Container.md#containertype)
+- [ContainerProps](components_Container#containerprops)
+- [ContainerRef](components_Container#containerref)
+- [ContainerType](components_Container#containertype)
 
 ### Variables
 
-- [Container](components_Container.md#container)
+- [Container](components_Container#container)
 
 ## Type aliases
 
 ### ContainerProps
 
-Ƭ **ContainerProps**: `PIXIBasicProps` & `PIXIDisplayObjectProps` & `Omit`<`React.ComponentProps`<typeof `PIXIReactContainer`\>, ``"children"``\> & { `children`: `Enumerable`<`React.ReactNode`\> ; `draggable?`: `boolean` ; `onDrag?`: (`param`: `Position`) => `void`  }
+Ƭ **ContainerProps**: [`PIXIBasicProps`](components_Container._internal_#pixibasicprops) & [`PIXIDisplayObjectProps`](components_Container._internal_#pixidisplayobjectprops) & `Omit`<`React.ComponentProps`<typeof `PIXIReactContainer`\>, `"children"`\> & { `children`: `Enumerable`<`React.ReactNode`\> ; `draggable?`: `boolean` ; `onDrag?`: (`param`: `Position`) => `void` }
 
 #### Defined in
 
-[components/Container/index.tsx:17](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/components/Container/index.tsx#L17)
+[components/Container/index.tsx:17](https://github.com/MaastrichtU-IDS/perfect-graph/blob/7784cd6/src/components/Container/index.tsx#L17)
 
-___
+---
 
 ### ContainerRef
 
@@ -32,26 +36,26 @@ ___
 
 #### Defined in
 
-[components/Container/index.tsx:36](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/components/Container/index.tsx#L36)
+[components/Container/index.tsx:36](https://github.com/MaastrichtU-IDS/perfect-graph/blob/7784cd6/src/components/Container/index.tsx#L36)
 
-___
+---
 
 ### ContainerType
 
-Ƭ **ContainerType**: `React.FC`<`ContainerPropsWithRef`\>
+Ƭ **ContainerType**: `React.FC`<[`ContainerPropsWithRef`](components_Container._internal_#containerpropswithref)\>
 
 #### Defined in
 
-[components/Container/index.tsx:35](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/components/Container/index.tsx#L35)
+[components/Container/index.tsx:35](https://github.com/MaastrichtU-IDS/perfect-graph/blob/7784cd6/src/components/Container/index.tsx#L35)
 
 ## Variables
 
 ### Container
 
-• **Container**: [`ContainerType`](components_Container.md#containertype)
+• **Container**: [`ContainerType`](components_Container#containertype)
 
 The container for PIXI objects. It facilitates drag operations.
 
 #### Defined in
 
-[components/Container/index.tsx:42](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/components/Container/index.tsx#L42)
+[components/Container/index.tsx:42](https://github.com/MaastrichtU-IDS/perfect-graph/blob/7784cd6/src/components/Container/index.tsx#L42)

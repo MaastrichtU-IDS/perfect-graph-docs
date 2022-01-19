@@ -6,7 +6,7 @@
 
 ### Properties
 
-- [default](utils_DocumentPicker.md#default)
+- [default](utils_DocumentPicker#default)
 
 ## Properties
 
@@ -16,7 +16,7 @@
 
 #### Type declaration
 
-| Name | Type |
-| :------ | :------ |
-| ``get` **name**(): `string`` | `Object` |
-| `getDocumentAsync` | (`__namedParameters`: [`DocumentPickerOptions`](utils_DocumentPicker_types.md#documentpickeroptions)) => `Promise`<[`DocumentResult`](utils_DocumentPicker_types.md#documentresult)\> |
+| Name                           | Type                                                                                                                                                                            |
+| :----------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `` get` **name**(): `string `` | `Object`                                                                                                                                                                        |
+| `getDocumentAsync`             | (`__namedParameters`: [`DocumentPickerOptions`](utils_DocumentPicker_types#documentpickeroptions)) => `Promise`<[`DocumentResult`](utils_DocumentPicker_types#documentresult)\> |

@@ -6,11 +6,11 @@
 
 ### Type aliases
 
-- [MouseIconProps](components_GraphEditor_MouseIcon.md#mouseiconprops)
+- [MouseIconProps](components_GraphEditor_MouseIcon#mouseiconprops)
 
 ### Functions
 
-- [MouseIcon](components_GraphEditor_MouseIcon.md#mouseicon)
+- [MouseIcon](components_GraphEditor_MouseIcon#mouseicon)
 
 ## Type aliases
 
@@ -20,31 +20,31 @@
 
 #### Type declaration
 
-| Name | Type |
-| :------ | :------ |
-| `cursor?` | `boolean` |
-| `name?` | `string` \| ``null`` |
+| Name      | Type               |
+| :-------- | :----------------- |
+| `cursor?` | `boolean`          |
+| `name?`   | `string` \| `null` |
 
 #### Defined in
 
-[components/GraphEditor/MouseIcon.tsx:5](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/components/GraphEditor/MouseIcon.tsx#L5)
+[components/GraphEditor/MouseIcon.tsx:5](https://github.com/MaastrichtU-IDS/perfect-graph/blob/7784cd6/src/components/GraphEditor/MouseIcon.tsx#L5)
 
 ## Functions
 
 ### MouseIcon
 
-▸ `Const` **MouseIcon**(`props`): ``null`` \| `Element`
+▸ `Const` **MouseIcon**(`props`): `null` \| `Element`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `props` | [`MouseIconProps`](components_GraphEditor_MouseIcon.md#mouseiconprops) |
+| Name    | Type                                                                |
+| :------ | :------------------------------------------------------------------ |
+| `props` | [`MouseIconProps`](components_GraphEditor_MouseIcon#mouseiconprops) |
 
 #### Returns
 
-``null`` \| `Element`
+`null` \| `Element`
 
 #### Defined in
 
-[components/GraphEditor/MouseIcon.tsx:10](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/components/GraphEditor/MouseIcon.tsx#L10)
+[components/GraphEditor/MouseIcon.tsx:10](https://github.com/MaastrichtU-IDS/perfect-graph/blob/7784cd6/src/components/GraphEditor/MouseIcon.tsx#L10)

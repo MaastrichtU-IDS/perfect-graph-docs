@@ -6,27 +6,27 @@
 
 ### Type aliases
 
-- [FormProps](components_Form.md#formprops)
+- [FormProps](components_Form#formprops)
 
 ### Functions
 
-- [Form](components_Form.md#form)
+- [Form](components_Form#form)
 
 ## Type aliases
 
 ### FormProps
 
-Ƭ **FormProps**<`T`\>: `FormPropsDefault`<`T`\> & { `onClear?`: (`params`: { `formData`: `any`  }) => `void`  }
+Ƭ **FormProps**<`T`\>: `FormPropsDefault`<`T`\> & { `onClear?`: (`params`: { `formData`: `any` }) => `void` }
 
 #### Type parameters
 
 | Name |
-| :------ |
-| `T` |
+| :--- |
+| `T`  |
 
 #### Defined in
 
-[components/Form/index.tsx:9](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/components/Form/index.tsx#L9)
+[components/Form/index.tsx:9](https://github.com/MaastrichtU-IDS/perfect-graph/blob/7784cd6/src/components/Form/index.tsx#L9)
 
 ## Functions
 
@@ -37,14 +37,14 @@
 #### Type parameters
 
 | Name |
-| :------ |
-| `T` |
+| :--- |
+| `T`  |
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `props` | [`FormProps`](components_Form.md#formprops)<`T`\> |
+| Name    | Type                                           |
+| :------ | :--------------------------------------------- |
+| `props` | [`FormProps`](components_Form#formprops)<`T`\> |
 
 #### Returns
 
@@ -52,4 +52,4 @@
 
 #### Defined in
 
-[components/Form/index.tsx:13](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/components/Form/index.tsx#L13)
+[components/Form/index.tsx:13](https://github.com/MaastrichtU-IDS/perfect-graph/blob/7784cd6/src/components/Form/index.tsx#L13)

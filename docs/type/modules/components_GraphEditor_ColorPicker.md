@@ -4,9 +4,13 @@
 
 ## Table of contents
 
+### Namespaces
+
+- [&lt;internal\&gt;](components_GraphEditor_ColorPicker._internal_.md)
+
 ### Functions
 
-- [ColorPicker](components_GraphEditor_ColorPicker.md#colorpicker)
+- [ColorPicker](components_GraphEditor_ColorPicker#colorpicker)
 
 ## Functions
 
@@ -16,9 +20,9 @@
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `__namedParameters` | `ColorPickerProps` |
+| Name                | Type                                                                                 |
+| :------------------ | :----------------------------------------------------------------------------------- |
+| `__namedParameters` | [`ColorPickerProps`](components_GraphEditor_ColorPicker._internal_#colorpickerprops) |
 
 #### Returns
 
@@ -26,4 +30,4 @@
 
 #### Defined in
 
-[components/GraphEditor/ColorPicker.tsx:12](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/components/GraphEditor/ColorPicker.tsx#L12)
+[components/GraphEditor/ColorPicker.tsx:12](https://github.com/MaastrichtU-IDS/perfect-graph/blob/7784cd6/src/components/GraphEditor/ColorPicker.tsx#L12)

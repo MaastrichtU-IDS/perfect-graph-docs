@@ -6,12 +6,12 @@
 
 ### Type aliases
 
-- [NodeContainerProps](components_NodeContainer.md#nodecontainerprops)
-- [NodeContainerType](components_NodeContainer.md#nodecontainertype)
+- [NodeContainerProps](components_NodeContainer#nodecontainerprops)
+- [NodeContainerType](components_NodeContainer#nodecontainertype)
 
 ### Variables
 
-- [NodeContainer](components_NodeContainer.md#nodecontainer)
+- [NodeContainer](components_NodeContainer#nodecontainer)
 
 ## Type aliases
 
@@ -21,37 +21,37 @@
 
 #### Type declaration
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `children` | `RenderNode` | - |
-| `config` | `NodeConfig` | Node config data |
-| `graphID` | `string` | Related graph id |
-| `graphRef` | `React.RefObject`<`GraphRef`\> | Related graph instance ref |
-| `item` | `any` | Node data |
+| Name       | Type                                                                                  | Description                |
+| :--------- | :------------------------------------------------------------------------------------ | :------------------------- |
+| `children` | [`RenderNode`](components_Graph._internal_#rendernode)                                | -                          |
+| `config`   | [`NodeConfig`](components_ClusterNodeContainer._internal_#nodeconfig)                 | Node config data           |
+| `graphID`  | `string`                                                                              | Related graph id           |
+| `graphRef` | `React.RefObject`<[`GraphRef`](components_ClusterNodeContainer._internal_#graphref)\> | Related graph instance ref |
+| `item`     | `any`                                                                                 | Node data                  |
 
 #### Defined in
 
-[components/NodeContainer/index.tsx:16](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/components/NodeContainer/index.tsx#L16)
+[components/NodeContainer/index.tsx:16](https://github.com/MaastrichtU-IDS/perfect-graph/blob/7784cd6/src/components/NodeContainer/index.tsx#L16)
 
-___
+---
 
 ### NodeContainerType
 
-Ƭ **NodeContainerType**: `React.ForwardedRef`<[`NodeContainerProps`](components_NodeContainer.md#nodecontainerprops)\>
+Ƭ **NodeContainerType**: `React.ForwardedRef`<[`NodeContainerProps`](components_NodeContainer#nodecontainerprops)\>
 
 #### Defined in
 
-[components/NodeContainer/index.tsx:36](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/components/NodeContainer/index.tsx#L36)
+[components/NodeContainer/index.tsx:36](https://github.com/MaastrichtU-IDS/perfect-graph/blob/7784cd6/src/components/NodeContainer/index.tsx#L36)
 
 ## Variables
 
 ### NodeContainer
 
-• **NodeContainer**: `FC`<[`NodeContainerProps`](components_NodeContainer.md#nodecontainerprops)\>
+• **NodeContainer**: `FC`<[`NodeContainerProps`](components_NodeContainer#nodecontainerprops)\>
 
 The container for Node Elements. It facilitates drag, visibility, and other
 operations.
 
 #### Defined in
 
-[components/NodeContainer/index.tsx:120](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/components/NodeContainer/index.tsx#L120)
+[components/NodeContainer/index.tsx:120](https://github.com/MaastrichtU-IDS/perfect-graph/blob/7784cd6/src/components/NodeContainer/index.tsx#L120)

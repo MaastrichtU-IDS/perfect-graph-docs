@@ -4,15 +4,19 @@
 
 ## Table of contents
 
+### Namespaces
+
+- [&lt;internal\&gt;](components_GraphEditor_DataBar._internal_.md)
+
 ### Type aliases
 
-- [DataBarProps](components_GraphEditor_DataBar.md#databarprops)
+- [DataBarProps](components_GraphEditor_DataBar#databarprops)
 
 ### Functions
 
-- [DataBar](components_GraphEditor_DataBar.md#databar)
-- [EdgeElementSummary](components_GraphEditor_DataBar.md#edgeelementsummary)
-- [isValidURL](components_GraphEditor_DataBar.md#isvalidurl)
+- [DataBar](components_GraphEditor_DataBar#databar)
+- [EdgeElementSummary](components_GraphEditor_DataBar#edgeelementsummary)
+- [isValidURL](components_GraphEditor_DataBar#isvalidurl)
 
 ## Type aliases
 
@@ -22,17 +26,17 @@
 
 #### Type declaration
 
-| Name | Type |
-| :------ | :------ |
-| `editable?` | `boolean` |
-| `footer?` | `React.FC` |
-| `header?` | `React.FC` |
-| `isOpen?` | `boolean` |
-| `sort?` | `any` |
+| Name        | Type       |
+| :---------- | :--------- |
+| `editable?` | `boolean`  |
+| `footer?`   | `React.FC` |
+| `header?`   | `React.FC` |
+| `isOpen?`   | `boolean`  |
+| `sort?`     | `any`      |
 
 #### Defined in
 
-[components/GraphEditor/DataBar/index.tsx:26](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/components/GraphEditor/DataBar/index.tsx#L26)
+[components/GraphEditor/DataBar/index.tsx:26](https://github.com/MaastrichtU-IDS/perfect-graph/blob/7784cd6/src/components/GraphEditor/DataBar/index.tsx#L26)
 
 ## Functions
 
@@ -42,9 +46,9 @@
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `props` | [`DataBarProps`](components_GraphEditor_DataBar.md#databarprops) |
+| Name    | Type                                                          |
+| :------ | :------------------------------------------------------------ |
+| `props` | [`DataBarProps`](components_GraphEditor_DataBar#databarprops) |
 
 #### Returns
 
@@ -52,9 +56,9 @@
 
 #### Defined in
 
-[components/GraphEditor/DataBar/index.tsx:34](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/components/GraphEditor/DataBar/index.tsx#L34)
+[components/GraphEditor/DataBar/index.tsx:34](https://github.com/MaastrichtU-IDS/perfect-graph/blob/7784cd6/src/components/GraphEditor/DataBar/index.tsx#L34)
 
-___
+---
 
 ### EdgeElementSummary
 
@@ -62,9 +66,9 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `props` | `EdgeElementSummaryProps` |
+| Name    | Type                                                                                           |
+| :------ | :--------------------------------------------------------------------------------------------- |
+| `props` | [`EdgeElementSummaryProps`](components_GraphEditor_DataBar._internal_#edgeelementsummaryprops) |
 
 #### Returns
 
@@ -72,9 +76,9 @@ ___
 
 #### Defined in
 
-[components/GraphEditor/DataBar/index.tsx:276](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/components/GraphEditor/DataBar/index.tsx#L276)
+[components/GraphEditor/DataBar/index.tsx:276](https://github.com/MaastrichtU-IDS/perfect-graph/blob/7784cd6/src/components/GraphEditor/DataBar/index.tsx#L276)
 
-___
+---
 
 ### isValidURL
 
@@ -82,8 +86,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name    | Type     |
+| :------ | :------- |
 | `value` | `string` |
 
 #### Returns
@@ -92,4 +96,4 @@ ___
 
 #### Defined in
 
-[components/GraphEditor/DataBar/index.tsx:296](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/components/GraphEditor/DataBar/index.tsx#L296)
+[components/GraphEditor/DataBar/index.tsx:296](https://github.com/MaastrichtU-IDS/perfect-graph/blob/7784cd6/src/components/GraphEditor/DataBar/index.tsx#L296)

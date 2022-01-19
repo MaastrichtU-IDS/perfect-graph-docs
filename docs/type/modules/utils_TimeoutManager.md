@@ -6,18 +6,18 @@
 
 ### References
 
-- [Timeout](utils_TimeoutManager.md#timeout)
-- [TimeoutInstance](utils_TimeoutManager.md#timeoutinstance)
+- [Timeout](utils_TimeoutManager#timeout)
+- [TimeoutInstance](utils_TimeoutManager#timeoutinstance)
 
 ### Type aliases
 
-- [Options](utils_TimeoutManager.md#options)
-- [TimeoutManager](utils_TimeoutManager.md#timeoutmanager)
-- [Timer](utils_TimeoutManager.md#timer)
+- [Options](utils_TimeoutManager#options)
+- [TimeoutManager](utils_TimeoutManager#timeoutmanager)
+- [Timer](utils_TimeoutManager#timer)
 
 ### Functions
 
-- [createTimeoutManager](utils_TimeoutManager.md#createtimeoutmanager)
+- [createTimeoutManager](utils_TimeoutManager#createtimeoutmanager)
 
 ## References
 
@@ -25,7 +25,7 @@
 
 Re-exports [Timeout](../classes/utils_TimeoutManager_smart_timer.Timeout.md)
 
-___
+---
 
 ### TimeoutInstance
 
@@ -39,41 +39,41 @@ Re-exports [TimeoutInstance](../interfaces/utils_TimeoutManager_smart_timer.Time
 
 #### Type declaration
 
-| Name | Type |
-| :------ | :------ |
-| `autostart?` | `boolean` |
-| `onFinish?` | () => `void` |
+| Name             | Type         |
+| :--------------- | :----------- |
+| `autostart?`     | `boolean`    |
+| `onFinish?`      | () => `void` |
 | `onPlayChanged?` | () => `void` |
 
 #### Defined in
 
-[utils/TimeoutManager/index.ts:14](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/utils/TimeoutManager/index.ts#L14)
+[utils/TimeoutManager/index.ts:14](https://github.com/MaastrichtU-IDS/perfect-graph/blob/7784cd6/src/utils/TimeoutManager/index.ts#L14)
 
-___
+---
 
 ### TimeoutManager
 
-Ƭ **TimeoutManager**: `ReturnType`<typeof [`createTimeoutManager`](utils_TimeoutManager.md#createtimeoutmanager)\>
+Ƭ **TimeoutManager**: `ReturnType`<typeof [`createTimeoutManager`](utils_TimeoutManager#createtimeoutmanager)\>
 
 #### Defined in
 
-[utils/TimeoutManager/index.ts:110](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/utils/TimeoutManager/index.ts#L110)
+[utils/TimeoutManager/index.ts:110](https://github.com/MaastrichtU-IDS/perfect-graph/blob/7784cd6/src/utils/TimeoutManager/index.ts#L110)
 
-___
+---
 
 ### Timer
 
-Ƭ **Timer**<`T`\>: { `after`: `number`  } & `T`
+Ƭ **Timer**<`T`\>: { `after`: `number` } & `T`
 
 #### Type parameters
 
 | Name |
-| :------ |
-| `T` |
+| :--- |
+| `T`  |
 
 #### Defined in
 
-[utils/TimeoutManager/index.ts:6](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/utils/TimeoutManager/index.ts#L6)
+[utils/TimeoutManager/index.ts:6](https://github.com/MaastrichtU-IDS/perfect-graph/blob/7784cd6/src/utils/TimeoutManager/index.ts#L6)
 
 ## Functions
 
@@ -83,36 +83,36 @@ ___
 
 #### Type parameters
 
-| Name | Type |
-| :------ | :------ |
-| `T` | extends [`Timer`](utils_TimeoutManager.md#timer)<`Record`<`string`, `any`\>\> |
+| Name | Type                                                                       |
+| :--- | :------------------------------------------------------------------------- |
+| `T`  | extends [`Timer`](utils_TimeoutManager#timer)<`Record`<`string`, `any`\>\> |
 
 #### Parameters
 
-| Name | Type | Default value |
-| :------ | :------ | :------ |
-| `timers` | `T`[] | `[]` |
-| `callback` | (`timer`: `T`, `index`: `number`, `timeout`: [`TimeoutInstance`](../interfaces/utils_TimeoutManager_smart_timer.TimeoutInstance.md)) => `void` | `undefined` |
-| `options` | [`Options`](utils_TimeoutManager.md#options) | `{}` |
+| Name       | Type                                                                                                                                           | Default value |
+| :--------- | :--------------------------------------------------------------------------------------------------------------------------------------------- | :------------ |
+| `timers`   | `T`[]                                                                                                                                          | `[]`          |
+| `callback` | (`timer`: `T`, `index`: `number`, `timeout`: [`TimeoutInstance`](../interfaces/utils_TimeoutManager_smart_timer.TimeoutInstance.md)) => `void` | `undefined`   |
+| `options`  | [`Options`](utils_TimeoutManager#options)                                                                                                      | `{}`          |
 
 #### Returns
 
 `Object`
 
-| Name | Type |
-| :------ | :------ |
-| `clear` | () => `void` |
-| `currentIndex` | `number` |
-| `duration` | `number` |
-| `durationCounter` | ``null`` \| [`Timeout`](../classes/utils_TimeoutManager_smart_timer.Timeout.md) |
-| `finished` | `boolean` |
-| `pause` | () => `void` |
-| `paused` | `boolean` |
-| `start` | () => `void` |
+| Name               | Type                                                                                     |
+| :----------------- | :--------------------------------------------------------------------------------------- |
+| `clear`            | () => `void`                                                                             |
+| `currentIndex`     | `number`                                                                                 |
+| `duration`         | `number`                                                                                 |
+| `durationCounter`  | `null` \| [`Timeout`](../classes/utils_TimeoutManager_smart_timer.Timeout.md)            |
+| `finished`         | `boolean`                                                                                |
+| `pause`            | () => `void`                                                                             |
+| `paused`           | `boolean`                                                                                |
+| `start`            | () => `void`                                                                             |
 | `timeoutInstances` | [`TimeoutInstance`](../interfaces/utils_TimeoutManager_smart_timer.TimeoutInstance.md)[] |
-| `timers` | `T`[] |
-| `totalDuration` | `number` |
+| `timers`           | `T`[]                                                                                    |
+| `totalDuration`    | `number`                                                                                 |
 
 #### Defined in
 
-[utils/TimeoutManager/index.ts:19](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/utils/TimeoutManager/index.ts#L19)
+[utils/TimeoutManager/index.ts:19](https://github.com/MaastrichtU-IDS/perfect-graph/blob/7784cd6/src/utils/TimeoutManager/index.ts#L19)

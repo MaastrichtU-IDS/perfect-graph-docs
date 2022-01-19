@@ -6,11 +6,11 @@
 
 ### Type aliases
 
-- [ModalComponentProps](components_GraphEditor_ModalComponent.md#modalcomponentprops)
+- [ModalComponentProps](components_GraphEditor_ModalComponent#modalcomponentprops)
 
 ### Functions
 
-- [ModalComponent](components_GraphEditor_ModalComponent.md#modalcomponent)
+- [ModalComponent](components_GraphEditor_ModalComponent#modalcomponent)
 
 ## Type aliases
 
@@ -20,17 +20,17 @@
 
 #### Type declaration
 
-| Name | Type |
-| :------ | :------ |
-| `form?` | `FormProps`<`any`\> |
-| `isOpen?` | `boolean` |
-| `name` | `string` |
-| `onClose?` | () => `void` |
-| `render?` | (`props`: `any`) => `ReactElement`<`any`, `string` \| `JSXElementConstructor`<`any`\>\> |
+| Name       | Type                                                                                    |
+| :--------- | :-------------------------------------------------------------------------------------- |
+| `form?`    | `FormProps`<`any`\>                                                                     |
+| `isOpen?`  | `boolean`                                                                               |
+| `name`     | `string`                                                                                |
+| `onClose?` | () => `void`                                                                            |
+| `render?`  | (`props`: `any`) => `ReactElement`<`any`, `string` \| `JSXElementConstructor`<`any`\>\> |
 
 #### Defined in
 
-[components/GraphEditor/ModalComponent.tsx:20](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/components/GraphEditor/ModalComponent.tsx#L20)
+[components/GraphEditor/ModalComponent.tsx:20](https://github.com/MaastrichtU-IDS/perfect-graph/blob/7784cd6/src/components/GraphEditor/ModalComponent.tsx#L20)
 
 ## Functions
 
@@ -40,9 +40,9 @@
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `props` | [`ModalComponentProps`](components_GraphEditor_ModalComponent.md#modalcomponentprops) |
+| Name    | Type                                                                               |
+| :------ | :--------------------------------------------------------------------------------- |
+| `props` | [`ModalComponentProps`](components_GraphEditor_ModalComponent#modalcomponentprops) |
 
 #### Returns
 
@@ -50,4 +50,4 @@
 
 #### Defined in
 
-[components/GraphEditor/ModalComponent.tsx:28](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/components/GraphEditor/ModalComponent.tsx#L28)
+[components/GraphEditor/ModalComponent.tsx:28](https://github.com/MaastrichtU-IDS/perfect-graph/blob/7784cd6/src/components/GraphEditor/ModalComponent.tsx#L28)

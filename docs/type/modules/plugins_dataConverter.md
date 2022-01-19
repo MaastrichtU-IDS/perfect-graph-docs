@@ -6,11 +6,11 @@
 
 ### Functions
 
-- [convertJSONLDToGraphData](plugins_dataConverter.md#convertjsonldtographdata)
-- [convertRDFToGraphData](plugins_dataConverter.md#convertrdftographdata)
-- [convertToJSONLD](plugins_dataConverter.md#converttojsonld)
-- [filterEdges](plugins_dataConverter.md#filteredges)
-- [sparqlResultToRDF](plugins_dataConverter.md#sparqlresulttordf)
+- [convertJSONLDToGraphData](plugins_dataConverter#convertjsonldtographdata)
+- [convertRDFToGraphData](plugins_dataConverter#convertrdftographdata)
+- [convertToJSONLD](plugins_dataConverter#converttojsonld)
+- [filterEdges](plugins_dataConverter#filteredges)
+- [sparqlResultToRDF](plugins_dataConverter#sparqlresulttordf)
 
 ## Functions
 
@@ -20,41 +20,41 @@
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `jsonLDList` | `Record`<`string`, `any`\>[] |
-| `graph` | `Object` |
-| `graph.edges` | `Object` |
-| `graph.nodes` | `Object` |
+| Name          | Type                         |
+| :------------ | :--------------------------- |
+| `jsonLDList`  | `Record`<`string`, `any`\>[] |
+| `graph`       | `Object`                     |
+| `graph.edges` | `Object`                     |
+| `graph.nodes` | `Object`                     |
 
 #### Returns
 
 `Object`
 
-| Name | Type |
-| :------ | :------ |
-| `edges` | { `source`: `string` ; `target`: `string`  }[] |
-| `nodes` | `unknown`[] |
+| Name    | Type                                          |
+| :------ | :-------------------------------------------- |
+| `edges` | { `source`: `string` ; `target`: `string` }[] |
+| `nodes` | `unknown`[]                                   |
 
 #### Defined in
 
-[plugins/dataConverter/index.ts:164](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/plugins/dataConverter/index.ts#L164)
+[plugins/dataConverter/index.ts:164](https://github.com/MaastrichtU-IDS/perfect-graph/blob/7784cd6/src/plugins/dataConverter/index.ts#L164)
 
-___
+---
 
 ### convertRDFToGraphData
 
-▸ `Const` **convertRDFToGraphData**(): `Promise`<{ `edges`: { `source`: `string` ; `target`: `string`  }[] ; `nodes`: `unknown`[] = nodeList }\>
+▸ `Const` **convertRDFToGraphData**(): `Promise`<{ `edges`: { `source`: `string` ; `target`: `string` }[] ; `nodes`: `unknown`[] = nodeList }\>
 
 #### Returns
 
-`Promise`<{ `edges`: { `source`: `string` ; `target`: `string`  }[] ; `nodes`: `unknown`[] = nodeList }\>
+`Promise`<{ `edges`: { `source`: `string` ; `target`: `string` }[] ; `nodes`: `unknown`[] = nodeList }\>
 
 #### Defined in
 
-[plugins/dataConverter/index.ts:328](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/plugins/dataConverter/index.ts#L328)
+[plugins/dataConverter/index.ts:328](https://github.com/MaastrichtU-IDS/perfect-graph/blob/7784cd6/src/plugins/dataConverter/index.ts#L328)
 
-___
+---
 
 ### convertToJSONLD
 
@@ -62,8 +62,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name   | Type     |
+| :----- | :------- |
 | `text` | `string` |
 
 #### Returns
@@ -72,41 +72,41 @@ ___
 
 #### Defined in
 
-[plugins/dataConverter/index.ts:57](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/plugins/dataConverter/index.ts#L57)
+[plugins/dataConverter/index.ts:57](https://github.com/MaastrichtU-IDS/perfect-graph/blob/7784cd6/src/plugins/dataConverter/index.ts#L57)
 
-___
+---
 
 ### filterEdges
 
-▸ `Const` **filterEdges**(`nodes`): (`edges`: { `source`: `string` ; `target`: `string`  }[]) => { `source`: `string` ; `target`: `string`  }[]
+▸ `Const` **filterEdges**(`nodes`): (`edges`: { `source`: `string` ; `target`: `string` }[]) => { `source`: `string` ; `target`: `string` }[]
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `nodes` | { `id`: `string`  }[] |
+| Name    | Type                 |
+| :------ | :------------------- |
+| `nodes` | { `id`: `string` }[] |
 
 #### Returns
 
 `fn`
 
-▸ (`edges`): { `source`: `string` ; `target`: `string`  }[]
+▸ (`edges`): { `source`: `string` ; `target`: `string` }[]
 
 ##### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `edges` | { `source`: `string` ; `target`: `string`  }[] |
+| Name    | Type                                          |
+| :------ | :-------------------------------------------- |
+| `edges` | { `source`: `string` ; `target`: `string` }[] |
 
 ##### Returns
 
-{ `source`: `string` ; `target`: `string`  }[]
+{ `source`: `string` ; `target`: `string` }[]
 
 #### Defined in
 
-[plugins/dataConverter/index.ts:228](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/plugins/dataConverter/index.ts#L228)
+[plugins/dataConverter/index.ts:228](https://github.com/MaastrichtU-IDS/perfect-graph/blob/7784cd6/src/plugins/dataConverter/index.ts#L228)
 
-___
+---
 
 ### sparqlResultToRDF
 
@@ -114,8 +114,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name           | Type  |
+| :------------- | :---- |
 | `sparqlResult` | `any` |
 
 #### Returns
@@ -124,4 +124,4 @@ ___
 
 #### Defined in
 
-[plugins/dataConverter/index.ts:283](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/plugins/dataConverter/index.ts#L283)
+[plugins/dataConverter/index.ts:283](https://github.com/MaastrichtU-IDS/perfect-graph/blob/7784cd6/src/plugins/dataConverter/index.ts#L283)

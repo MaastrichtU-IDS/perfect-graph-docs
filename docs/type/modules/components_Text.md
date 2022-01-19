@@ -6,7 +6,7 @@
 
 ### Variables
 
-- [Text](components_Text.md#text)
+- [Text](components_Text#text)
 
 ## Variables
 
@@ -18,4 +18,4 @@
 
 #### Defined in
 
-[components/Text/index.tsx:155](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/components/Text/index.tsx#L155)
+[components/Text/index.tsx:155](https://github.com/MaastrichtU-IDS/perfect-graph/blob/7784cd6/src/components/Text/index.tsx#L155)

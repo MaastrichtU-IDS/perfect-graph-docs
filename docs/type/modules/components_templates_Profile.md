@@ -6,12 +6,12 @@
 
 ### Type aliases
 
-- [ProfileProps](components_templates_Profile.md#profileprops)
-- [ProfileType](components_templates_Profile.md#profiletype)
+- [ProfileProps](components_templates_Profile#profileprops)
+- [ProfileType](components_templates_Profile#profiletype)
 
 ### Variables
 
-- [ProfileTemplate](components_templates_Profile.md#profiletemplate)
+- [ProfileTemplate](components_templates_Profile#profiletemplate)
 
 ## Type aliases
 
@@ -21,36 +21,36 @@
 
 #### Type declaration
 
-| Name | Type |
-| :------ | :------ |
-| `image` | `string` |
-| `link?` | `string` |
-| `name` | `string` |
-| `story` | `string` |
+| Name       | Type         |
+| :--------- | :----------- |
+| `image`    | `string`     |
+| `link?`    | `string`     |
+| `name`     | `string`     |
+| `story`    | `string`     |
 | `onClick?` | () => `void` |
 
 #### Defined in
 
-[components/templates/Profile.tsx:7](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/components/templates/Profile.tsx#L7)
+[components/templates/Profile.tsx:7](https://github.com/MaastrichtU-IDS/perfect-graph/blob/7784cd6/src/components/templates/Profile.tsx#L7)
 
-___
+---
 
 ### ProfileType
 
-Ƭ **ProfileType**: `React.FC`<[`ProfileProps`](components_templates_Profile.md#profileprops)\>
+Ƭ **ProfileType**: `React.FC`<[`ProfileProps`](components_templates_Profile#profileprops)\>
 
 #### Defined in
 
-[components/templates/Profile.tsx:16](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/components/templates/Profile.tsx#L16)
+[components/templates/Profile.tsx:16](https://github.com/MaastrichtU-IDS/perfect-graph/blob/7784cd6/src/components/templates/Profile.tsx#L16)
 
 ## Variables
 
 ### ProfileTemplate
 
-• **ProfileTemplate**: `FC`<[`ProfileProps`](components_templates_Profile.md#profileprops)\>
+• **ProfileTemplate**: `FC`<[`ProfileProps`](components_templates_Profile#profileprops)\>
 
 The simple profile component.
 
 #### Defined in
 
-[components/templates/Profile.tsx:81](https://github.com/MaastrichtU-IDS/perfect-graph/blob/c07a48d/src/components/templates/Profile.tsx#L81)
+[components/templates/Profile.tsx:81](https://github.com/MaastrichtU-IDS/perfect-graph/blob/7784cd6/src/components/templates/Profile.tsx#L81)
