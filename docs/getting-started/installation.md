@@ -114,7 +114,7 @@ export default function MyGraphEditor() {
     ],
     edges: [{ id: '51', source: '1', target: '2' }],
   });
-  });
+
   return (
     <GraphEditor
       style={{ width: 600, height: 400 }}
@@ -124,9 +124,39 @@ export default function MyGraphEditor() {
 }
 ```
 
+Start development server again:
+```js
+yarn web
+```
+
 To have json editor: 
 ```js
 yarn add brace jsoneditor jsoneditor-react
+```
+
+```js
+import { GraphEditor } from "perfect-graph/components/GraphEditor";
+import { useController } from "perfect-graph/plugins/controller";
+
+export default function MyGraphEditor() {
+  const [controllerProps] = useController({
+    nodes: [
+      { id: '1', position: { x: 10, y: 10 } },
+      { id: '2', position: { x: 300, y: 100 } },
+    ],
+    edges: [{ id: '51', source: '1', target: '2' }],
+    dataBar: {
+      editable: true,
+    }
+  });
+  
+  return (
+    <GraphEditor
+      style={{ width: 600, height: 400 }}
+      {...controllerProps}
+    />
+  );
+}
 ```
 
 To use rdf based operation please install the required dependencies:
