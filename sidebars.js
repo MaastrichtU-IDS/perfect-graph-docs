@@ -16,19 +16,6 @@ module.exports = {
         'getting-started/installation',
       ],
     },
-    // {
-    //   type: 'category',
-    //   label: 'Guides',
-    //   items: [
-    //     // {
-    //     //   type: 'category',
-    //     //   label: 'Layout',
-    //     //   items: [
-    //     //     'guides/layout/flex-layout',
-    //     //   ],
-    //     // }
-    //   ],
-    // },
     {
       type: 'category',
       label: 'Components',
@@ -44,7 +31,6 @@ module.exports = {
       label: 'Advanced Guides',
       items: [
         'advanced-guides/plugins',
-        'advanced-guides/themes',
       ],
     },
     {
