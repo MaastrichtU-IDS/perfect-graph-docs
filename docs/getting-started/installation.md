@@ -31,10 +31,10 @@ So let's start coding
 ```js
 import { Graph } from "perfect-graph";
 
-function MyGraph() {
+export default function MyGraph() {
   return (
     <Graph
-      style={{ width: "100%", height: 250 }}
+      style={{ width: 600, height: 400 }}
       nodes={[
         { id: '1', position: { x: 10, y: 10 } },
         { id: '2', position: { x: 300, y: 100 } },
@@ -50,44 +50,11 @@ To use GraphEditor you need to install material-ui packages. We use the latest v
 yarn add @mui/icons-material @mui/material @mui/styles @emotion/react @emotion/styled react-beautiful-dnd @rjsf/core @rjsf/material-ui react-color
 ```
 
+To support material-ui v5 with @rjsf/material-ui, we need to add some special configuration until they have fully support for v5. Also add some packages.
+
 ```js
-import { GraphEditor } from "perfect-graph";
-import { useController } from "perfect-graph/plugins/controller";
-
-function MyGraphEditor() {
-  const [controllerProps] = useController({
-    nodes: [
-      { id: '1', position: { x: 10, y: 10 } },
-      { id: '2', position: { x: 300, y: 100 } },
-    ],
-    edges: [{ id: '51', source: '1', target: '2' }],
-  });
-  });
-  return (
-    <GraphEditor
-      style={{ width: "100%", height: 250 }}
-      {...controllerProps}
-    />
-  );
-}
+yarn add @expo/webpack-config babel-plugin-module-resolver -D
 ```
-
-To have json editor: 
-```js
-yarn add brace jsoneditor jsoneditor-react
-```
-
-To use rdf based operation please install the required dependencies:
-```js
-yarn add jsonld jsonld-context-parser n3 rdf-literal rdflib
-```
-
-To use layouts, please install the required dependencies:
-```js
-yarn add cytoscape-avsdf cytoscape-cise cytoscape-cola cytoscape-d3-force cytoscape-dagre cytoscape-euler cytoscape-fcose cytoscape-klay cytoscape-spread
-```
-
-To support material-ui v5 with @rjsf/material-ui, we need to add some special configuration until they have fully support for v5
 
 ```js
 // webpack.config.js
@@ -134,6 +101,44 @@ module.exports = function(api) {
   };
 };
 ```
+
+```js
+import { GraphEditor } from "perfect-graph/components/GraphEditor";
+import { useController } from "perfect-graph/plugins/controller";
+
+export default function MyGraphEditor() {
+  const [controllerProps] = useController({
+    nodes: [
+      { id: '1', position: { x: 10, y: 10 } },
+      { id: '2', position: { x: 300, y: 100 } },
+    ],
+    edges: [{ id: '51', source: '1', target: '2' }],
+  });
+  });
+  return (
+    <GraphEditor
+      style={{ width: 600, height: 400 }}
+      {...controllerProps}
+    />
+  );
+}
+```
+
+To have json editor: 
+```js
+yarn add brace jsoneditor jsoneditor-react
+```
+
+To use rdf based operation please install the required dependencies:
+```js
+yarn add jsonld jsonld-context-parser n3 rdf-literal rdflib
+```
+
+To use layouts, please install the required dependencies:
+```js
+yarn add cytoscape-avsdf cytoscape-cise cytoscape-cola cytoscape-d3-force cytoscape-dagre cytoscape-euler cytoscape-fcose cytoscape-klay cytoscape-spread
+```
+
 
 
 If the PIXI.js renderer takes a lot time to render all elements and blocks the UI then consider on:
