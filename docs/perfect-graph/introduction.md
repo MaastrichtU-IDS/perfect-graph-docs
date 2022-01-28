@@ -6,7 +6,8 @@ slug: /
 
 ## Motivation
 
-There are many package to help creating network graphs. These tools are great but not complete with the latest frameworks and design paradigms. The existing tools to view or create a knowledge or property graph have a lot of complexity. Some of them do not support smart layouts options for the graph, so the user views a dense graph and does not have a clear vision for navigating through the graph easily. On the other hand, perfect-graph has a lot of features that make the tool easy to use. 
+There are many package to help creating network graphs. These tools are great but not complete with the latest frameworks and design paradigms. The existing tools to view or create a knowledge or property graph have a lot of complexity. Some of them do not support smart layouts options for the graph, so the user views a dense graph and does not have a clear vision for navigating through the graph easily. On the other hand, perfect-graph has a lot of features that make the tool easy to use. You can also watch the introduction video: [Download](https://github.com/MaastrichtU-IDS/perfect-graph-docs/blob/main/perfect-graph-introduction.mp4?raw=true)
+
 - Layout support
 - Action history support
 - Built-in data editor
